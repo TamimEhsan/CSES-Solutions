@@ -70,11 +70,12 @@ SuffixAuto sa;
 ll dfs(int u) {
     if (dp[u] > 0)
         return dp[u];
-    dp[u] = cnt[u];
+
     for (int i = 0; i < 26; i++)
         if (sa.states[u].next[i] != -1){
             dp[u] += dfs(sa.states[u].next[i]);
         }
+    dp[u] += cnt[u];
     return dp[u];
 }
 
@@ -82,7 +83,8 @@ ll dfs(int u) {
 void calcK(ll k){
     string res = "";
     int u=0;
-    while(k>0){
+    while(k>=cnt[u]){
+        k-=cnt[u];
         for(int i=0;i<26;i++){
             if( sa.states[u].next[i] != -1 ){
                 if( dp[ sa.states[u].next[i] ]<=k ){
@@ -90,7 +92,6 @@ void calcK(ll k){
                 }else{
                     res+= (char)( i+'a' );
                     u = sa.states[u].next[i];
-                    k-=cnt[u];
                     break;
                 }
             }

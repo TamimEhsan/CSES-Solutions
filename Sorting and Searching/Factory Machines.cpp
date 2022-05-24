@@ -1,45 +1,41 @@
-#include<bits/stdc++.h>
+#include "bits/stdc++.h"
 using namespace std;
-#define INF 2147483647
-#define INFL 9223372036854775807
 #define pii pair<int,int>
+#define pb push_back
+#define mp make_pair
 #define F first
 #define S second
-#define mp make_pair
-#define pb push_back
 #define ll long long
-#define ull unsigned long long
-#define M 1000000007
-#define FASTIO ios_base::sync_with_stdio(false);cin.tie(NULL); cout.tie(NULL);
-#define take(x) scanf("%d",&x)
-#define DE(x) printf("\ndebug %d\n",x);
-#define vout(x) for(int i=0;i<x.size();i++) printf("%d ",x[i]);
-#define pie acos(-1)
-#define MOD 998244353
+
+const int N = 200006;
+ll machines[N];
+int n;
+bool check(ll val,ll target){
+    ll products = 0;
+    for(int i=0;i<n;i++){
+        products+=val/machines[i];
+        if( products>=target ) return true;
+    }
+    return products>=target;
+}
 
 int main(){
-    int n;
-    take(n);
-    int ara[n];
-    for(int i=0;i<n;i++){
-        take(ara[i]);
-    }
-    set<int> s;
-    map<int,int> m;
-    for(int i=0;i<n;i++){
-        auto it = s.lower_bound(ara[i]);
-        if( it == s.begin() ) cout<<0<<" ";
-        else {
-            it--;
-            cout<<m[*it]<<" ";
+//ifstream cin("test_input.txt");
+    ll t;
+    cin>>n>>t;
+    for(int i=0;i<n;i++)
+        cin>>machines[i];
+    ll hi = 2e18;
+    ll lo = 0;
+    ll res = 0;
+    while(lo<=hi){
+        ll mid = (lo+hi)/2;
+        if( check(mid,t) ){
+            res = mid;
+            hi = mid-1;
+        }else{
+            lo = mid+1;
         }
-        while( s.size() ) {
-            auto it = s.end();
-            it--;
-            if( *it>=ara[i] ) s.erase(it);
-            else break;
-        }
-        s.insert(ara[i]);
-        m[ara[i]] = i+1;
     }
+    cout<<res;
 }
