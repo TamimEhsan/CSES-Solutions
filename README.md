@@ -11,3 +11,4 @@ Milestones:
 - [x] 30/11/2021: `Solved all Tree Problems`
 - [x] 29/12/2021: `Solved 100th Problem`
 - [x] 05/05/2022: `Solved 150th Problem`
+- [x] 04/10/2022: `Solved all Geometry Problems`
