@@ -7,7 +7,7 @@ This set has some classic problems.
 
 Milestones:
 
-- [x] 25/11/2021: `Solved all Introductory Problems`
+- [x] 25/11/2021: `Solved all Introductory%20Problems`
 - [x] 30/11/2021: `Solved all Tree Problems`
 - [x] 29/12/2021: `Solved 100th Problem`
 - [x] 05/05/2022: `Solved 150th Problem`
@@ -15,361 +15,336 @@ Milestones:
 
 
 
-## Introductory Problems 
-
-| Status | Name | Tags | Link | 
-| ---- | ---- | ---- | ---- | 
-| ✔ | Weird Algorithm | | [Code](\Introductory Problems\Weird Algorithm.cpp) |  
-| ✔ | Missing Number | | [Code](\Introductory Problems\Missing Number.cpp) |  
-| ✔ | Repetitions | | [Code](\Introductory Problems\Repetitions.cpp) |  
-| ✔ | Increasing Array | | [Code](\Introductory Problems\Increasing Array.cpp) |  
-| ✔ | Permutations | | [Code](\Introductory Problems\Permutations.cpp) |  
-| ✔ | Number Spiral | | [Code](\Introductory Problems\Number Spiral.cpp) |  
-| ✔ | Two Knights | | [Code](\Introductory Problems\Two Knights.cpp) |  
-| ✔ | Two Sets | | [Code](\Introductory Problems\Two Sets.cpp) |  
-| ✔ | Bit Strings | | [Code](\Introductory Problems\Bit Strings.cpp) |  
-| ✔ | Trailing Zeros | | [Code](\Introductory Problems\Trailing Zeros.cpp) |  
-| ✔ | Coin Piles | | [Code](\Introductory Problems\Coin Piles.cpp) |  
-| ✔ | Palindrome Reorder | | [Code](\Introductory Problems\Palindrome Reorder.cpp) |  
-| ✔ | Gray Code | | [Code](\Introductory Problems\Gray Code.cpp) |  
-| ✔ | Tower of Hanoi | | [Code](\Introductory Problems\Tower of Hanoi.cpp) |  
-| ✔ | Creating Strings | | [Code](\Introductory Problems\Creating Strings.cpp) |  
-| ✔ | Apple Division | | [Code](\Introductory Problems\Apple Division.cpp) |  
-| ✔ | Chessboard and Queens | | [Code](\Introductory Problems\Chessboard and Queens.cpp) |  
-| ✔ | Digit Queries | | [Code](\Introductory Problems\Digit Queries.cpp) |  
-| ✔ | Grid Paths | | [Code](\Introductory Problems\Grid Paths.cpp) |
-
-
-
-## Sorting and Searching 
-| Status | Name | Tags | Link | 
-| ---- | ---- | ---- | ---- | 
-| ✔ | Distinct Numbers | | [Code](\Sorting and Searching\Distinct Numbers.cpp) |  
-| ✔ | Apartments | | [Code](\Sorting and Searching\Apartments.cpp) |  
-| ✔ | Ferris Wheel | | [Code](\Sorting and Searching\Ferris Wheel.cpp) |  
-| ✔ | Concert Tickets | | [Code](\Sorting and Searching\Concert Tickets.cpp) |  
-| ✔ | Restaurant Customers | | [Code](\Sorting and Searching\Restaurant Customers.cpp) |  
-| ✔ | Movie Festival | | [Code](\Sorting and Searching\Movie Festival.cpp) |  
-| ✔ | Sum of Two Values | | [Code](\Sorting and Searching\Sum of Two Values.cpp) |  
-| ✔ | Maximum Subarray Sum | | [Code](\Sorting and Searching\Maximum Subarray Sum.cpp) |  
-| ✔ | Stick Lengths | | [Code](\Sorting and Searching\Stick Lengths.cpp) |  
-| ✔ | Missing Coin Sum | | [Code](\Sorting and Searching\Missing Coin Sum.cpp) |   
-| ✔ | Collecting Numbers | | [Code](\Sorting and Searching\Collecting Numbers.cpp) |   
-| ✔ | Collecting Numbers II | | [Code](\Sorting and Searching\Collecting Numbers II.cpp) |   
-| ✔ | Playlist | | [Code](\Sorting and Searching\Playlist.cpp) |   
-| ✔ | Towers | | [Code](\Sorting and Searching\Towers.cpp) |   
-| ✔ | Traffic Lights | | [Code](\Sorting and Searching\Traffic Lights.cpp) |   
-| ✔ | Josephus Problem I | | [Code](\Sorting and Searching\Josephus Problem I.cpp) |   
-| | Josephus Problem II | | [Code](\Sorting and Searching\Josephus Problem II.cpp) |   
-| ✔ | Nested Ranges Check | | [Code](\Sorting and Searching\Nested Ranges Check.cpp) |   
-| | Nested Ranges Count | | [Code](\Sorting and Searching\Nested Ranges Count.cpp) |   
-| ✔ | Room Allocation | | [Code](\Sorting and Searching\Room Allocation.cpp) |   
-| ✔ | Factory Machines | | [Code](\Sorting and Searching\Factory Machines.cpp) |   
-| ✔ | Tasks and Deadlines | | [Code](\Sorting and Searching\Tasks and Deadlines.cpp) |   
-| ✔ | Reading Books | | [Code](\Sorting and Searching\Reading Books.cpp) |   
-| ✔ | Sum of Three Values | | [Code](\Sorting and Searching\Sum of Three Values.cpp) |   
-| ✔ | Sum of Four Values | | [Code](\Sorting and Searching\Sum of Four Values.cpp) |   
-| ✔ | Nearest Smaller Values | | [Code](\Sorting and Searching\Nearest Smaller Values.cpp) |   
-| ✔ | Subarray Sums I | | [Code](\Sorting and Searching\Subarray Sums I.cpp) |   
-| ✔ | Subarray Sums II | | [Code](\Sorting and Searching\Subarray Sums II.cpp) |   
-| ✔ | Subarray Divisibility | | [Code](\Sorting and Searching\Subarray Divisibility.cpp) |   
-| | Subarray Distinct Values | | [Code](\Sorting and Searching\Subarray Distinct Values.cpp) |   
-| ✔ | Array Division | | [Code](\Sorting and Searching\Array Division.cpp) |   
-| ✔ | Sliding Median | | [Code](\Sorting and Searching\Sliding Median.cpp) |   
-| | Sliding Cost | | [Code](\Sorting and Searching\Sliding Cost.cpp) |   
-| | Movie Festival II | | [Code](\Sorting and Searching\Movie Festival II.cpp) |   
-| ✔ | Maximum Subarray Sum II | | [Code](\Sorting and Searching\Maximum Subarray Sum II.cpp) |   
-
-
-## Dynamic Programming   
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| ✔ | Dice Combinations | | [Code](\Dynamic Programming\Dice Combinations.cpp) |   
-| ✔ | Minimizing Coins | | [Code](\Dynamic Programming\Minimizing Coins.cpp) |   
-| ✔ | Coin Combinations I | | [Code](\Dynamic Programming\Coin Combinations I.cpp) |   
-| ✔ | Coin Combinations II | | [Code](\Dynamic Programming\Coin Combinations II.cpp) |   
-| ✔ | Removing Digits | | [Code](\Dynamic Programming\Removing Digits.cpp) |   
-| ✔ | Grid Paths | | [Code](\Dynamic Programming\Grid Paths.cpp) |   
-| ✔ | Book Shop | | [Code](\Dynamic Programming\Book Shop.cpp) |   
-| ✔ | Array Description | | [Code](\Dynamic Programming\Array Description.cpp) |   
-| ✔ | Counting Towers | | [Code](\Dynamic Programming\Counting Towers.cpp) |   
-| ✔ | Edit Distance | | [Code](\Dynamic Programming\Edit Distance.cpp) |   
-| ✔ | Rectangle Cutting | | [Code](\Dynamic Programming\Rectangle Cutting.cpp) |   
-| ✔ | Money Sums | | [Code](\Dynamic Programming\Money Sums.cpp) |   
-| ✔ | Removal Game | | [Code](\Dynamic Programming\Removal Game.cpp) |   
-| ✔ | Two Sets II | | [Code](\Dynamic Programming\Two Sets II.cpp) |   
-| ✔ | Increasing Subsequence | | [Code](\Dynamic Programming\Increasing Subsequence.cpp) |   
-| ✔ | Projects | | [Code](\Dynamic Programming\Projects.cpp) |   
-| | Elevator Rides | | [Code](\Dynamic Programming\Elevator Rides.cpp) |   
-| | Counting Tilings | | [Code](\Dynamic Programming\Counting Tilings.cpp) |   
-| | Counting Numbers | | [Code](\Dynamic Programming\Counting Numbers.cpp) |   
-
-## Graph Algorithms 
-| Status | Name | Tags | Link | 
-| ---- | ---- | ---- | ---- | 
-| ✔ | Counting Rooms | | [Code](\Graph Algorithms\Counting Rooms.cpp) |  
-| ✔ | Labyrinth | | [Code](\Graph Algorithms\Labyrinth.cpp) |  
-| ✔ | Building Roads | | [Code](\Graph Algorithms\Building Roads.cpp) |  
-| ✔ | Message Route | | [Code](\Graph Algorithms\Message Route.cpp) |  
-| ✔ | Building Teams | | [Code](\Graph Algorithms\Building Teams.cpp) |  
-| ✔ | Round Trip | | [Code](\Graph Algorithms\Round Trip.cpp) |  
-| ✔ | Monsters | | [Code](\Graph Algorithms\Monsters.cpp) |   
-| ✔ | Shortest Routes I | | [Code](\Graph Algorithms\Shortest Routes I.cpp) |   
-| ✔ | Shortest Routes II | | [Code](\Graph Algorithms\Shortest Routes II.cpp) |   
-| ✔ | High Score | | [Code](\Graph Algorithms\High Score.cpp) |   
-| | Flight Discount | | [Code](\Graph Algorithms\Flight Discount.cpp) |   
-| | Cycle Finding | | [Code](\Graph Algorithms\Cycle Finding.cpp) |   
-| | Flight Routes | | [Code](\Graph Algorithms\Flight Routes.cpp) |   
-| | Round Trip II | | [Code](\Graph Algorithms\Round Trip II.cpp) |   
-| ✔ | Course Schedule | | [Code](\Graph Algorithms\Course Schedule.cpp) |   
-| | Longest Flight Route | | [Code](\Graph Algorithms\Longest Flight Route.cpp) |   
-| | Game Routes | | [Code](\Graph Algorithms\Game Routes.cpp) |   
-| | Investigation | | [Code](\Graph Algorithms\Investigation.cpp) |   
-| | Planets Queries I | | [Code](\Graph Algorithms\Planets Queries I.cpp) |   
-| | Planets Queries II | | [Code](\Graph Algorithms\Planets Queries II.cpp) |   
-| | Planets Cycles | | [Code](\Graph Algorithms\Planets Cycles.cpp) |   
-| | Road Reparation | | [Code](\Graph Algorithms\Road Reparation.cpp) |   
-| | Road Construction | | [Code](\Graph Algorithms\Road Construction.cpp) |   
-| | Flight Routes Check | | [Code](\Graph Algorithms\Flight Routes Check.cpp) |   
-| ✔ | Planets and Kingdoms | | [Code](\Graph Algorithms\Planets and Kingdoms.cpp) |   
-| | Giant Pizza | | [Code](\Graph Algorithms\Giant Pizza.cpp) |   
-| | Coin Collector | | [Code](\Graph Algorithms\Coin Collector.cpp) |   
-| | Mail Delivery | | [Code](\Graph Algorithms\Mail Delivery.cpp) |   
-| | De Bruijn Sequence | | [Code](\Graph Algorithms\De Bruijn Sequence.cpp) |   
-| | Teleporters Path | | [Code](\Graph Algorithms\Teleporters Path.cpp) |   
-| | Hamiltonian Flights | | [Code](\Graph Algorithms\Hamiltonian Flights.cpp) |   
-| | Knight's Tour | | [Code](\Graph Algorithms\Knight's Tour.cpp) |   
-| | Download Speed | | [Code](\Graph Algorithms\Download Speed.cpp) |   
-| | Police Chase | | [Code](\Graph Algorithms\Police Chase.cpp) |   
-| ✔ | School Dance | | [Code](\Graph Algorithms\School Dance.cpp) |   
-| | Distinct Routes | | [Code](\Graph Algorithms\Distinct Routes.cpp) |   
-
-
-## Range Queries   
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| ✔ | Static Range Sum Queries | | [Code](\Range Queries\Static Range Sum Queries.cpp) |   
-| ✔ | Static Range Minimum Queries | | [Code](\Range Queries\Static Range Minimum Queries.cpp) |   
-| ✔ | Dynamic Range Sum Queries | | [Code](\Range Queries\Dynamic Range Sum Queries.cpp) |   
-| ✔ | Dynamic Range Minimum Queries | | [Code](\Range Queries\Dynamic Range Minimum Queries.cpp) |   
-| ✔ | Range Xor Queries | | [Code](\Range Queries\Range Xor Queries.cpp) |   
-| ✔ | Range Update Queries | | [Code](\Range Queries\Range Update Queries.cpp) |   
-| ✔ | Forest Queries | | [Code](\Range Queries\Forest Queries.cpp) |   
-| ✔ | Hotel Queries | | [Code](\Range Queries\Hotel Queries.cpp) |   
-| ✔ | List Removals | | [Code](\Range Queries\List Removals.cpp) |   
-| ✔ | Salary Queries | | [Code](\Range Queries\Salary Queries.cpp) |   
-| ✔ | Prefix Sum Queries | | [Code](\Range Queries\Prefix Sum Queries.cpp) |   
-| ✔ | Pizzeria Queries | | [Code](\Range Queries\Pizzeria Queries.cpp) |   
-| ✔ | Subarray Sum Queries | | [Code](\Range Queries\Subarray Sum Queries.cpp) |   
-| ✔ | Distinct Values Queries | | [Code](\Range Queries\Distinct Values Queries.cpp) |   
-| | Increasing Array Queries | | [Code](\Range Queries\Increasing Array Queries.cpp) |   
-| ✔ | Forest Queries II | | [Code](\Range Queries\Forest Queries II.cpp) |   
-| ✔ | Range Updates and Sums | | [Code](\Range Queries\Range Updates and Sums.cpp) |   
-| ✔ | Polynomial Queries | | [Code](\Range Queries\Polynomial Queries.cpp) |   
-| | Range Queries and Copies | | [Code](\Range Queries\Range Queries and Copies.cpp) |   
-
-
-## Tree Algorithms   
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| ✔ | Subordinates | | [Code](\Tree Algorithms\Subordinates.cpp) |   
-| ✔ | Tree Matching | | [Code](\Tree Algorithms\Tree Matching.cpp) |   
-| ✔ | Tree Diameter | | [Code](\Tree Algorithms\Tree Diameter.cpp) |   
-| ✔ | Tree Distances I | | [Code](\Tree Algorithms\Tree Distances I.cpp) |   
-| ✔ | Tree Distances II | | [Code](\Tree Algorithms\Tree Distances II.cpp) |   
-| ✔ | Company Queries I | | [Code](\Tree Algorithms\Company Queries I.cpp) |   
-| ✔ | Company Queries II | | [Code](\Tree Algorithms\Company Queries II.cpp) |   
-| ✔ | Distance Queries | | [Code](\Tree Algorithms\Distance Queries.cpp) |   
-| ✔ | Counting Paths | | [Code](\Tree Algorithms\Counting Paths.cpp) |   
-| ✔ | Subtree Queries | | [Code](\Tree Algorithms\Subtree Queries.cpp) |   
-| ✔ | Path Queries | | [Code](\Tree Algorithms\Path Queries.cpp) |   
-| ✔ | Path Queries II | | [Code](\Tree Algorithms\Path Queries II.cpp) |   
-| ✔ | Distinct Colors | | [Code](\Tree Algorithms\Distinct Colors.cpp) |   
-| ✔ | Finding a Centroid | | [Code](\Tree Algorithms\Finding a Centroid.cpp) |   
-| ✔ | Fixed-Length Paths I | | [Code](\Tree Algorithms\Fixed-Length Paths I.cpp) |   
-| ✔ | Fixed-Length Paths II | | [Code](\Tree Algorithms\Fixed-Length Paths II.cpp) |   
-
-## Mathematics 
-| Status | Name | Tags | Link | 
-| ---- | ---- | ---- | ---- | 
-| ✔ | Josephus Queries | | [Code](\Mathematics\Josephus Queries.cpp) |  
-| ✔ | Exponentiation | | [Code](\Mathematics\Exponentiation.cpp) |  
-| ✔ | Exponentiation II | | [Code](\Mathematics\Exponentiation II.cpp) |  
-| ✔ | Counting Divisors | | [Code](\Mathematics\Counting Divisors.cpp) |  
-| ✔ | Common Divisors | | [Code](\Mathematics\Common Divisors.cpp) |   
-| ✔ | Sum of Divisors | | [Code](\Mathematics\Sum of Divisors.cpp) |   
-| ✔ | Divisor Analysis | | [Code](\Mathematics\Divisor Analysis.cpp) |   
-| ✔ | Prime Multiples | | [Code](\Mathematics\Prime Multiples.cpp) |   
-| ✔ | Counting Coprime Pairs | | [Code](\Mathematics\Counting Coprime Pairs.cpp) |   
-| ✔ | Binomial Coefficients | | [Code](\Mathematics\Binomial Coefficients.cpp) |   
-| ✔ | Creating Strings II | | [Code](\Mathematics\Creating Strings II.cpp) |   
-| ✔ | Distributing Apples | | [Code](\Mathematics\Distributing Apples.cpp) |   
-| ✔ | Christmas Party | | [Code](\Mathematics\Christmas Party.cpp) |   
-| ✔ | Bracket Sequences I | | [Code](\Mathematics\Bracket Sequences I.cpp) |   
-| ✔ | Bracket Sequences II | | [Code](\Mathematics\Bracket Sequences II.cpp) |   
-| ✔ | Counting Necklaces | | [Code](\Mathematics\Counting Necklaces.cpp) |   
-| ✔ | Counting Grids | | [Code](\Mathematics\Counting Grids.cpp) |   
-| ✔ | Fibonacci Numbers | | [Code](\Mathematics\Fibonacci Numbers.cpp) |   
-| ✔ | Throwing Dice | | [Code](\Mathematics\Throwing Dice.cpp) |   
-| ✔ | Graph Paths I | | [Code](\Mathematics\Graph Paths I.cpp) |   
-| ✔ | Graph Paths II | | [Code](\Mathematics\Graph Paths II.cpp) |   
-| ✔ | Dice Probability | | [Code](\Mathematics\Dice Probability.cpp) |   
-| | Moving Robots | | [Code](\Mathematics\Moving Robots.cpp) |   
-| | Candy Lottery | | [Code](\Mathematics\Candy Lottery.cpp) |   
-| | Inversion Probability | | [Code](\Mathematics\Inversion Probability.cpp) |   
-| ✔ | Stick Game | | [Code](\Mathematics\Stick Game.cpp) |   
-| ✔ | Nim Game I | | [Code](\Mathematics\Nim Game I.cpp) |   
-| ✔ | Nim Game II | | [Code](\Mathematics\Nim Game II.cpp) |   
-| ✔ | Stair Game | | [Code](\Mathematics\Stair Game.cpp) |   
-| ✔ | Grundy's Game | | [Code](\Mathematics\Grundy's Game.cpp) |   
-| ✔ | Another Game | | [Code](\Mathematics\Another Game.cpp) |   
-
-
-## String Algorithms   
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| | Word Combinations | | [Code](\String Algorithms\Word Combinations.cpp) |   
-| ✔ | String Matching | | [Code](\String Algorithms\String Matching.cpp) |   
-| ✔ | Finding Borders | | [Code](\String Algorithms\Finding Borders.cpp) |   
-| ✔ | Finding Periods | | [Code](\String Algorithms\Finding Periods.cpp) |   
-| ✔ | Minimal Rotation | | [Code](\String Algorithms\Minimal Rotation.cpp) |   
-| ✔ | Longest Palindrome | | [Code](\String Algorithms\Longest Palindrome.cpp) |   
-| | Required Substring | | [Code](\String Algorithms\Required Substring.cpp) |   
-| ✔ | Palindrome Queries | | [Code](\String Algorithms\Palindrome Queries.cpp) |   
-| ✔ | Finding Patterns | | [Code](\String Algorithms\Finding Patterns.cpp) |   
-| ✔ | Counting Patterns | | [Code](\String Algorithms\Counting Patterns.cpp) |   
-| ✔ | Pattern Positions | | [Code](\String Algorithms\Pattern Positions.cpp) |   
-| ✔ | Distinct Substrings | | [Code](\String Algorithms\Distinct Substrings.cpp) |   
-| | Repeating Substring | | [Code](\String Algorithms\Repeating Substring.cpp) |   
-| ✔ | String Functions | | [Code](\String Algorithms\String Functions.cpp) |   
-| ✔ | Substring Order I | | [Code](\String Algorithms\Substring Order I.cpp) |   
-| ✔ | Substring Order II | | [Code](\String Algorithms\Substring Order II.cpp) |   
-| | Substring Distribution | | [Code](\String Algorithms\Substring Distribution.cpp) |   
-
-
-## Geometry   
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| ✔ | Point Location Test | | [Code](\Geometry\Point Location Test.cpp) |   
-| ✔ | Line Segment Intersection | | [Code](\Geometry\Line Segment Intersection.cpp) |   
-| ✔ | Polygon Area | | [Code](\Geometry\Polygon Area.cpp) |   
-| ✔ | Point in Polygon | | [Code](\Geometry\Point in Polygon.cpp) |   
-| ✔ | Polygon Lattice Points | | [Code](\Geometry\Polygon Lattice Points.cpp) |   
-| ✔ | Minimum Euclidean Distance | | [Code](\Geometry\Minimum Euclidean Distance.cpp) |   
-| ✔ | Convex Hull | | [Code](\Geometry\Convex Hull.cpp) |   
-
-
-## Advanced Techniques   
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| ✔ | Meet in the Middle | | [Code](\Advanced Techniques\Meet in the Middle.cpp) |   
-| ✔ | Hamming Distance | | [Code](\Advanced Techniques\Hamming Distance.cpp) |   
-| | Beautiful Subgrids | | [Code](\Advanced Techniques\Beautiful Subgrids.cpp) |   
-| ✔ | Reachable Nodes | | [Code](\Advanced Techniques\Reachable Nodes.cpp) |   
-| ✔ | Reachability Queries | | [Code](\Advanced Techniques\Reachability Queries.cpp) |   
-| ✔ | Cut and Paste | | [Code](\Advanced Techniques\Cut and Paste.cpp) |   
-| ✔ | Substring Reversals | | [Code](\Advanced Techniques\Substring Reversals.cpp) |   
-| ✔ | Reversals and Sums | | [Code](\Advanced Techniques\Reversals and Sums.cpp) |   
-| ✔ | Necessary Roads | | [Code](\Advanced Techniques\Necessary Roads.cpp) |   
-| ✔ | Necessary Cities | | [Code](\Advanced Techniques\Necessary Cities.cpp) |   
-| | Eulerian Subgraphs | | [Code](\Advanced Techniques\Eulerian Subgraphs.cpp) |   
-| ✔ | Monster Game I | | [Code](\Advanced Techniques\Monster Game I.cpp) |   
-| ✔ | Monster Game II | | [Code](\Advanced Techniques\Monster Game II.cpp) |   
-| | Subarray Squares | | [Code](\Advanced Techniques\Subarray Squares.cpp) |   
-| | Houses and Schools | | [Code](\Advanced Techniques\Houses and Schools.cpp) |   
-| | Knuth Division | | [Code](\Advanced Techniques\Knuth Division.cpp) |   
-| ✔ | Apples and Bananas | | [Code](\Advanced Techniques\Apples and Bananas.cpp) |   
-| ✔ | One Bit Positions | | [Code](\Advanced Techniques\One Bit Positions.cpp) |   
-| ✔ | Signal Processing | | [Code](\Advanced Techniques\Signal Processing.cpp) |   
-| ✔ | New Roads Queries | | [Code](\Advanced Techniques\New Roads Queries.cpp) |   
-| ✔ | Dynamic Connectivity | | [Code](\Advanced Techniques\Dynamic Connectivity.cpp) |   
-| | Parcel Delivery | | [Code](\Advanced Techniques\Parcel Delivery.cpp) |   
-| | Task Assignment | | [Code](\Advanced Techniques\Task Assignment.cpp) |   
-| | Distinct Routes II | | [Code](\Advanced Techniques\Distinct Routes II.cpp) |   
-
-
-
-## Additional Problems   
-
-| Status | Name | Tags | Link |   
-| ---- | ---- | ---- | ---- |   
-| ✔ | Shortest Subsequence | | [Code](\Additional Problems\Shortest Subsequence.cpp) |   
-| ✔ | Counting Bits | | [Code](\Additional Problems\Counting Bits.cpp) |   
-| ✔ | Swap Game | | [Code](\Additional Problems\Swap Game.cpp) |   
-| ✔ | Prüfer Code | | [Code](\Additional Problems\Prüfer Code.cpp) |   
-| ✔ | Acyclic Graph Edges | | [Code](\Additional Problems\Acyclic Graph Edges.cpp) |   
-| | Strongly Connected Edges | | [Code](\Additional Problems\Strongly Connected Edges.cpp) |   
-| | Even Outdegree Edges | | [Code](\Additional Problems\Even Outdegree Edges.cpp) |   
-| | Multiplication Table | | [Code](\Additional Problems\Multiplication Table.cpp) |   
-| ✔ | Advertisement | | [Code](\Additional Problems\Advertisement.cpp) |   
-| | Special Substrings | | [Code](\Additional Problems\Special Substrings.cpp) |   
-| | Permutation Inversions | | [Code](\Additional Problems\Permutation Inversions.cpp) |   
-| ✔ | Maximum Xor Subarray | | [Code](\Additional Problems\Maximum Xor Subarray.cpp) |   
-| | Movie Festival Queries | | [Code](\Additional Problems\Movie Festival Queries.cpp) |   
-| | Chess Tournament | | [Code](\Additional Problems\Chess Tournament.cpp) |   
-| ✔ | Tree Traversals | | [Code](\Additional Problems\Tree Traversals.cpp) |   
-| | Network Renovation | | [Code](\Additional Problems\Network Renovation.cpp) |
-| ✔ | Graph Girth | | [Code](\Additional Problems\Graph Girth.cpp) |   
-| | Intersection Points | | [Code](\Additional Problems\Intersection Points.cpp) |   
-| ✔ | Inverse Inversions | | [Code](\Additional Problems\Inverse Inversions.cpp) |   
-| | Monotone Subsequences | | [Code](\Additional Problems\Monotone Subsequences.cpp) |   
-| | String Reorder | | [Code](\Additional Problems\String Reorder.cpp) |   
-| | Stack Weights | | [Code](\Additional Problems\Stack Weights.cpp) |   
-| | Pyramid Array | | [Code](\Additional Problems\Pyramid Array.cpp) |   
-| ✔ | Increasing Subsequence II | | [Code](\Additional Problems\Increasing Subsequence II.cpp) |   
-| | String Removals | | [Code](\Additional Problems\String Removals.cpp) |   
-| ✔ | Bit Inversions | | [Code](\Additional Problems\Bit Inversions.cpp) |   
-| ✔ | Xor Pyramid | | [Code](\Additional Problems\Xor Pyramid.cpp) |   
-| ✔ | Writing Numbers | | [Code](\Additional Problems\Writing Numbers.cpp) |   
-| | String Transform | | [Code](\Additional Problems\String Transform.cpp) |   
-| | Letter Pair Move Game | | [Code](\Additional Problems\Letter Pair Move Game.cpp) |   
-| | Maximum Building I | | [Code](\Additional Problems\Maximum Building I.cpp) |   
-| | Sorting Methods | | [Code](\Additional Problems\Sorting Methods.cpp) |   
-| | Cyclic Array | | [Code](\Additional Problems\Cyclic Array.cpp) |   
-| | List of Sums | | [Code](\Additional Problems\List of Sums.cpp) |   
-| | Increasing Array II | | [Code](\Additional Problems\Increasing Array II.cpp) |   
-| | Food Division | | [Code](\Additional Problems\Food Division.cpp) |   
-| ✔ | Bit Problem | | [Code](\Additional Problems\Bit Problem.cpp) |   
-| | Swap Round Sorting | | [Code](\Additional Problems\Swap Round Sorting.cpp) |   
-| | Binary Subsequences | | [Code](\Additional Problems\Binary Subsequences.cpp) |   
-| | Tree Isomorphism I | | [Code](\Additional Problems\Tree Isomorphism I.cpp) |   
-| | Counting Sequences | | [Code](\Additional Problems\Counting Sequences.cpp) |   
-| | Critical Cities | | [Code](\Additional Problems\Critical Cities.cpp) |   
-| | School Excursion | | [Code](\Additional Problems\School Excursion.cpp) |   
-| | Coin Grid | | [Code](\Additional Problems\Coin Grid.cpp) |   
-| | Robot Path | | [Code](\Additional Problems\Robot Path.cpp) |   
-| | Programmers and Artists | | [Code](\Additional Problems\Programmers and Artists.cpp) |   
-| | Course Schedule II | | [Code](\Additional Problems\Course Schedule II.cpp) |   
-| | Removing Digits II | | [Code](\Additional Problems\Removing Digits II.cpp) |   
-| | Coin Arrangement | | [Code](\Additional Problems\Coin Arrangement.cpp) |   
-| | Counting Bishops | | [Code](\Additional Problems\Counting Bishops.cpp) |   
-| | Grid Puzzle I | | [Code](\Additional Problems\Grid Puzzle I.cpp) |   
-| | Grid Puzzle II | | [Code](\Additional Problems\Grid Puzzle II.cpp) |   
-| | Empty String | | [Code](\Additional Problems\Empty String.cpp) |   
-| | Grid Paths | | [Code](\Additional Problems\Grid Paths.cpp) |   
-| | Bit Substrings | | [Code](\Additional Problems\Bit Substrings.cpp) |   
-| | Reversal Sorting | | [Code](\Additional Problems\Reversal Sorting.cpp) |   
-| | Counting Reorders | | [Code](\Additional Problems\Counting Reorders.cpp) |   
-| | Book Shop II | | [Code](\Additional Problems\Book Shop II.cpp) |   
-| ✔ | Network Breakdown | | [Code](\Additional Problems\Network Breakdown.cpp) |   
-| | Visiting Cities | | [Code](\Additional Problems\Visiting Cities.cpp) |   
-| | Missing Coin Sum Queries | | [Code](\Additional Problems\Missing Coin Sum Queries.cpp) |   
-| | Number Grid | | [Code](\Additional Problems\Number Grid.cpp) |   
-| | Maximum Building II | | [Code](\Additional Problems\Maximum Building II.cpp) |   
-| | Filling Trominos | | [Code](\Additional Problems\Filling Trominos.cpp) |   
-| ✔ | Stick Divisions | | [Code](\Additional Problems\Stick Divisions.cpp) |   
-| | Coding Company | | [Code](\Additional Problems\Coding Company.cpp) |   
-| | Flight Route Requests | | [Code](\Additional Problems\Flight Route Requests.cpp) |   
-| | Two Stacks Sorting | | [Code](\Additional Problems\Two Stacks Sorting.cpp) |   
-| | Tree Isomorphism II | | [Code](\Additional Problems\Tree Isomorphism II.cpp) |   
-| | Forbidden Cities | | [Code](\Additional Problems\Forbidden Cities.cpp) |   
-| | Area of Rectangles | | [Code](\Additional Problems\Area of Rectangles.cpp) |   
-| | Grid Completion | | [Code](\Additional Problems\Grid Completion.cpp) |   
-| | Creating Offices | | [Code](\Additional Problems\Creating Offices.cpp) |   
-| | Permutations II | | [Code](\Additional Problems\Permutations II.cpp) |   
-| | Functional Graph Distribution | | [Code](\Additional Problems\Functional Graph Distribution.cpp) |   
-| | New Flight Routes | | [Code](\Additional Problems\New Flight Routes.cpp) |   
-| | Grid Path Construction | | [Code](\Additional Problems\Grid Path Construction.cpp) |   
-
-
-
+ ##  Introductory Problems
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Weird Algorithm |    | [Code](Introductory%20Problems/Weird%20Algorithm.cpp) |
+ | ✔ | Missing Number |    | [Code](Introductory%20Problems/Missing%20Number.cpp) |
+ | ✔ | Repetitions |    | [Code](Introductory%20Problems/Repetitions.cpp) |
+ | ✔ | Increasing Array |    | [Code](Introductory%20Problems/Increasing%20Array.cpp) |
+ | ✔ | Permutations |    | [Code](Introductory%20Problems/Permutations.cpp) |
+ | ✔ | Number Spiral |    | [Code](Introductory%20Problems/Number%20Spiral.cpp) |
+ | ✔ | Two Knights |    | [Code](Introductory%20Problems/Two%20Knights.cpp) |
+ | ✔ | Two Sets |    | [Code](Introductory%20Problems/Two%20Sets.cpp) |
+ | ✔ | Bit Strings |    | [Code](Introductory%20Problems/Bit%20Strings.cpp) |
+ | ✔ | Trailing Zeros |    | [Code](Introductory%20Problems/Trailing%20Zeros.cpp) |
+ | ✔ | Coin Piles |    | [Code](Introductory%20Problems/Coin%20Piles.cpp) |
+ | ✔ | Palindrome Reorder |    | [Code](Introductory%20Problems/Palindrome%20Reorder.cpp) |
+ | ✔ | Gray Code |    | [Code](Introductory%20Problems/Gray%20Code.cpp) |
+ | ✔ | Tower of Hanoi |    | [Code](Introductory%20Problems/Tower%20of%20Hanoi.cpp) |
+ | ✔ | Creating Strings |    | [Code](Introductory%20Problems/Creating%20Strings.cpp) |
+ | ✔ | Apple Division |    | [Code](Introductory%20Problems/Apple%20Division.cpp) |
+ | ✔ | Chessboard and Queens |    | [Code](Introductory%20Problems/Chessboard%20and%20Queens.cpp) |
+ | ✔ | Digit Queries |    | [Code](Introductory%20Problems/Digit%20Queries.cpp) |
+ | ✔ | Grid Paths |    | [Code](Introductory%20Problems/Grid%20Paths.cpp) |
+ ##  Sorting and Searching
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Distinct Numbers |    | [Code](Sorting%20and%20Searching/Distinct%20Numbers.cpp) |
+ | ✔ | Apartments |    | [Code](Sorting%20and%20Searching/Apartments.cpp) |
+ | ✔ | Ferris Wheel |    | [Code](Sorting%20and%20Searching/Ferris%20Wheel.cpp) |
+ | ✔ | Concert Tickets |    | [Code](Sorting%20and%20Searching/Concert%20Tickets.cpp) |
+ | ✔ | Restaurant Customers |    | [Code](Sorting%20and%20Searching/Restaurant%20Customers.cpp) |
+ | ✔ | Movie Festival |    | [Code](Sorting%20and%20Searching/Movie%20Festival.cpp) |
+ | ✔ | Sum of Two Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp) |
+ | ✔ | Maximum Subarray Sum |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum.cpp) |
+ | ✔ | Stick Lengths |    | [Code](Sorting%20and%20Searching/Stick%20Lengths.cpp) |
+ | ✔ | Missing Coin Sum |    | [Code](Sorting%20and%20Searching/Missing%20Coin%20Sum.cpp) |
+ | ✔ | Collecting Numbers |    | [Code](Sorting%20and%20Searching/Collecting%20Numbers.cpp) |
+ | ✔ | Collecting Numbers II |    | [Code](Sorting%20and%20Searching/Collecting%20Numbers%20II.cpp) |
+ | ✔ | Playlist |    | [Code](Sorting%20and%20Searching/Playlist.cpp) |
+ | ✔ | Towers |    | [Code](Sorting%20and%20Searching/Towers.cpp) |
+ | ✔ | Traffic Lights |    | [Code](Sorting%20and%20Searching/Traffic%20Lights.cpp) |
+ | ✔ | Josephus Problem I |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20I.cpp) |
+ |  | Josephus Problem II |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
+ | ✔ | Nested Ranges Check |    | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Check.cpp) |
+ |  | Nested Ranges Count |    | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Count.cpp) |
+ | ✔ | Room Allocation |    | [Code](Sorting%20and%20Searching/Room%20Allocation.cpp) |
+ | ✔ | Factory Machines |    | [Code](Sorting%20and%20Searching/Factory%20Machines.cpp) |
+ | ✔ | Tasks and Deadlines |    | [Code](Sorting%20and%20Searching/Tasks%20and%20Deadlines.cpp) |
+ | ✔ | Reading Books |    | [Code](Sorting%20and%20Searching/Reading%20Books.cpp) |
+ | ✔ | Sum of Three Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp) |
+ | ✔ | Sum of Four Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp) |
+ | ✔ | Nearest Smaller Values |    | [Code](Sorting%20and%20Searching/Nearest%20Smaller%20Values.cpp) |
+ | ✔ | Subarray Sums I |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20I.cpp) |
+ | ✔ | Subarray Sums II |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20II.cpp) |
+ | ✔ | Subarray Divisibility |    | [Code](Sorting%20and%20Searching/Subarray%20Divisibility.cpp) |
+ |  | Subarray Distinct Values |    | [Code](Sorting%20and%20Searching/Subarray%20Distinct%20Values.cpp) |
+ | ✔ | Array Division |    | [Code](Sorting%20and%20Searching/Array%20Division.cpp) |
+ | ✔ | Sliding Median |    | [Code](Sorting%20and%20Searching/Sliding%20Median.cpp) |
+ |  | Sliding Cost |    | [Code](Sorting%20and%20Searching/Sliding%20Cost.cpp) |
+ |  | Movie Festival II |    | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
+ | ✔ | Maximum Subarray Sum II |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp) |
+ ##  Dynamic Programming
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Dice Combinations |    | [Code](Dynamic%20Programming/Dice%20Combinations.cpp) |
+ | ✔ | Minimizing Coins |    | [Code](Dynamic%20Programming/Minimizing%20Coins.cpp) |
+ | ✔ | Coin Combinations I |    | [Code](Dynamic%20Programming/Coin%20Combinations%20I.cpp) |
+ | ✔ | Coin Combinations II |    | [Code](Dynamic%20Programming/Coin%20Combinations%20II.cpp) |
+ | ✔ | Removing Digits |    | [Code](Dynamic%20Programming/Removing%20Digits.cpp) |
+ | ✔ | Grid Paths |    | [Code](Dynamic%20Programming/Grid%20Paths.cpp) |
+ | ✔ | Book Shop |    | [Code](Dynamic%20Programming/Book%20Shop.cpp) |
+ | ✔ | Array Description |    | [Code](Dynamic%20Programming/Array%20Description.cpp) |
+ | ✔ | Counting Towers |    | [Code](Dynamic%20Programming/Counting%20Towers.cpp) |
+ | ✔ | Edit Distance |    | [Code](Dynamic%20Programming/Edit%20Distance.cpp) |
+ | ✔ | Rectangle Cutting |    | [Code](Dynamic%20Programming/Rectangle%20Cutting.cpp) |
+ | ✔ | Money Sums |    | [Code](Dynamic%20Programming/Money%20Sums.cpp) |
+ | ✔ | Removal Game |    | [Code](Dynamic%20Programming/Removal%20Game.cpp) |
+ | ✔ | Two Sets II |    | [Code](Dynamic%20Programming/Two%20Sets%20II.cpp) |
+ | ✔ | Increasing Subsequence |    | [Code](Dynamic%20Programming/Increasing%20Subsequence.cpp) |
+ | ✔ | Projects |    | [Code](Dynamic%20Programming/Projects.cpp) |
+ |  | Elevator Rides |    | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
+ |  | Counting Tilings |    | [Code](Dynamic%20Programming/Counting%20Tilings.cpp) |
+ |  | Counting Numbers |    | [Code](Dynamic%20Programming/Counting%20Numbers.cpp) |
+ ##  Graph Algorithms
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Counting Rooms |    | [Code](Graph%20Algorithms/Counting%20Rooms.cpp) |
+ | ✔ | Labyrinth |    | [Code](Graph%20Algorithms/Labyrinth.cpp) |
+ | ✔ | Building Roads |    | [Code](Graph%20Algorithms/Building%20Roads.cpp) |
+ | ✔ | Message Route |    | [Code](Graph%20Algorithms/Message%20Route.cpp) |
+ | ✔ | Building Teams |    | [Code](Graph%20Algorithms/Building%20Teams.cpp) |
+ | ✔ | Round Trip |    | [Code](Graph%20Algorithms/Round%20Trip.cpp) |
+ | ✔ | Monsters |    | [Code](Graph%20Algorithms/Monsters.cpp) |
+ | ✔ | Shortest Routes I |    | [Code](Graph%20Algorithms/Shortest%20Routes%20I.cpp) |
+ | ✔ | Shortest Routes II |    | [Code](Graph%20Algorithms/Shortest%20Routes%20II.cpp) |
+ | ✔ | High Score |    | [Code](Graph%20Algorithms/High%20Score.cpp) |
+ |  | Flight Discount |    | [Code](Graph%20Algorithms/Flight%20Discount.cpp) |
+ |  | Cycle Finding |    | [Code](Graph%20Algorithms/Cycle%20Finding.cpp) |
+ |  | Flight Routes |    | [Code](Graph%20Algorithms/Flight%20Routes.cpp) |
+ |  | Round Trip II |    | [Code](Graph%20Algorithms/Round%20Trip%20II.cpp) |
+ | ✔ | Course Schedule |    | [Code](Graph%20Algorithms/Course%20Schedule.cpp) |
+ |  | Longest Flight Route |    | [Code](Graph%20Algorithms/Longest%20Flight%20Route.cpp) |
+ |  | Game Routes |    | [Code](Graph%20Algorithms/Game%20Routes.cpp) |
+ |  | Investigation |    | [Code](Graph%20Algorithms/Investigation.cpp) |
+ |  | Planets Queries I |    | [Code](Graph%20Algorithms/Planets%20Queries%20I.cpp) |
+ |  | Planets Queries II |    | [Code](Graph%20Algorithms/Planets%20Queries%20II.cpp) |
+ |  | Planets Cycles |    | [Code](Graph%20Algorithms/Planets%20Cycles.cpp) |
+ |  | Road Reparation |    | [Code](Graph%20Algorithms/Road%20Reparation.cpp) |
+ |  | Road Construction |    | [Code](Graph%20Algorithms/Road%20Construction.cpp) |
+ |  | Flight Routes Check |    | [Code](Graph%20Algorithms/Flight%20Routes%20Check.cpp) |
+ | ✔ | Planets and Kingdoms |    | [Code](Graph%20Algorithms/Planets%20and%20Kingdoms.cpp) |
+ |  | Giant Pizza |    | [Code](Graph%20Algorithms/Giant%20Pizza.cpp) |
+ |  | Coin Collector |    | [Code](Graph%20Algorithms/Coin%20Collector.cpp) |
+ |  | Mail Delivery |    | [Code](Graph%20Algorithms/Mail%20Delivery.cpp) |
+ |  | De Bruijn Sequence |    | [Code](Graph%20Algorithms/De%20Bruijn%20Sequence.cpp) |
+ |  | Teleporters Path |    | [Code](Graph%20Algorithms/Teleporters%20Path.cpp) |
+ |  | Hamiltonian Flights |    | [Code](Graph%20Algorithms/Hamiltonian%20Flights.cpp) |
+ |  | Knight's Tour |    | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
+ |  | Download Speed |    | [Code](Graph%20Algorithms/Download%20Speed.cpp) |
+ |  | Police Chase |    | [Code](Graph%20Algorithms/Police%20Chase.cpp) |
+ | ✔ | School Dance |    | [Code](Graph%20Algorithms/School%20Dance.cpp) |
+ |  | Distinct Routes |    | [Code](Graph%20Algorithms/Distinct%20Routes.cpp) |
+ ##  Range Queries
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Static Range Sum Queries |    | [Code](Range%20Queries/Static%20Range%20Sum%20Queries.cpp) |
+ | ✔ | Static Range Minimum Queries |    | [Code](Range%20Queries/Static%20Range%20Minimum%20Queries.cpp) |
+ | ✔ | Dynamic Range Sum Queries |    | [Code](Range%20Queries/Dynamic%20Range%20Sum%20Queries.cpp) |
+ | ✔ | Dynamic Range Minimum Queries |    | [Code](Range%20Queries/Dynamic%20Range%20Minimum%20Queries.cpp) |
+ | ✔ | Range Xor Queries |    | [Code](Range%20Queries/Range%20Xor%20Queries.cpp) |
+ | ✔ | Range Update Queries |    | [Code](Range%20Queries/Range%20Update%20Queries.cpp) |
+ | ✔ | Forest Queries |    | [Code](Range%20Queries/Forest%20Queries.cpp) |
+ | ✔ | Hotel Queries |    | [Code](Range%20Queries/Hotel%20Queries.cpp) |
+ | ✔ | List Removals |    | [Code](Range%20Queries/List%20Removals.cpp) |
+ | ✔ | Salary Queries |    | [Code](Range%20Queries/Salary%20Queries.cpp) |
+ | ✔ | Prefix Sum Queries |    | [Code](Range%20Queries/Prefix%20Sum%20Queries.cpp) |
+ | ✔ | Pizzeria Queries |    | [Code](Range%20Queries/Pizzeria%20Queries.cpp) |
+ | ✔ | Subarray Sum Queries |    | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
+ | ✔ | Distinct Values Queries |    | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
+ |  | Increasing Array Queries |    | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
+ | ✔ | Forest Queries II |    | [Code](Range%20Queries/Forest%20Queries%20II.cpp) |
+ | ✔ | Range Updates and Sums |    | [Code](Range%20Queries/Range%20Updates%20and%20Sums.cpp) |
+ | ✔ | Polynomial Queries |    | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
+ |  | Range Queries and Copies |    | [Code](Range%20Queries/Range%20Queries%20and%20Copies.cpp) |
+ ##  Tree Algorithms
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Subordinates |    | [Code](Tree%20Algorithms/Subordinates.cpp) |
+ | ✔ | Tree Matching |    | [Code](Tree%20Algorithms/Tree%20Matching.cpp) |
+ | ✔ | Tree Diameter |    | [Code](Tree%20Algorithms/Tree%20Diameter.cpp) |
+ | ✔ | Tree Distances I |    | [Code](Tree%20Algorithms/Tree%20Distances%20I.cpp) |
+ | ✔ | Tree Distances II |    | [Code](Tree%20Algorithms/Tree%20Distances%20II.cpp) |
+ | ✔ | Company Queries I |    | [Code](Tree%20Algorithms/Company%20Queries%20I.cpp) |
+ | ✔ | Company Queries II |    | [Code](Tree%20Algorithms/Company%20Queries%20II.cpp) |
+ | ✔ | Distance Queries |    | [Code](Tree%20Algorithms/Distance%20Queries.cpp) |
+ | ✔ | Counting Paths |    | [Code](Tree%20Algorithms/Counting%20Paths.cpp) |
+ | ✔ | Subtree Queries |    | [Code](Tree%20Algorithms/Subtree%20Queries.cpp) |
+ | ✔ | Path Queries |    | [Code](Tree%20Algorithms/Path%20Queries.cpp) |
+ | ✔ | Path Queries II |    | [Code](Tree%20Algorithms/Path%20Queries%20II.cpp) |
+ | ✔ | Distinct Colors |    | [Code](Tree%20Algorithms/Distinct%20Colors.cpp) |
+ | ✔ | Finding a Centroid |    | [Code](Tree%20Algorithms/Finding%20a%20Centroid.cpp) |
+ | ✔ | Fixed-Length Paths I |    | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20I.cpp) |
+ | ✔ | Fixed-Length Paths II |    | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20II.cpp) |
+ ##  Mathematics
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Josephus Queries |    | [Code](Mathematics/Josephus%20Queries.cpp) |
+ | ✔ | Exponentiation |    | [Code](Mathematics/Exponentiation.cpp) |
+ | ✔ | Exponentiation II |    | [Code](Mathematics/Exponentiation%20II.cpp) |
+ | ✔ | Counting Divisors |    | [Code](Mathematics/Counting%20Divisors.cpp) |
+ | ✔ | Common Divisors |    | [Code](Mathematics/Common%20Divisors.cpp) |
+ | ✔ | Sum of Divisors |    | [Code](Mathematics/Sum%20of%20Divisors.cpp) |
+ | ✔ | Divisor Analysis |    | [Code](Mathematics/Divisor%20Analysis.cpp) |
+ | ✔ | Prime Multiples |    | [Code](Mathematics/Prime%20Multiples.cpp) |
+ | ✔ | Counting Coprime Pairs |    | [Code](Mathematics/Counting%20Coprime%20Pairs.cpp) |
+ | ✔ | Binomial Coefficients |    | [Code](Mathematics/Binomial%20Coefficients.cpp) |
+ | ✔ | Creating Strings II |    | [Code](Mathematics/Creating%20Strings%20II.cpp) |
+ | ✔ | Distributing Apples |    | [Code](Mathematics/Distributing%20Apples.cpp) |
+ | ✔ | Christmas Party |    | [Code](Mathematics/Christmas%20Party.cpp) |
+ | ✔ | Bracket Sequences I |    | [Code](Mathematics/Bracket%20Sequences%20I.cpp) |
+ | ✔ | Bracket Sequences II |    | [Code](Mathematics/Bracket%20Sequences%20II.cpp) |
+ | ✔ | Counting Necklaces |    | [Code](Mathematics/Counting%20Necklaces.cpp) |
+ | ✔ | Counting Grids |    | [Code](Mathematics/Counting%20Grids.cpp) |
+ | ✔ | Fibonacci Numbers |    | [Code](Mathematics/Fibonacci%20Numbers.cpp) |
+ | ✔ | Throwing Dice |    | [Code](Mathematics/Throwing%20Dice.cpp) |
+ | ✔ | Graph Paths I |    | [Code](Mathematics/Graph%20Paths%20I.cpp) |
+ | ✔ | Graph Paths II |    | [Code](Mathematics/Graph%20Paths%20II.cpp) |
+ | ✔ | Dice Probability |    | [Code](Mathematics/Dice%20Probability.cpp) |
+ |  | Moving Robots |    | [Code](Mathematics/Moving%20Robots.cpp) |
+ |  | Candy Lottery |    | [Code](Mathematics/Candy%20Lottery.cpp) |
+ |  | Inversion Probability |    | [Code](Mathematics/Inversion%20Probability.cpp) |
+ | ✔ | Stick Game |    | [Code](Mathematics/Stick%20Game.cpp) |
+ | ✔ | Nim Game I |    | [Code](Mathematics/Nim%20Game%20I.cpp) |
+ | ✔ | Nim Game II |    | [Code](Mathematics/Nim%20Game%20II.cpp) |
+ | ✔ | Stair Game |    | [Code](Mathematics/Stair%20Game.cpp) |
+ | ✔ | Grundy's Game |    | [Code](Mathematics/Grundy's%20Game.cpp) |
+ | ✔ | Another Game |    | [Code](Mathematics/Another%20Game.cpp) |
+ ##  String Algorithms
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ |  | Word Combinations |    | [Code](String%20Algorithms/Word%20Combinations.cpp) |
+ | ✔ | String Matching |    | [Code](String%20Algorithms/String%20Matching.cpp) |
+ | ✔ | Finding Borders |    | [Code](String%20Algorithms/Finding%20Borders.cpp) |
+ | ✔ | Finding Periods |    | [Code](String%20Algorithms/Finding%20Periods.cpp) |
+ | ✔ | Minimal Rotation |    | [Code](String%20Algorithms/Minimal%20Rotation.cpp) |
+ | ✔ | Longest Palindrome |    | [Code](String%20Algorithms/Longest%20Palindrome.cpp) |
+ |  | Required Substring |    | [Code](String%20Algorithms/Required%20Substring.cpp) |
+ | ✔ | Palindrome Queries |    | [Code](String%20Algorithms/Palindrome%20Queries.cpp) |
+ | ✔ | Finding Patterns |    | [Code](String%20Algorithms/Finding%20Patterns.cpp) |
+ | ✔ | Counting Patterns |    | [Code](String%20Algorithms/Counting%20Patterns.cpp) |
+ | ✔ | Pattern Positions |    | [Code](String%20Algorithms/Pattern%20Positions.cpp) |
+ | ✔ | Distinct Substrings |    | [Code](String%20Algorithms/Distinct%20Substrings.cpp) |
+ |  | Repeating Substring |    | [Code](String%20Algorithms/Repeating%20Substring.cpp) |
+ | ✔ | String Functions |    | [Code](String%20Algorithms/String%20Functions.cpp) |
+ | ✔ | Substring Order I |    | [Code](String%20Algorithms/Substring%20Order%20I.cpp) |
+ | ✔ | Substring Order II |    | [Code](String%20Algorithms/Substring%20Order%20II.cpp) |
+ |  | Substring Distribution |    | [Code](String%20Algorithms/Substring%20Distribution.cpp) |
+ ##  Geometry
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Point Location Test |    | [Code](Geometry/Point%20Location%20Test.cpp) |
+ | ✔ | Line Segment Intersection |    | [Code](Geometry/Line%20Segment%20Intersection.cpp) |
+ | ✔ | Polygon Area |    | [Code](Geometry/Polygon%20Area.cpp) |
+ | ✔ | Point in Polygon |    | [Code](Geometry/Point%20in%20Polygon.cpp) |
+ | ✔ | Polygon Lattice Points |    | [Code](Geometry/Polygon%20Lattice%20Points.cpp) |
+ | ✔ | Minimum Euclidean Distance |    | [Code](Geometry/Minimum%20Euclidean%20Distance.cpp) |
+ | ✔ | Convex Hull |    | [Code](Geometry/Convex%20Hull.cpp) |
+ ##  Advanced Techniques
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Meet in the Middle |    | [Code](Advanced%20Techniques/Meet%20in%20the%20Middle.cpp) |
+ | ✔ | Hamming Distance |    | [Code](Advanced%20Techniques/Hamming%20Distance.cpp) |
+ |  | Beautiful Subgrids |    | [Code](Advanced%20Techniques/Beautiful%20Subgrids.cpp) |
+ | ✔ | Reachable Nodes |    | [Code](Advanced%20Techniques/Reachable%20Nodes.cpp) |
+ | ✔ | Reachability Queries |    | [Code](Advanced%20Techniques/Reachability%20Queries.cpp) |
+ | ✔ | Cut and Paste |    | [Code](Advanced%20Techniques/Cut%20and%20Paste.cpp) |
+ | ✔ | Substring Reversals |    | [Code](Advanced%20Techniques/Substring%20Reversals.cpp) |
+ | ✔ | Reversals and Sums |    | [Code](Advanced%20Techniques/Reversals%20and%20Sums.cpp) |
+ | ✔ | Necessary Roads |    | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
+ | ✔ | Necessary Cities |    | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
+ |  | Eulerian Subgraphs |    | [Code](Advanced%20Techniques/Eulerian%20Subgraphs.cpp) |
+ | ✔ | Monster Game I |    | [Code](Advanced%20Techniques/Monster%20Game%20I.cpp) |
+ | ✔ | Monster Game II |    | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
+ |  | Subarray Squares |    | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
+ |  | Houses and Schools |    | [Code](Advanced%20Techniques/Houses%20and%20Schools.cpp) |
+ |  | Knuth Division |    | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
+ | ✔ | Apples and Bananas |    | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
+ | ✔ | One Bit Positions |    | [Code](Advanced%20Techniques/One%20Bit%20Positions.cpp) |
+ | ✔ | Signal Processing |    | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
+ | ✔ | New Roads Queries |    | [Code](Advanced%20Techniques/New%20Roads%20Queries.cpp) |
+ | ✔ | Dynamic Connectivity |    | [Code](Advanced%20Techniques/Dynamic%20Connectivity.cpp) |
+ |  | Parcel Delivery |    | [Code](Advanced%20Techniques/Parcel%20Delivery.cpp) |
+ |  | Task Assignment |    | [Code](Advanced%20Techniques/Task%20Assignment.cpp) |
+ |  | Distinct Routes II |    | [Code](Advanced%20Techniques/Distinct%20Routes%20II.cpp) |
+ ##  Additional Problems
+ | Status | Name | Tags | Link |
+ | ---- | ---- | ---- | ---- |
+ | ✔ | Shortest Subsequence |    | [Code](Additional%20Problems/Shortest%20Subsequence.cpp) |
+ | ✔ | Counting Bits |    | [Code](Additional%20Problems/Counting%20Bits.cpp) |
+ | ✔ | Swap Game |    | [Code](Additional%20Problems/Swap%20Game.cpp) |
+ | ✔ | Prüfer Code |    | [Code](Additional%20Problems/Prüfer%20Code.cpp) |
+ | ✔ | Acyclic Graph Edges |    | [Code](Additional%20Problems/Acyclic%20Graph%20Edges.cpp) |
+ |  | Strongly Connected Edges |    | [Code](Additional%20Problems/Strongly%20Connected%20Edges.cpp) |
+ |  | Even Outdegree Edges |    | [Code](Additional%20Problems/Even%20Outdegree%20Edges.cpp) |
+ |  | Multiplication Table |    | [Code](Additional%20Problems/Multiplication%20Table.cpp) |
+ | ✔ | Advertisement |    | [Code](Additional%20Problems/Advertisement.cpp) |
+ |  | Special Substrings |    | [Code](Additional%20Problems/Special%20Substrings.cpp) |
+ |  | Permutation Inversions |    | [Code](Additional%20Problems/Permutation%20Inversions.cpp) |
+ | ✔ | Maximum Xor Subarray |    | [Code](Additional%20Problems/Maximum%20Xor%20Subarray.cpp) |
+ |  | Movie Festival Queries |    | [Code](Additional%20Problems/Movie%20Festival%20Queries.cpp) |
+ |  | Chess Tournament |    | [Code](Additional%20Problems/Chess%20Tournament.cpp) |
+ | ✔ | Tree Traversals |    | [Code](Additional%20Problems/Tree%20Traversals.cpp) |
+ |  | Network Renovation |    | [Code](Additional%20Problems/Network%20Renovation.cpp) |
+ | ✔ | Graph Girth |    | [Code](Additional%20Problems/Graph%20Girth.cpp) |
+ |  | Intersection Points |    | [Code](Additional%20Problems/Intersection%20Points.cpp) |
+ | ✔ | Inverse Inversions |    | [Code](Additional%20Problems/Inverse%20Inversions.cpp) |
+ |  | Monotone Subsequences |    | [Code](Additional%20Problems/Monotone%20Subsequences.cpp) |
+ |  | String Reorder |    | [Code](Additional%20Problems/String%20Reorder.cpp) |
+ |  | Stack Weights |    | [Code](Additional%20Problems/Stack%20Weights.cpp) |
+ |  | Pyramid Array |    | [Code](Additional%20Problems/Pyramid%20Array.cpp) |
+ | ✔ | Increasing Subsequence II |    | [Code](Additional%20Problems/Increasing%20Subsequence%20II.cpp) |
+ |  | String Removals |    | [Code](Additional%20Problems/String%20Removals.cpp) |
+ | ✔ | Bit Inversions |    | [Code](Additional%20Problems/Bit%20Inversions.cpp) |
+ | ✔ | Xor Pyramid |    | [Code](Additional%20Problems/Xor%20Pyramid.cpp) |
+ | ✔ | Writing Numbers |    | [Code](Additional%20Problems/Writing%20Numbers.cpp) |
+ |  | String Transform |    | [Code](Additional%20Problems/String%20Transform.cpp) |
+ |  | Letter Pair Move Game |    | [Code](Additional%20Problems/Letter%20Pair%20Move%20Game.cpp) |
+ |  | Maximum Building I |    | [Code](Additional%20Problems/Maximum%20Building%20I.cpp) |
+ |  | Sorting Methods |    | [Code](Additional%20Problems/Sorting%20Methods.cpp) |
+ |  | Cyclic Array |    | [Code](Additional%20Problems/Cyclic%20Array.cpp) |
+ |  | List of Sums |    | [Code](Additional%20Problems/List%20of%20Sums.cpp) |
+ |  | Increasing Array II |    | [Code](Additional%20Problems/Increasing%20Array%20II.cpp) |
+ |  | Food Division |    | [Code](Additional%20Problems/Food%20Division.cpp) |
+ | ✔ | Bit Problem |    | [Code](Additional%20Problems/Bit%20Problem.cpp) |
+ |  | Swap Round Sorting |    | [Code](Additional%20Problems/Swap%20Round%20Sorting.cpp) |
+ |  | Binary Subsequences |    | [Code](Additional%20Problems/Binary%20Subsequences.cpp) |
+ |  | Tree Isomorphism I |    | [Code](Additional%20Problems/Tree%20Isomorphism%20I.cpp) |
+ |  | Counting Sequences |    | [Code](Additional%20Problems/Counting%20Sequences.cpp) |
+ |  | Critical Cities |    | [Code](Additional%20Problems/Critical%20Cities.cpp) |
+ |  | School Excursion |    | [Code](Additional%20Problems/School%20Excursion.cpp) |
+ |  | Coin Grid |    | [Code](Additional%20Problems/Coin%20Grid.cpp) |
+ |  | Robot Path |    | [Code](Additional%20Problems/Robot%20Path.cpp) |
+ |  | Programmers and Artists |    | [Code](Additional%20Problems/Programmers%20and%20Artists.cpp) |
+ |  | Course Schedule II |    | [Code](Additional%20Problems/Course%20Schedule%20II.cpp) |
+ |  | Removing Digits II |    | [Code](Additional%20Problems/Removing%20Digits%20II.cpp) |
+ |  | Coin Arrangement |    | [Code](Additional%20Problems/Coin%20Arrangement.cpp) |
+ |  | Counting Bishops |    | [Code](Additional%20Problems/Counting%20Bishops.cpp) |
+ |  | Grid Puzzle I |    | [Code](Additional%20Problems/Grid%20Puzzle%20I.cpp) |
+ |  | Grid Puzzle II |    | [Code](Additional%20Problems/Grid%20Puzzle%20II.cpp) |
+ |  | Empty String |    | [Code](Additional%20Problems/Empty%20String.cpp) |
+ |  | Grid Paths |    | [Code](Additional%20Problems/Grid%20Paths.cpp) |
+ |  | Bit Substrings |    | [Code](Additional%20Problems/Bit%20Substrings.cpp) |
+ |  | Reversal Sorting |    | [Code](Additional%20Problems/Reversal%20Sorting.cpp) |
+ |  | Counting Reorders |    | [Code](Additional%20Problems/Counting%20Reorders.cpp) |
+ |  | Book Shop II |    | [Code](Additional%20Problems/Book%20Shop%20II.cpp) |
+ | ✔ | Network Breakdown |    | [Code](Additional%20Problems/Network%20Breakdown.cpp) |
+ |  | Visiting Cities |    | [Code](Additional%20Problems/Visiting%20Cities.cpp) |
+ |  | Missing Coin Sum Queries |    | [Code](Additional%20Problems/Missing%20Coin%20Sum%20Queries.cpp) |
+ |  | Number Grid |    | [Code](Additional%20Problems/Number%20Grid.cpp) |
+ |  | Maximum Building II |    | [Code](Additional%20Problems/Maximum%20Building%20II.cpp) |
+ |  | Filling Trominos |    | [Code](Additional%20Problems/Filling%20Trominos.cpp) |
+ | ✔ | Stick Divisions |    | [Code](Additional%20Problems/Stick%20Divisions.cpp) |
+ |  | Coding Company |    | [Code](Additional%20Problems/Coding%20Company.cpp) |
+ |  | Flight Route Requests |    | [Code](Additional%20Problems/Flight%20Route%20Requests.cpp) |
+ |  | Two Stacks Sorting |    | [Code](Additional%20Problems/Two%20Stacks%20Sorting.cpp) |
+ |  | Tree Isomorphism II |    | [Code](Additional%20Problems/Tree%20Isomorphism%20II.cpp) |
+ |  | Forbidden Cities |    | [Code](Additional%20Problems/Forbidden%20Cities.cpp) |
+ |  | Area of Rectangles |    | [Code](Additional%20Problems/Area%20of%20Rectangles.cpp) |
+ |  | Grid Completion |    | [Code](Additional%20Problems/Grid%20Completion.cpp) |
+ |  | Creating Offices |    | [Code](Additional%20Problems/Creating%20Offices.cpp) |
+ |  | Permutations II |    | [Code](Additional%20Problems/Permutations%20II.cpp) |
+ |  | Functional Graph Distribution |    | [Code](Additional%20Problems/Functional%20Graph%20Distribution.cpp) |
+ |  | New Flight Routes |    | [Code](Additional%20Problems/New%20Flight%20Routes.cpp) |
+ |  | Grid Path Construction |    | [Code](Additional%20Problems/Grid%20Path%20Construction.cpp) |
