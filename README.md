@@ -114,17 +114,17 @@ Milestones:
 | ✔ | Flight Discount | `Single Source Shortest Path` ` Dijkstra` | [Code](Graph%20Algorithms/Flight%20Discount.cpp) |
 | ✔ | Cycle Finding | `Negative Cycle` `Bellman Ford` | [Code](Graph%20Algorithms/Cycle%20Finding.cpp) |
 |  | Flight Routes |    | [Code](Graph%20Algorithms/Flight%20Routes.cpp) |
-|  | Round Trip II |    | [Code](Graph%20Algorithms/Round%20Trip%20II.cpp) |
+| ✔ | Round Trip II | `DFS` `Cycle in directed graph` | [Code](Graph%20Algorithms/Round%20Trip%20II.cpp) |
 | ✔ | Course Schedule | `Topological Sort` | [Code](Graph%20Algorithms/Course%20Schedule.cpp) |
 | ✔ | Longest Flight Route | `Topological Sort` `DP` | [Code](Graph%20Algorithms/Longest%20Flight%20Route.cpp) |
 | ✔ | Game Routes | `Topological Sort` `DP` | [Code](Graph%20Algorithms/Game%20Routes.cpp) |
 | ✔ | Investigation | `Dijkstra` | [Code](Graph%20Algorithms/Investigation.cpp) |
-|  | Planets Queries I |    | [Code](Graph%20Algorithms/Planets%20Queries%20I.cpp) |
+| ✔ | Planets Queries I | `Binary Lifting` | [Code](Graph%20Algorithms/Planets%20Queries%20I.cpp) |
 |  | Planets Queries II |    | [Code](Graph%20Algorithms/Planets%20Queries%20II.cpp) |
 |  | Planets Cycles |    | [Code](Graph%20Algorithms/Planets%20Cycles.cpp) |
-|  | Road Reparation |    | [Code](Graph%20Algorithms/Road%20Reparation.cpp) |
-|  | Road Construction |    | [Code](Graph%20Algorithms/Road%20Construction.cpp) |
-|  | Flight Routes Check |    | [Code](Graph%20Algorithms/Flight%20Routes%20Check.cpp) |
+| ✔ | Road Reparation | `Minimum Spanning Tree` `Kruskal` | [Code](Graph%20Algorithms/Road%20Reparation.cpp) |
+| ✔ | Road Construction | `DSU` | [Code](Graph%20Algorithms/Road%20Construction.cpp) |
+| ✔ | Flight Routes Check | `Strongly Connected Components` | [Code](Graph%20Algorithms/Flight%20Routes%20Check.cpp) |
 | ✔ | Planets and Kingdoms | `Strongly Connected Components` | [Code](Graph%20Algorithms/Planets%20and%20Kingdoms.cpp) |
 |  | Giant Pizza |    | [Code](Graph%20Algorithms/Giant%20Pizza.cpp) |
 |  | Coin Collector |    | [Code](Graph%20Algorithms/Coin%20Collector.cpp) |
@@ -275,17 +275,17 @@ Milestones:
 | ✔ | Shortest Subsequence |    | [Code](Additional%20Problems/Shortest%20Subsequence.cpp) |
 | ✔ | Counting Bits |    | [Code](Additional%20Problems/Counting%20Bits.cpp) |
 | ✔ | Swap Game |    | [Code](Additional%20Problems/Swap%20Game.cpp) |
-| ✔ | Prüfer Code |    | [Code](Additional%20Problems/Prüfer%20Code.cpp) |
+| ✔ | Prüfer Code | `Prüfer Code` | [Code](Additional%20Problems/Prüfer%20Code.cpp) |
 | ✔ | Acyclic Graph Edges |    | [Code](Additional%20Problems/Acyclic%20Graph%20Edges.cpp) |
 |  | Strongly Connected Edges |    | [Code](Additional%20Problems/Strongly%20Connected%20Edges.cpp) |
 |  | Even Outdegree Edges |    | [Code](Additional%20Problems/Even%20Outdegree%20Edges.cpp) |
 |  | Multiplication Table |    | [Code](Additional%20Problems/Multiplication%20Table.cpp) |
-| ✔ | Advertisement |    | [Code](Additional%20Problems/Advertisement.cpp) |
+| ✔ | Advertisement | `Segment Tree` | [Code](Additional%20Problems/Advertisement.cpp) |
 |  | Special Substrings |    | [Code](Additional%20Problems/Special%20Substrings.cpp) |
 |  | Permutation Inversions |    | [Code](Additional%20Problems/Permutation%20Inversions.cpp) |
-| ✔ | Maximum Xor Subarray |    | [Code](Additional%20Problems/Maximum%20Xor%20Subarray.cpp) |
+| ✔ | Maximum Xor Subarray | `Trie` `Divide and Conquer` | [Code](Additional%20Problems/Maximum%20Xor%20Subarray.cpp) |
 |  | Movie Festival Queries |    | [Code](Additional%20Problems/Movie%20Festival%20Queries.cpp) |
-|  | Chess Tournament |    | [Code](Additional%20Problems/Chess%20Tournament.cpp) |
+| ✔ | Chess Tournament | `Greedy` | [Code](Additional%20Problems/Chess%20Tournament.cpp) |
 | ✔ | Tree Traversals |    | [Code](Additional%20Problems/Tree%20Traversals.cpp) |
 |  | Network Renovation |    | [Code](Additional%20Problems/Network%20Renovation.cpp) |
 | ✔ | Graph Girth |    | [Code](Additional%20Problems/Graph%20Girth.cpp) |
@@ -308,10 +308,10 @@ Milestones:
 |  | List of Sums |    | [Code](Additional%20Problems/List%20of%20Sums.cpp) |
 |  | Increasing Array II |    | [Code](Additional%20Problems/Increasing%20Array%20II.cpp) |
 |  | Food Division |    | [Code](Additional%20Problems/Food%20Division.cpp) |
-| ✔ | Bit Problem |    | [Code](Additional%20Problems/Bit%20Problem.cpp) |
+| ✔ | Bit Problem | `SOS DP` | [Code](Additional%20Problems/Bit%20Problem.cpp) |
 |  | Swap Round Sorting |    | [Code](Additional%20Problems/Swap%20Round%20Sorting.cpp) |
 |  | Binary Subsequences |    | [Code](Additional%20Problems/Binary%20Subsequences.cpp) |
-|  | Tree Isomorphism I |    | [Code](Additional%20Problems/Tree%20Isomorphism%20I.cpp) |
+| ✔ | Tree Isomorphism I | `Tree Isomorphism` `rooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20I.cpp) |
 |  | Counting Sequences |    | [Code](Additional%20Problems/Counting%20Sequences.cpp) |
 |  | Critical Cities |    | [Code](Additional%20Problems/Critical%20Cities.cpp) |
 |  | School Excursion |    | [Code](Additional%20Problems/School%20Excursion.cpp) |
@@ -330,17 +330,17 @@ Milestones:
 |  | Reversal Sorting |    | [Code](Additional%20Problems/Reversal%20Sorting.cpp) |
 |  | Counting Reorders |    | [Code](Additional%20Problems/Counting%20Reorders.cpp) |
 |  | Book Shop II |    | [Code](Additional%20Problems/Book%20Shop%20II.cpp) |
-| ✔ | Network Breakdown |    | [Code](Additional%20Problems/Network%20Breakdown.cpp) |
+| ✔ | Network Breakdown | `DSU with rollback` | [Code](Additional%20Problems/Network%20Breakdown.cpp) |
 |  | Visiting Cities |    | [Code](Additional%20Problems/Visiting%20Cities.cpp) |
 |  | Missing Coin Sum Queries |    | [Code](Additional%20Problems/Missing%20Coin%20Sum%20Queries.cpp) |
 |  | Number Grid |    | [Code](Additional%20Problems/Number%20Grid.cpp) |
 |  | Maximum Building II |    | [Code](Additional%20Problems/Maximum%20Building%20II.cpp) |
 |  | Filling Trominos |    | [Code](Additional%20Problems/Filling%20Trominos.cpp) |
-| ✔ | Stick Divisions |    | [Code](Additional%20Problems/Stick%20Divisions.cpp) |
+| ✔ | Stick Divisions | `Huffman Coding` `greedy` | [Code](Additional%20Problems/Stick%20Divisions.cpp) |
 |  | Coding Company |    | [Code](Additional%20Problems/Coding%20Company.cpp) |
 |  | Flight Route Requests |    | [Code](Additional%20Problems/Flight%20Route%20Requests.cpp) |
 |  | Two Stacks Sorting |    | [Code](Additional%20Problems/Two%20Stacks%20Sorting.cpp) |
-|  | Tree Isomorphism II |    | [Code](Additional%20Problems/Tree%20Isomorphism%20II.cpp) |
+| ✔ | Tree Isomorphism II | `Tree Isomorphism` `unrooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20II.cpp) |
 |  | Forbidden Cities |    | [Code](Additional%20Problems/Forbidden%20Cities.cpp) |
 |  | Area of Rectangles |    | [Code](Additional%20Problems/Area%20of%20Rectangles.cpp) |
 |  | Grid Completion |    | [Code](Additional%20Problems/Grid%20Completion.cpp) |
