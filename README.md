@@ -77,27 +77,27 @@ Milestones:
  |  | Movie Festival II |    | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
  | ✔ | Maximum Subarray Sum II |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp) |
  ##  Dynamic Programming
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- | ✔ | Dice Combinations |    | [Code](Dynamic%20Programming/Dice%20Combinations.cpp) |
- | ✔ | Minimizing Coins |    | [Code](Dynamic%20Programming/Minimizing%20Coins.cpp) |
- | ✔ | Coin Combinations I |    | [Code](Dynamic%20Programming/Coin%20Combinations%20I.cpp) |
- | ✔ | Coin Combinations II |    | [Code](Dynamic%20Programming/Coin%20Combinations%20II.cpp) |
- | ✔ | Removing Digits |    | [Code](Dynamic%20Programming/Removing%20Digits.cpp) |
- | ✔ | Grid Paths |    | [Code](Dynamic%20Programming/Grid%20Paths.cpp) |
- | ✔ | Book Shop |    | [Code](Dynamic%20Programming/Book%20Shop.cpp) |
- | ✔ | Array Description |    | [Code](Dynamic%20Programming/Array%20Description.cpp) |
- | ✔ | Counting Towers |    | [Code](Dynamic%20Programming/Counting%20Towers.cpp) |
- | ✔ | Edit Distance |    | [Code](Dynamic%20Programming/Edit%20Distance.cpp) |
- | ✔ | Rectangle Cutting |    | [Code](Dynamic%20Programming/Rectangle%20Cutting.cpp) |
- | ✔ | Money Sums |    | [Code](Dynamic%20Programming/Money%20Sums.cpp) |
- | ✔ | Removal Game |    | [Code](Dynamic%20Programming/Removal%20Game.cpp) |
- | ✔ | Two Sets II |    | [Code](Dynamic%20Programming/Two%20Sets%20II.cpp) |
- | ✔ | Increasing Subsequence |    | [Code](Dynamic%20Programming/Increasing%20Subsequence.cpp) |
- | ✔ | Projects |    | [Code](Dynamic%20Programming/Projects.cpp) |
- |  | Elevator Rides |    | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
- |  | Counting Tilings |    | [Code](Dynamic%20Programming/Counting%20Tilings.cpp) |
- |  | Counting Numbers |    | [Code](Dynamic%20Programming/Counting%20Numbers.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Dice Combinations |    | [Code](Dynamic%20Programming/Dice%20Combinations.cpp) |
+| ✔ | Minimizing Coins |    | [Code](Dynamic%20Programming/Minimizing%20Coins.cpp) |
+| ✔ | Coin Combinations I |    | [Code](Dynamic%20Programming/Coin%20Combinations%20I.cpp) |
+| ✔ | Coin Combinations II |    | [Code](Dynamic%20Programming/Coin%20Combinations%20II.cpp) |
+| ✔ | Removing Digits |    | [Code](Dynamic%20Programming/Removing%20Digits.cpp) |
+| ✔ | Grid Paths |    | [Code](Dynamic%20Programming/Grid%20Paths.cpp) |
+| ✔ | Book Shop |    | [Code](Dynamic%20Programming/Book%20Shop.cpp) |
+| ✔ | Array Description |    | [Code](Dynamic%20Programming/Array%20Description.cpp) |
+| ✔ | Counting Towers |    | [Code](Dynamic%20Programming/Counting%20Towers.cpp) |
+| ✔ | Edit Distance |    | [Code](Dynamic%20Programming/Edit%20Distance.cpp) |
+| ✔ | Rectangle Cutting |    | [Code](Dynamic%20Programming/Rectangle%20Cutting.cpp) |
+| ✔ | Money Sums |    | [Code](Dynamic%20Programming/Money%20Sums.cpp) |
+| ✔ | Removal Game |    | [Code](Dynamic%20Programming/Removal%20Game.cpp) |
+| ✔ | Two Sets II |    | [Code](Dynamic%20Programming/Two%20Sets%20II.cpp) |
+| ✔ | Increasing Subsequence |    | [Code](Dynamic%20Programming/Increasing%20Subsequence.cpp) |
+| ✔ | Projects |    | [Code](Dynamic%20Programming/Projects.cpp) |
+|  | Elevator Rides |    | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
+| ✔ | Counting Tilings | `Broken Profile DP` `Bitmask` | [Code](Dynamic%20Programming/Counting%20Tilings.cpp) |
+|  | Counting Numbers |    | [Code](Dynamic%20Programming/Counting%20Numbers.cpp) |
  ##  Graph Algorithms
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
@@ -345,7 +345,7 @@ Milestones:
 |  | Area of Rectangles |    | [Code](Additional%20Problems/Area%20of%20Rectangles.cpp) |
 |  | Grid Completion |    | [Code](Additional%20Problems/Grid%20Completion.cpp) |
 |  | Creating Offices |    | [Code](Additional%20Problems/Creating%20Offices.cpp) |
-|  | Permutations II |    | [Code](Additional%20Problems/Permutations%20II.cpp) |
+|  | Permutations II | `Connected Component DP` | [Code](Additional%20Problems/Permutations%20II.cpp) |
 |  | Functional Graph Distribution |    | [Code](Additional%20Problems/Functional%20Graph%20Distribution.cpp) |
 |  | New Flight Routes |    | [Code](Additional%20Problems/New%20Flight%20Routes.cpp) |
 |  | Grid Path Construction |    | [Code](Additional%20Problems/Grid%20Path%20Construction.cpp) |
