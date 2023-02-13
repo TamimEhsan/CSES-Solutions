@@ -128,9 +128,9 @@ Milestones:
 | ✔ | Planets and Kingdoms | `Strongly Connected Components` | [Code](Graph%20Algorithms/Planets%20and%20Kingdoms.cpp) |
 |  | Giant Pizza |    | [Code](Graph%20Algorithms/Giant%20Pizza.cpp) |
 |  | Coin Collector |    | [Code](Graph%20Algorithms/Coin%20Collector.cpp) |
-|  | Mail Delivery |    | [Code](Graph%20Algorithms/Mail%20Delivery.cpp) |
+| ✔ | Mail Delivery |  `Euler Tour - Undirected` | [Code](Graph%20Algorithms/Mail%20Delivery.cpp) |
 |  | De Bruijn Sequence |    | [Code](Graph%20Algorithms/De%20Bruijn%20Sequence.cpp) |
-|  | Teleporters Path |    | [Code](Graph%20Algorithms/Teleporters%20Path.cpp) |
+| ✔ | Teleporters Path |  `Euler Path - Directed`  | [Code](Graph%20Algorithms/Teleporters%20Path.cpp) |
 |  | Hamiltonian Flights |    | [Code](Graph%20Algorithms/Hamiltonian%20Flights.cpp) |
 |  | Knight's Tour |    | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
 | ✔ | Download Speed | `Max Flow Min Cut` `Push Relabel` `Dinic` | [Code](Graph%20Algorithms/Download%20Speed.cpp) |
