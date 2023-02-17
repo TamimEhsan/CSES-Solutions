@@ -138,27 +138,27 @@ Milestones:
 | ✔ | School Dance | `Bipartite Matching` `Hopkroft Carp` | [Code](Graph%20Algorithms/School%20Dance.cpp) |
 |  | Distinct Routes | `Max Flow` `Dinic` | [Code](Graph%20Algorithms/Distinct%20Routes.cpp) |
  ##  Range Queries
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- | ✔ | Static Range Sum Queries |    | [Code](Range%20Queries/Static%20Range%20Sum%20Queries.cpp) |
- | ✔ | Static Range Minimum Queries |    | [Code](Range%20Queries/Static%20Range%20Minimum%20Queries.cpp) |
- | ✔ | Dynamic Range Sum Queries |    | [Code](Range%20Queries/Dynamic%20Range%20Sum%20Queries.cpp) |
- | ✔ | Dynamic Range Minimum Queries |    | [Code](Range%20Queries/Dynamic%20Range%20Minimum%20Queries.cpp) |
- | ✔ | Range Xor Queries |    | [Code](Range%20Queries/Range%20Xor%20Queries.cpp) |
- | ✔ | Range Update Queries |    | [Code](Range%20Queries/Range%20Update%20Queries.cpp) |
- | ✔ | Forest Queries |    | [Code](Range%20Queries/Forest%20Queries.cpp) |
- | ✔ | Hotel Queries |    | [Code](Range%20Queries/Hotel%20Queries.cpp) |
- | ✔ | List Removals |    | [Code](Range%20Queries/List%20Removals.cpp) |
- | ✔ | Salary Queries |    | [Code](Range%20Queries/Salary%20Queries.cpp) |
- | ✔ | Prefix Sum Queries |    | [Code](Range%20Queries/Prefix%20Sum%20Queries.cpp) |
- | ✔ | Pizzeria Queries |    | [Code](Range%20Queries/Pizzeria%20Queries.cpp) |
- | ✔ | Subarray Sum Queries |    | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
- | ✔ | Distinct Values Queries |    | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
- |  | Increasing Array Queries |    | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
- | ✔ | Forest Queries II |    | [Code](Range%20Queries/Forest%20Queries%20II.cpp) |
- | ✔ | Range Updates and Sums |    | [Code](Range%20Queries/Range%20Updates%20and%20Sums.cpp) |
- | ✔ | Polynomial Queries |    | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
- |  | Range Queries and Copies |    | [Code](Range%20Queries/Range%20Queries%20and%20Copies.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Static Range Sum Queries |    | [Code](Range%20Queries/Static%20Range%20Sum%20Queries.cpp) |
+| ✔ | Static Range Minimum Queries |    | [Code](Range%20Queries/Static%20Range%20Minimum%20Queries.cpp) |
+| ✔ | Dynamic Range Sum Queries |    | [Code](Range%20Queries/Dynamic%20Range%20Sum%20Queries.cpp) |
+| ✔ | Dynamic Range Minimum Queries |    | [Code](Range%20Queries/Dynamic%20Range%20Minimum%20Queries.cpp) |
+| ✔ | Range Xor Queries |    | [Code](Range%20Queries/Range%20Xor%20Queries.cpp) |
+| ✔ | Range Update Queries |    | [Code](Range%20Queries/Range%20Update%20Queries.cpp) |
+| ✔ | Forest Queries |    | [Code](Range%20Queries/Forest%20Queries.cpp) |
+| ✔ | Hotel Queries |    | [Code](Range%20Queries/Hotel%20Queries.cpp) |
+| ✔ | List Removals |    | [Code](Range%20Queries/List%20Removals.cpp) |
+| ✔ | Salary Queries |    | [Code](Range%20Queries/Salary%20Queries.cpp) |
+| ✔ | Prefix Sum Queries |    | [Code](Range%20Queries/Prefix%20Sum%20Queries.cpp) |
+| ✔ | Pizzeria Queries |    | [Code](Range%20Queries/Pizzeria%20Queries.cpp) |
+| ✔ | Subarray Sum Queries |    | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
+| ✔ | Distinct Values Queries |    | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
+|  | Increasing Array Queries |    | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
+| ✔ | Forest Queries II |    | [Code](Range%20Queries/Forest%20Queries%20II.cpp) |
+| ✔ | Range Updates and Sums |    | [Code](Range%20Queries/Range%20Updates%20and%20Sums.cpp) |
+| ✔ | Polynomial Queries |    | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
+| ✔ | Range Queries and Copies | `Persistent Segment Tree` | [Code](Range%20Queries/Range%20Queries%20and%20Copies.cpp) |
  ##  Tree Algorithms
  | Status | Name | Tags | Link |
  | ---- | ---- | ---- | ---- |
