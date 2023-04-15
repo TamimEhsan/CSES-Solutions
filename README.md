@@ -39,43 +39,43 @@ Milestones:
  | ✔ | Digit Queries |    | [Code](Introductory%20Problems/Digit%20Queries.cpp) |
  | ✔ | Grid Paths |    | [Code](Introductory%20Problems/Grid%20Paths.cpp) |
  ##  Sorting and Searching
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- | ✔ | Distinct Numbers |    | [Code](Sorting%20and%20Searching/Distinct%20Numbers.cpp) |
- | ✔ | Apartments |    | [Code](Sorting%20and%20Searching/Apartments.cpp) |
- | ✔ | Ferris Wheel |    | [Code](Sorting%20and%20Searching/Ferris%20Wheel.cpp) |
- | ✔ | Concert Tickets |    | [Code](Sorting%20and%20Searching/Concert%20Tickets.cpp) |
- | ✔ | Restaurant Customers |    | [Code](Sorting%20and%20Searching/Restaurant%20Customers.cpp) |
- | ✔ | Movie Festival |    | [Code](Sorting%20and%20Searching/Movie%20Festival.cpp) |
- | ✔ | Sum of Two Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp) |
- | ✔ | Maximum Subarray Sum |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum.cpp) |
- | ✔ | Stick Lengths |    | [Code](Sorting%20and%20Searching/Stick%20Lengths.cpp) |
- | ✔ | Missing Coin Sum |    | [Code](Sorting%20and%20Searching/Missing%20Coin%20Sum.cpp) |
- | ✔ | Collecting Numbers |    | [Code](Sorting%20and%20Searching/Collecting%20Numbers.cpp) |
- | ✔ | Collecting Numbers II |    | [Code](Sorting%20and%20Searching/Collecting%20Numbers%20II.cpp) |
- | ✔ | Playlist |    | [Code](Sorting%20and%20Searching/Playlist.cpp) |
- | ✔ | Towers |    | [Code](Sorting%20and%20Searching/Towers.cpp) |
- | ✔ | Traffic Lights |    | [Code](Sorting%20and%20Searching/Traffic%20Lights.cpp) |
- | ✔ | Josephus Problem I |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20I.cpp) |
- |  | Josephus Problem II |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
- | ✔ | Nested Ranges Check |    | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Check.cpp) |
- |  | Nested Ranges Count |    | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Count.cpp) |
- | ✔ | Room Allocation |    | [Code](Sorting%20and%20Searching/Room%20Allocation.cpp) |
- | ✔ | Factory Machines |    | [Code](Sorting%20and%20Searching/Factory%20Machines.cpp) |
- | ✔ | Tasks and Deadlines |    | [Code](Sorting%20and%20Searching/Tasks%20and%20Deadlines.cpp) |
- | ✔ | Reading Books |    | [Code](Sorting%20and%20Searching/Reading%20Books.cpp) |
- | ✔ | Sum of Three Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp) |
- | ✔ | Sum of Four Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp) |
- | ✔ | Nearest Smaller Values |    | [Code](Sorting%20and%20Searching/Nearest%20Smaller%20Values.cpp) |
- | ✔ | Subarray Sums I |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20I.cpp) |
- | ✔ | Subarray Sums II |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20II.cpp) |
- | ✔ | Subarray Divisibility |    | [Code](Sorting%20and%20Searching/Subarray%20Divisibility.cpp) |
- |  | Subarray Distinct Values |    | [Code](Sorting%20and%20Searching/Subarray%20Distinct%20Values.cpp) |
- | ✔ | Array Division |    | [Code](Sorting%20and%20Searching/Array%20Division.cpp) |
- | ✔ | Sliding Median |    | [Code](Sorting%20and%20Searching/Sliding%20Median.cpp) |
- |  | Sliding Cost |    | [Code](Sorting%20and%20Searching/Sliding%20Cost.cpp) |
- |  | Movie Festival II |    | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
- | ✔ | Maximum Subarray Sum II |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Distinct Numbers |    | [Code](Sorting%20and%20Searching/Distinct%20Numbers.cpp) |
+| ✔ | Apartments |    | [Code](Sorting%20and%20Searching/Apartments.cpp) |
+| ✔ | Ferris Wheel |    | [Code](Sorting%20and%20Searching/Ferris%20Wheel.cpp) |
+| ✔ | Concert Tickets |    | [Code](Sorting%20and%20Searching/Concert%20Tickets.cpp) |
+| ✔ | Restaurant Customers |    | [Code](Sorting%20and%20Searching/Restaurant%20Customers.cpp) |
+| ✔ | Movie Festival |    | [Code](Sorting%20and%20Searching/Movie%20Festival.cpp) |
+| ✔ | Sum of Two Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp) |
+| ✔ | Maximum Subarray Sum |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum.cpp) |
+| ✔ | Stick Lengths |    | [Code](Sorting%20and%20Searching/Stick%20Lengths.cpp) |
+| ✔ | Missing Coin Sum |    | [Code](Sorting%20and%20Searching/Missing%20Coin%20Sum.cpp) |
+| ✔ | Collecting Numbers |    | [Code](Sorting%20and%20Searching/Collecting%20Numbers.cpp) |
+| ✔ | Collecting Numbers II |    | [Code](Sorting%20and%20Searching/Collecting%20Numbers%20II.cpp) |
+| ✔ | Playlist |    | [Code](Sorting%20and%20Searching/Playlist.cpp) |
+| ✔ | Towers |    | [Code](Sorting%20and%20Searching/Towers.cpp) |
+| ✔ | Traffic Lights |    | [Code](Sorting%20and%20Searching/Traffic%20Lights.cpp) |
+| ✔ | Josephus Problem I |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20I.cpp) |
+|  | Josephus Problem II |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
+| ✔ | Nested Ranges Check |    | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Check.cpp) |
+| ✔ | Nested Ranges Count | `Point Update Range Sum` | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Count.cpp) |
+| ✔ | Room Allocation |    | [Code](Sorting%20and%20Searching/Room%20Allocation.cpp) |
+| ✔ | Factory Machines |    | [Code](Sorting%20and%20Searching/Factory%20Machines.cpp) |
+| ✔ | Tasks and Deadlines |    | [Code](Sorting%20and%20Searching/Tasks%20and%20Deadlines.cpp) |
+| ✔ | Reading Books |    | [Code](Sorting%20and%20Searching/Reading%20Books.cpp) |
+| ✔ | Sum of Three Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp) |
+| ✔ | Sum of Four Values |    | [Code](Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp) |
+| ✔ | Nearest Smaller Values |    | [Code](Sorting%20and%20Searching/Nearest%20Smaller%20Values.cpp) |
+| ✔ | Subarray Sums I |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20I.cpp) |
+| ✔ | Subarray Sums II |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20II.cpp) |
+| ✔ | Subarray Divisibility |    | [Code](Sorting%20and%20Searching/Subarray%20Divisibility.cpp) |
+|  | Subarray Distinct Values |    | [Code](Sorting%20and%20Searching/Subarray%20Distinct%20Values.cpp) |
+| ✔ | Array Division |    | [Code](Sorting%20and%20Searching/Array%20Division.cpp) |
+| ✔ | Sliding Median |    | [Code](Sorting%20and%20Searching/Sliding%20Median.cpp) |
+|  | Sliding Cost |    | [Code](Sorting%20and%20Searching/Sliding%20Cost.cpp) |
+|  | Movie Festival II |    | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
+| ✔ | Maximum Subarray Sum II |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp) |
  ##  Dynamic Programming
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
@@ -97,7 +97,7 @@ Milestones:
 | ✔ | Projects |    | [Code](Dynamic%20Programming/Projects.cpp) |
 |  | Elevator Rides |    | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
 | ✔ | Counting Tilings | `Broken Profile DP` `Bitmask` | [Code](Dynamic%20Programming/Counting%20Tilings.cpp) |
-|  | Counting Numbers |    | [Code](Dynamic%20Programming/Counting%20Numbers.cpp) |
+| ✔ | Counting Numbers | `Digit Dp` | [Code](Dynamic%20Programming/Counting%20Numbers.cpp) |
  ##  Graph Algorithms
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
@@ -121,17 +121,17 @@ Milestones:
 | ✔ | Investigation | `Dijkstra` | [Code](Graph%20Algorithms/Investigation.cpp) |
 | ✔ | Planets Queries I | `Binary Lifting` | [Code](Graph%20Algorithms/Planets%20Queries%20I.cpp) |
 |  | Planets Queries II |    | [Code](Graph%20Algorithms/Planets%20Queries%20II.cpp) |
-|  | Planets Cycles |    | [Code](Graph%20Algorithms/Planets%20Cycles.cpp) |
+| ✔ | Planets Cycles | `DFS` | [Code](Graph%20Algorithms/Planets%20Cycles.cpp) |
 | ✔ | Road Reparation | `Minimum Spanning Tree` `Kruskal` | [Code](Graph%20Algorithms/Road%20Reparation.cpp) |
 | ✔ | Road Construction | `DSU` | [Code](Graph%20Algorithms/Road%20Construction.cpp) |
 | ✔ | Flight Routes Check | `Strongly Connected Components` | [Code](Graph%20Algorithms/Flight%20Routes%20Check.cpp) |
 | ✔ | Planets and Kingdoms | `Strongly Connected Components` | [Code](Graph%20Algorithms/Planets%20and%20Kingdoms.cpp) |
-|  | Giant Pizza |    | [Code](Graph%20Algorithms/Giant%20Pizza.cpp) |
-|  | Coin Collector |    | [Code](Graph%20Algorithms/Coin%20Collector.cpp) |
+| ✔ | Giant Pizza | `2-SAT` | [Code](Graph%20Algorithms/Giant%20Pizza.cpp) |
+| ✔ | Coin Collector | `Condensation Graph` `Topological Sort` `DP` | [Code](Graph%20Algorithms/Coin%20Collector.cpp) |
 | ✔ | Mail Delivery |  `Euler Tour - Undirected` | [Code](Graph%20Algorithms/Mail%20Delivery.cpp) |
 |  | De Bruijn Sequence |    | [Code](Graph%20Algorithms/De%20Bruijn%20Sequence.cpp) |
 | ✔ | Teleporters Path |  `Euler Path - Directed`  | [Code](Graph%20Algorithms/Teleporters%20Path.cpp) |
-|  | Hamiltonian Flights |    | [Code](Graph%20Algorithms/Hamiltonian%20Flights.cpp) |
+| ✔ | Hamiltonian Flights | `Hamiltonian Path` `Bitmask DP` | [Code](Graph%20Algorithms/Hamiltonian%20Flights.cpp) |
 |  | Knight's Tour |    | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
 | ✔ | Download Speed | `Max Flow Min Cut` `Push Relabel` `Dinic` | [Code](Graph%20Algorithms/Download%20Speed.cpp) |
 | ✔ | Police Chase | `Max Flow Min Cut` `Push Relabel` | [Code](Graph%20Algorithms/Police%20Chase.cpp) |
@@ -243,32 +243,32 @@ Milestones:
  | ✔ | Minimum Euclidean Distance |    | [Code](Geometry/Minimum%20Euclidean%20Distance.cpp) |
  | ✔ | Convex Hull |    | [Code](Geometry/Convex%20Hull.cpp) |
  ##  Advanced Techniques
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- | ✔ | Meet in the Middle |    | [Code](Advanced%20Techniques/Meet%20in%20the%20Middle.cpp) |
- | ✔ | Hamming Distance |    | [Code](Advanced%20Techniques/Hamming%20Distance.cpp) |
- |  | Beautiful Subgrids |    | [Code](Advanced%20Techniques/Beautiful%20Subgrids.cpp) |
- | ✔ | Reachable Nodes |    | [Code](Advanced%20Techniques/Reachable%20Nodes.cpp) |
- | ✔ | Reachability Queries |    | [Code](Advanced%20Techniques/Reachability%20Queries.cpp) |
- | ✔ | Cut and Paste |    | [Code](Advanced%20Techniques/Cut%20and%20Paste.cpp) |
- | ✔ | Substring Reversals |    | [Code](Advanced%20Techniques/Substring%20Reversals.cpp) |
- | ✔ | Reversals and Sums |    | [Code](Advanced%20Techniques/Reversals%20and%20Sums.cpp) |
- | ✔ | Necessary Roads |    | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
- | ✔ | Necessary Cities |    | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
- |  | Eulerian Subgraphs |    | [Code](Advanced%20Techniques/Eulerian%20Subgraphs.cpp) |
- | ✔ | Monster Game I |    | [Code](Advanced%20Techniques/Monster%20Game%20I.cpp) |
- | ✔ | Monster Game II |    | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
- |  | Subarray Squares |    | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
- |  | Houses and Schools |    | [Code](Advanced%20Techniques/Houses%20and%20Schools.cpp) |
- |  | Knuth Division |    | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
- | ✔ | Apples and Bananas |    | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
- | ✔ | One Bit Positions |    | [Code](Advanced%20Techniques/One%20Bit%20Positions.cpp) |
- | ✔ | Signal Processing |    | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
- | ✔ | New Roads Queries |    | [Code](Advanced%20Techniques/New%20Roads%20Queries.cpp) |
- | ✔ | Dynamic Connectivity |    | [Code](Advanced%20Techniques/Dynamic%20Connectivity.cpp) |
- |  | Parcel Delivery |    | [Code](Advanced%20Techniques/Parcel%20Delivery.cpp) |
- |  | Task Assignment |    | [Code](Advanced%20Techniques/Task%20Assignment.cpp) |
- |  | Distinct Routes II |    | [Code](Advanced%20Techniques/Distinct%20Routes%20II.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Meet in the Middle |    | [Code](Advanced%20Techniques/Meet%20in%20the%20Middle.cpp) |
+| ✔ | Hamming Distance |    | [Code](Advanced%20Techniques/Hamming%20Distance.cpp) |
+| ✔ | Beautiful Subgrids | `Bitset` | [Code](Advanced%20Techniques/Beautiful%20Subgrids.cpp) |
+| ✔ | Reachable Nodes |    | [Code](Advanced%20Techniques/Reachable%20Nodes.cpp) |
+| ✔ | Reachability Queries |    | [Code](Advanced%20Techniques/Reachability%20Queries.cpp) |
+| ✔ | Cut and Paste |    | [Code](Advanced%20Techniques/Cut%20and%20Paste.cpp) |
+| ✔ | Substring Reversals |    | [Code](Advanced%20Techniques/Substring%20Reversals.cpp) |
+| ✔ | Reversals and Sums |    | [Code](Advanced%20Techniques/Reversals%20and%20Sums.cpp) |
+| ✔ | Necessary Roads |    | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
+| ✔ | Necessary Cities |    | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
+|  | Eulerian Subgraphs |    | [Code](Advanced%20Techniques/Eulerian%20Subgraphs.cpp) |
+| ✔ | Monster Game I |    | [Code](Advanced%20Techniques/Monster%20Game%20I.cpp) |
+| ✔ | Monster Game II |    | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
+|  | Subarray Squares |    | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
+|  | Houses and Schools |    | [Code](Advanced%20Techniques/Houses%20and%20Schools.cpp) |
+|  | Knuth Division |    | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
+| ✔ | Apples and Bananas |    | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
+| ✔ | One Bit Positions |    | [Code](Advanced%20Techniques/One%20Bit%20Positions.cpp) |
+| ✔ | Signal Processing |    | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
+| ✔ | New Roads Queries |    | [Code](Advanced%20Techniques/New%20Roads%20Queries.cpp) |
+| ✔ | Dynamic Connectivity |    | [Code](Advanced%20Techniques/Dynamic%20Connectivity.cpp) |
+|  | Parcel Delivery |    | [Code](Advanced%20Techniques/Parcel%20Delivery.cpp) |
+|  | Task Assignment |    | [Code](Advanced%20Techniques/Task%20Assignment.cpp) |
+|  | Distinct Routes II |    | [Code](Advanced%20Techniques/Distinct%20Routes%20II.cpp) |
  ##  Additional Problems
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
