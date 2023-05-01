@@ -57,7 +57,7 @@ Milestones:
 | ✔ | Towers |    | [Code](Sorting%20and%20Searching/Towers.cpp) |
 | ✔ | Traffic Lights |    | [Code](Sorting%20and%20Searching/Traffic%20Lights.cpp) |
 | ✔ | Josephus Problem I |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20I.cpp) |
-|  | Josephus Problem II |    | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
+| ✔ | Josephus Problem II | `OST` | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
 | ✔ | Nested Ranges Check |    | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Check.cpp) |
 | ✔ | Nested Ranges Count | `Point Update Range Sum` | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Count.cpp) |
 | ✔ | Room Allocation |    | [Code](Sorting%20and%20Searching/Room%20Allocation.cpp) |
@@ -135,8 +135,8 @@ Milestones:
 |  | Knight's Tour |    | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
 | ✔ | Download Speed | `Max Flow Min Cut` `Push Relabel` `Dinic` | [Code](Graph%20Algorithms/Download%20Speed.cpp) |
 | ✔ | Police Chase | `Max Flow Min Cut` `Push Relabel` | [Code](Graph%20Algorithms/Police%20Chase.cpp) |
-| ✔ | School Dance | `Bipartite Matching` `Hopkroft Carp` | [Code](Graph%20Algorithms/School%20Dance.cpp) |
-|  | Distinct Routes | `Max Flow` `Dinic` | [Code](Graph%20Algorithms/Distinct%20Routes.cpp) |
+| ✔ | School Dance | `Max Flow``Bipartite Matching` `Hopkroft Carp` | [Code](Graph%20Algorithms/School%20Dance.cpp) |
+| ✔ | Distinct Routes | `Max Flow` `Dinic` `Path reconstruction` | [Code](Graph%20Algorithms/Distinct%20Routes.cpp) |
  ##  Range Queries
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
@@ -256,9 +256,9 @@ Milestones:
 | ✔ | Necessary Roads |    | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
 | ✔ | Necessary Cities |    | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
 |  | Eulerian Subgraphs |    | [Code](Advanced%20Techniques/Eulerian%20Subgraphs.cpp) |
-| ✔ | Monster Game I |    | [Code](Advanced%20Techniques/Monster%20Game%20I.cpp) |
-| ✔ | Monster Game II |    | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
-|  | Subarray Squares |    | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
+| ✔ | Monster Game I | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Monster%20Game%20I.cpp) |
+| ✔ | Monster Game II | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
+| ✔ | Subarray Squares | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
 |  | Houses and Schools |    | [Code](Advanced%20Techniques/Houses%20and%20Schools.cpp) |
 |  | Knuth Division |    | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
 | ✔ | Apples and Bananas |    | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
@@ -266,9 +266,9 @@ Milestones:
 | ✔ | Signal Processing |    | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
 | ✔ | New Roads Queries |    | [Code](Advanced%20Techniques/New%20Roads%20Queries.cpp) |
 | ✔ | Dynamic Connectivity |    | [Code](Advanced%20Techniques/Dynamic%20Connectivity.cpp) |
-|  | Parcel Delivery |    | [Code](Advanced%20Techniques/Parcel%20Delivery.cpp) |
-|  | Task Assignment |    | [Code](Advanced%20Techniques/Task%20Assignment.cpp) |
-|  | Distinct Routes II |    | [Code](Advanced%20Techniques/Distinct%20Routes%20II.cpp) |
+| ✔ | Parcel Delivery | `Max Flow Min Cost` `Fixed flow` | [Code](Advanced%20Techniques/Parcel%20Delivery.cpp) |
+| ✔ | Task Assignment | `Max Flow Min Cost` | [Code](Advanced%20Techniques/Task%20Assignment.cpp) |
+| ✔ | Distinct Routes II | `Max Flow Min Cost` `Path reconstruction` | [Code](Advanced%20Techniques/Distinct%20Routes%20II.cpp) |
  ##  Additional Problems
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
