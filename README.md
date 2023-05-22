@@ -70,10 +70,10 @@ Milestones:
 | ✔ | Subarray Sums I |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20I.cpp) |
 | ✔ | Subarray Sums II |    | [Code](Sorting%20and%20Searching/Subarray%20Sums%20II.cpp) |
 | ✔ | Subarray Divisibility |    | [Code](Sorting%20and%20Searching/Subarray%20Divisibility.cpp) |
-|  | Subarray Distinct Values |    | [Code](Sorting%20and%20Searching/Subarray%20Distinct%20Values.cpp) |
+| ✔ | Subarray Distinct Values | `Two pointers` `Sliding Window` | [Code](Sorting%20and%20Searching/Subarray%20Distinct%20Values.cpp) |
 | ✔ | Array Division |    | [Code](Sorting%20and%20Searching/Array%20Division.cpp) |
 | ✔ | Sliding Median |    | [Code](Sorting%20and%20Searching/Sliding%20Median.cpp) |
-|  | Sliding Cost |    | [Code](Sorting%20and%20Searching/Sliding%20Cost.cpp) |
+| ✔ | Sliding Cost | `OST` ``Point Update Range Sum`` | [Code](Sorting%20and%20Searching/Sliding%20Cost.cpp) |
 |  | Movie Festival II |    | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
 | ✔ | Maximum Subarray Sum II |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp) |
  ##  Dynamic Programming
@@ -160,24 +160,24 @@ Milestones:
 | ✔ | Polynomial Queries |    | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
 | ✔ | Range Queries and Copies | `Persistent Segment Tree` | [Code](Range%20Queries/Range%20Queries%20and%20Copies.cpp) |
  ##  Tree Algorithms
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- | ✔ | Subordinates |    | [Code](Tree%20Algorithms/Subordinates.cpp) |
- | ✔ | Tree Matching |    | [Code](Tree%20Algorithms/Tree%20Matching.cpp) |
- | ✔ | Tree Diameter |    | [Code](Tree%20Algorithms/Tree%20Diameter.cpp) |
- | ✔ | Tree Distances I |    | [Code](Tree%20Algorithms/Tree%20Distances%20I.cpp) |
- | ✔ | Tree Distances II |    | [Code](Tree%20Algorithms/Tree%20Distances%20II.cpp) |
- | ✔ | Company Queries I |    | [Code](Tree%20Algorithms/Company%20Queries%20I.cpp) |
- | ✔ | Company Queries II |    | [Code](Tree%20Algorithms/Company%20Queries%20II.cpp) |
- | ✔ | Distance Queries |    | [Code](Tree%20Algorithms/Distance%20Queries.cpp) |
- | ✔ | Counting Paths |    | [Code](Tree%20Algorithms/Counting%20Paths.cpp) |
- | ✔ | Subtree Queries |    | [Code](Tree%20Algorithms/Subtree%20Queries.cpp) |
- | ✔ | Path Queries |    | [Code](Tree%20Algorithms/Path%20Queries.cpp) |
- | ✔ | Path Queries II |    | [Code](Tree%20Algorithms/Path%20Queries%20II.cpp) |
- | ✔ | Distinct Colors |    | [Code](Tree%20Algorithms/Distinct%20Colors.cpp) |
- | ✔ | Finding a Centroid |    | [Code](Tree%20Algorithms/Finding%20a%20Centroid.cpp) |
- | ✔ | Fixed-Length Paths I |    | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20I.cpp) |
- | ✔ | Fixed-Length Paths II |    | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20II.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Subordinates | `Subtree DP` | [Code](Tree%20Algorithms/Subordinates.cpp) |
+| ✔ | Tree Matching | `Tree DP` | [Code](Tree%20Algorithms/Tree%20Matching.cpp) |
+| ✔ | Tree Diameter | `Tree Diameter` | [Code](Tree%20Algorithms/Tree%20Diameter.cpp) |
+| ✔ | Tree Distances I | `Tree Diameter` | [Code](Tree%20Algorithms/Tree%20Distances%20I.cpp) |
+| ✔ | Tree Distances II | `Tree Rerooting DP` | [Code](Tree%20Algorithms/Tree%20Distances%20II.cpp) |
+| ✔ | Company Queries I | `Binary Lifting` | [Code](Tree%20Algorithms/Company%20Queries%20I.cpp) |
+| ✔ | Company Queries II | `LCA` | [Code](Tree%20Algorithms/Company%20Queries%20II.cpp) |
+| ✔ | Distance Queries | `LCA` | [Code](Tree%20Algorithms/Distance%20Queries.cpp) |
+| ✔ | Counting Paths | `HLD` | [Code](Tree%20Algorithms/Counting%20Paths.cpp) |
+| ✔ | Subtree Queries | `HLD` | [Code](Tree%20Algorithms/Subtree%20Queries.cpp) |
+| ✔ | Path Queries | `HLD` | [Code](Tree%20Algorithms/Path%20Queries.cpp) |
+| ✔ | Path Queries II | `HLD` | [Code](Tree%20Algorithms/Path%20Queries%20II.cpp) |
+| ✔ | Distinct Colors | `MO on Tree` | [Code](Tree%20Algorithms/Distinct%20Colors.cpp) |
+| ✔ | Finding a Centroid | `Centroid` | [Code](Tree%20Algorithms/Finding%20a%20Centroid.cpp) |
+| ✔ | Fixed-Length Paths I | `Centroid Decomposition` | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20I.cpp) |
+| ✔ | Fixed-Length Paths II | `Centroid Decomposition` | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20II.cpp) |
  ##  Mathematics
  | Status | Name | Tags | Link |
  | ---- | ---- | ---- | ---- |
@@ -250,9 +250,9 @@ Milestones:
 | ✔ | Beautiful Subgrids | `Bitset` | [Code](Advanced%20Techniques/Beautiful%20Subgrids.cpp) |
 | ✔ | Reachable Nodes |    | [Code](Advanced%20Techniques/Reachable%20Nodes.cpp) |
 | ✔ | Reachability Queries |    | [Code](Advanced%20Techniques/Reachability%20Queries.cpp) |
-| ✔ | Cut and Paste |    | [Code](Advanced%20Techniques/Cut%20and%20Paste.cpp) |
-| ✔ | Substring Reversals |    | [Code](Advanced%20Techniques/Substring%20Reversals.cpp) |
-| ✔ | Reversals and Sums |    | [Code](Advanced%20Techniques/Reversals%20and%20Sums.cpp) |
+| ✔ | Cut and Paste | `Implicit Treap` | [Code](Advanced%20Techniques/Cut%20and%20Paste.cpp) |
+| ✔ | Substring Reversals | `Implicit Treap` | [Code](Advanced%20Techniques/Substring%20Reversals.cpp) |
+| ✔ | Reversals and Sums | `Implicit Treap` | [Code](Advanced%20Techniques/Reversals%20and%20Sums.cpp) |
 | ✔ | Necessary Roads |    | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
 | ✔ | Necessary Cities |    | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
 |  | Eulerian Subgraphs |    | [Code](Advanced%20Techniques/Eulerian%20Subgraphs.cpp) |
@@ -277,18 +277,18 @@ Milestones:
 | ✔ | Swap Game |    | [Code](Additional%20Problems/Swap%20Game.cpp) |
 | ✔ | Prüfer Code | `Prüfer Code` | [Code](Additional%20Problems/Prüfer%20Code.cpp) |
 | ✔ | Acyclic Graph Edges |    | [Code](Additional%20Problems/Acyclic%20Graph%20Edges.cpp) |
-|  | Strongly Connected Edges |    | [Code](Additional%20Problems/Strongly%20Connected%20Edges.cpp) |
+| ✔ | Strongly Connected Edges | `Bridge` | [Code](Additional%20Problems/Strongly%20Connected%20Edges.cpp) |
 |  | Even Outdegree Edges |    | [Code](Additional%20Problems/Even%20Outdegree%20Edges.cpp) |
-|  | Multiplication Table |    | [Code](Additional%20Problems/Multiplication%20Table.cpp) |
+| ✔ | Multiplication Table | `Binary Search` `Harmonic Progression` | [Code](Additional%20Problems/Multiplication%20Table.cpp) |
 | ✔ | Advertisement | `Segment Tree` | [Code](Additional%20Problems/Advertisement.cpp) |
 |  | Special Substrings |    | [Code](Additional%20Problems/Special%20Substrings.cpp) |
 |  | Permutation Inversions |    | [Code](Additional%20Problems/Permutation%20Inversions.cpp) |
 | ✔ | Maximum Xor Subarray | `Trie` `Divide and Conquer` | [Code](Additional%20Problems/Maximum%20Xor%20Subarray.cpp) |
 |  | Movie Festival Queries |    | [Code](Additional%20Problems/Movie%20Festival%20Queries.cpp) |
 | ✔ | Chess Tournament | `Greedy` | [Code](Additional%20Problems/Chess%20Tournament.cpp) |
-| ✔ | Tree Traversals |    | [Code](Additional%20Problems/Tree%20Traversals.cpp) |
-|  | Network Renovation |    | [Code](Additional%20Problems/Network%20Renovation.cpp) |
-| ✔ | Graph Girth |    | [Code](Additional%20Problems/Graph%20Girth.cpp) |
+| ✔ | Tree Traversals |  | [Code](Additional%20Problems/Tree%20Traversals.cpp) |
+| ✔ | Network Renovation | `Euler Tour` | [Code](Additional%20Problems/Network%20Renovation.cpp) |
+| ✔ | Graph Girth | `BFS Tree` | [Code](Additional%20Problems/Graph%20Girth.cpp) |
 |  | Intersection Points |    | [Code](Additional%20Problems/Intersection%20Points.cpp) |
 | ✔ | Inverse Inversions |    | [Code](Additional%20Problems/Inverse%20Inversions.cpp) |
 |  | Monotone Subsequences |    | [Code](Additional%20Problems/Monotone%20Subsequences.cpp) |
@@ -312,8 +312,8 @@ Milestones:
 |  | Swap Round Sorting |    | [Code](Additional%20Problems/Swap%20Round%20Sorting.cpp) |
 |  | Binary Subsequences |    | [Code](Additional%20Problems/Binary%20Subsequences.cpp) |
 | ✔ | Tree Isomorphism I | `Tree Isomorphism` `rooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20I.cpp) |
-|  | Counting Sequences |    | [Code](Additional%20Problems/Counting%20Sequences.cpp) |
-|  | Critical Cities |    | [Code](Additional%20Problems/Critical%20Cities.cpp) |
+| ✔ | Counting Sequences | `Inclusion Exclusion Principle` | [Code](Additional%20Problems/Counting%20Sequences.cpp) |
+| ✔ | Critical Cities | `Dominator Tree` | [Code](Additional%20Problems/Critical%20Cities.cpp) |
 |  | School Excursion |    | [Code](Additional%20Problems/School%20Excursion.cpp) |
 |  | Coin Grid |    | [Code](Additional%20Problems/Coin%20Grid.cpp) |
 |  | Robot Path |    | [Code](Additional%20Problems/Robot%20Path.cpp) |
