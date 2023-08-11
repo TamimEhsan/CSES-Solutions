@@ -70,10 +70,7 @@ int main(){
         }else{
             int a,b;
             cin>>a>>b;
-            cout<<query(1,a,b,1,n).pref<<endl;
+            cout<<max(query(1,a,b,1,n).pref,0LL)<<endl;
         }
     }
 }
-/*
-
-*/

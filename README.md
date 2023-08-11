@@ -174,7 +174,7 @@ Milestones:
 | ✔ | Subtree Queries | `HLD` | [Code](Tree%20Algorithms/Subtree%20Queries.cpp) |
 | ✔ | Path Queries | `HLD` | [Code](Tree%20Algorithms/Path%20Queries.cpp) |
 | ✔ | Path Queries II | `HLD` | [Code](Tree%20Algorithms/Path%20Queries%20II.cpp) |
-| ✔ | Distinct Colors | `MO on Tree` | [Code](Tree%20Algorithms/Distinct%20Colors.cpp) |
+| ✔ | Distinct Colors | `MO on Tree` / `Sack` `Small to Large` | [Code](Tree%20Algorithms/Distinct%20Colors.cpp) [Code]([Code](Tree%20Algorithms/Distinct%20Colors%20Solution2.cpp)) |
 | ✔ | Finding a Centroid | `Centroid` | [Code](Tree%20Algorithms/Finding%20a%20Centroid.cpp) |
 | ✔ | Fixed-Length Paths I | `Centroid Decomposition` | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20I.cpp) |
 | ✔ | Fixed-Length Paths II | `Centroid Decomposition` | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20II.cpp) |
@@ -260,7 +260,7 @@ Milestones:
 | ✔ | Monster Game II | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
 | ✔ | Subarray Squares | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
 |  | Houses and Schools |    | [Code](Advanced%20Techniques/Houses%20and%20Schools.cpp) |
-|  | Knuth Division |    | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
+| ✔ | Knuth Division | `DP` `Knuth Optimization` | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
 | ✔ | Apples and Bananas |    | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
 | ✔ | One Bit Positions |    | [Code](Advanced%20Techniques/One%20Bit%20Positions.cpp) |
 | ✔ | Signal Processing |    | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
@@ -300,7 +300,7 @@ Milestones:
 | ✔ | Bit Inversions |    | [Code](Additional%20Problems/Bit%20Inversions.cpp) |
 | ✔ | Xor Pyramid |    | [Code](Additional%20Problems/Xor%20Pyramid.cpp) |
 | ✔ | Writing Numbers |    | [Code](Additional%20Problems/Writing%20Numbers.cpp) |
-|  | String Transform |    | [Code](Additional%20Problems/String%20Transform.cpp) |
+| ✔ | String Transform | `Inverse Burrows Wheeler Transform` | [Code](Additional%20Problems/String%20Transform.cpp) |
 |  | Letter Pair Move Game |    | [Code](Additional%20Problems/Letter%20Pair%20Move%20Game.cpp) |
 | ✔ | Maximum Building I | `Segment Tree` | [Code](Additional%20Problems/Maximum%20Building%20I.cpp) |
 |  | Sorting Methods |    | [Code](Additional%20Problems/Sorting%20Methods.cpp) |
