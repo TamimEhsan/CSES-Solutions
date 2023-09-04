@@ -341,7 +341,7 @@ Milestones:
 |  | Flight Route Requests |    | [Code](Additional%20Problems/Flight%20Route%20Requests.cpp) |
 |  | Two Stacks Sorting |    | [Code](Additional%20Problems/Two%20Stacks%20Sorting.cpp) |
 | ✔ | Tree Isomorphism II | `Tree Isomorphism` `unrooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20II.cpp) |
-|  | Forbidden Cities |    | [Code](Additional%20Problems/Forbidden%20Cities.cpp) |
+| ✔ | Forbidden Cities | `Block Cut Tree` | [Code](Additional%20Problems/Forbidden%20Cities.cpp) |
 |  | Area of Rectangles |    | [Code](Additional%20Problems/Area%20of%20Rectangles.cpp) |
 |  | Grid Completion |    | [Code](Additional%20Problems/Grid%20Completion.cpp) |
 |  | Creating Offices |    | [Code](Additional%20Problems/Creating%20Offices.cpp) |
