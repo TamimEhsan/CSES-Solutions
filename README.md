@@ -289,7 +289,7 @@ Milestones:
 | ✔ | Tree Traversals |  | [Code](Additional%20Problems/Tree%20Traversals.cpp) |
 | ✔ | Network Renovation | `Euler Tour` | [Code](Additional%20Problems/Network%20Renovation.cpp) |
 | ✔ | Graph Girth | `BFS Tree` | [Code](Additional%20Problems/Graph%20Girth.cpp) |
-|  | Intersection Points |    | [Code](Additional%20Problems/Intersection%20Points.cpp) |
+| ✔ | Intersection Points | `Range Query with Sweep Line` | [Code](Additional%20Problems/Intersection%20Points.cpp) |
 | ✔ | Inverse Inversions |    | [Code](Additional%20Problems/Inverse%20Inversions.cpp) |
 |  | Monotone Subsequences |    | [Code](Additional%20Problems/Monotone%20Subsequences.cpp) |
 |  | String Reorder |    | [Code](Additional%20Problems/String%20Reorder.cpp) |
@@ -314,7 +314,7 @@ Milestones:
 | ✔ | Tree Isomorphism I | `Tree Isomorphism` `rooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20I.cpp) |
 | ✔ | Counting Sequences | `Inclusion Exclusion Principle` | [Code](Additional%20Problems/Counting%20Sequences.cpp) |
 | ✔ | Critical Cities | `Dominator Tree` | [Code](Additional%20Problems/Critical%20Cities.cpp) |
-|  | School Excursion |    | [Code](Additional%20Problems/School%20Excursion.cpp) |
+| ✔ | School Excursion | `Knapsack DP` `Bitset` | [Code](Additional%20Problems/School%20Excursion.cpp) |
 |  | Coin Grid |    | [Code](Additional%20Problems/Coin%20Grid.cpp) |
 |  | Robot Path |    | [Code](Additional%20Problems/Robot%20Path.cpp) |
 |  | Programmers and Artists |    | [Code](Additional%20Problems/Programmers%20and%20Artists.cpp) |
@@ -342,10 +342,10 @@ Milestones:
 |  | Two Stacks Sorting |    | [Code](Additional%20Problems/Two%20Stacks%20Sorting.cpp) |
 | ✔ | Tree Isomorphism II | `Tree Isomorphism` `unrooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20II.cpp) |
 | ✔ | Forbidden Cities | `Block Cut Tree` | [Code](Additional%20Problems/Forbidden%20Cities.cpp) |
-|  | Area of Rectangles |    | [Code](Additional%20Problems/Area%20of%20Rectangles.cpp) |
+| ✔ | Area of Rectangles | `Range Query and Update with Sweep Line` | [Code](Additional%20Problems/Area%20of%20Rectangles.cpp) |
 |  | Grid Completion |    | [Code](Additional%20Problems/Grid%20Completion.cpp) |
 |  | Creating Offices |    | [Code](Additional%20Problems/Creating%20Offices.cpp) |
-|  | Permutations II | `Connected Component DP` | [Code](Additional%20Problems/Permutations%20II.cpp) |
+| ✔ | Permutations II | `Connected Component DP` | [Code](Additional%20Problems/Permutations%20II.cpp) |
 |  | Functional Graph Distribution |    | [Code](Additional%20Problems/Functional%20Graph%20Distribution.cpp) |
 |  | New Flight Routes |    | [Code](Additional%20Problems/New%20Flight%20Routes.cpp) |
 |  | Grid Path Construction |    | [Code](Additional%20Problems/Grid%20Path%20Construction.cpp) |
