@@ -7,12 +7,13 @@ This set has some classic problems.
 
 Milestones:
 
-- [x] 25/11/2021: `Solved all Introductory%20Problems`
+- [x] 25/11/2021: `Solved all Introductory Problems`
 - [x] 30/11/2021: `Solved all Tree Problems`
 - [x] 29/12/2021: `Solved 100th Problem`
 - [x] 05/05/2022: `Solved 150th Problem`
 - [x] 04/10/2022: `Solved all Geometry Problems`
 - [x] 05/12/2022: `Solved 200th Problem`
+- [ ] 06/11/2023:`Solved all Range query Problems`
 
 
 
@@ -154,7 +155,7 @@ Milestones:
 | ✔ | Pizzeria Queries |    | [Code](Range%20Queries/Pizzeria%20Queries.cpp) |
 | ✔ | Subarray Sum Queries |    | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
 | ✔ | Distinct Values Queries |    | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
-|  | Increasing Array Queries |    | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
+| ✔ | Increasing Array Queries | `Segment tree` `Tree walking` | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
 | ✔ | Forest Queries II |    | [Code](Range%20Queries/Forest%20Queries%20II.cpp) |
 | ✔ | Range Updates and Sums |    | [Code](Range%20Queries/Range%20Updates%20and%20Sums.cpp) |
 | ✔ | Polynomial Queries |    | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
@@ -179,39 +180,39 @@ Milestones:
 | ✔ | Fixed-Length Paths I | `Centroid Decomposition` | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20I.cpp) |
 | ✔ | Fixed-Length Paths II | `Centroid Decomposition` | [Code](Tree%20Algorithms/Fixed-Length%20Paths%20II.cpp) |
  ##  Mathematics
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- | ✔ | Josephus Queries |    | [Code](Mathematics/Josephus%20Queries.cpp) |
- | ✔ | Exponentiation |    | [Code](Mathematics/Exponentiation.cpp) |
- | ✔ | Exponentiation II |    | [Code](Mathematics/Exponentiation%20II.cpp) |
- | ✔ | Counting Divisors |    | [Code](Mathematics/Counting%20Divisors.cpp) |
- | ✔ | Common Divisors |    | [Code](Mathematics/Common%20Divisors.cpp) |
- | ✔ | Sum of Divisors |    | [Code](Mathematics/Sum%20of%20Divisors.cpp) |
- | ✔ | Divisor Analysis |    | [Code](Mathematics/Divisor%20Analysis.cpp) |
- | ✔ | Prime Multiples |    | [Code](Mathematics/Prime%20Multiples.cpp) |
- | ✔ | Counting Coprime Pairs |    | [Code](Mathematics/Counting%20Coprime%20Pairs.cpp) |
- | ✔ | Binomial Coefficients |    | [Code](Mathematics/Binomial%20Coefficients.cpp) |
- | ✔ | Creating Strings II |    | [Code](Mathematics/Creating%20Strings%20II.cpp) |
- | ✔ | Distributing Apples |    | [Code](Mathematics/Distributing%20Apples.cpp) |
- | ✔ | Christmas Party |    | [Code](Mathematics/Christmas%20Party.cpp) |
- | ✔ | Bracket Sequences I |    | [Code](Mathematics/Bracket%20Sequences%20I.cpp) |
- | ✔ | Bracket Sequences II |    | [Code](Mathematics/Bracket%20Sequences%20II.cpp) |
- | ✔ | Counting Necklaces |    | [Code](Mathematics/Counting%20Necklaces.cpp) |
- | ✔ | Counting Grids |    | [Code](Mathematics/Counting%20Grids.cpp) |
- | ✔ | Fibonacci Numbers |    | [Code](Mathematics/Fibonacci%20Numbers.cpp) |
- | ✔ | Throwing Dice |    | [Code](Mathematics/Throwing%20Dice.cpp) |
- | ✔ | Graph Paths I |    | [Code](Mathematics/Graph%20Paths%20I.cpp) |
- | ✔ | Graph Paths II |    | [Code](Mathematics/Graph%20Paths%20II.cpp) |
- | ✔ | Dice Probability |    | [Code](Mathematics/Dice%20Probability.cpp) |
- |  | Moving Robots |    | [Code](Mathematics/Moving%20Robots.cpp) |
- |  | Candy Lottery |    | [Code](Mathematics/Candy%20Lottery.cpp) |
- |  | Inversion Probability |    | [Code](Mathematics/Inversion%20Probability.cpp) |
- | ✔ | Stick Game |    | [Code](Mathematics/Stick%20Game.cpp) |
- | ✔ | Nim Game I |    | [Code](Mathematics/Nim%20Game%20I.cpp) |
- | ✔ | Nim Game II |    | [Code](Mathematics/Nim%20Game%20II.cpp) |
- | ✔ | Stair Game |    | [Code](Mathematics/Stair%20Game.cpp) |
- | ✔ | Grundy's Game |    | [Code](Mathematics/Grundy's%20Game.cpp) |
- | ✔ | Another Game |    | [Code](Mathematics/Another%20Game.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Josephus Queries |    | [Code](Mathematics/Josephus%20Queries.cpp) |
+| ✔ | Exponentiation |    | [Code](Mathematics/Exponentiation.cpp) |
+| ✔ | Exponentiation II |    | [Code](Mathematics/Exponentiation%20II.cpp) |
+| ✔ | Counting Divisors |    | [Code](Mathematics/Counting%20Divisors.cpp) |
+| ✔ | Common Divisors |    | [Code](Mathematics/Common%20Divisors.cpp) |
+| ✔ | Sum of Divisors |    | [Code](Mathematics/Sum%20of%20Divisors.cpp) |
+| ✔ | Divisor Analysis |    | [Code](Mathematics/Divisor%20Analysis.cpp) |
+| ✔ | Prime Multiples |    | [Code](Mathematics/Prime%20Multiples.cpp) |
+| ✔ | Counting Coprime Pairs |    | [Code](Mathematics/Counting%20Coprime%20Pairs.cpp) |
+| ✔ | Binomial Coefficients |    | [Code](Mathematics/Binomial%20Coefficients.cpp) |
+| ✔ | Creating Strings II |    | [Code](Mathematics/Creating%20Strings%20II.cpp) |
+| ✔ | Distributing Apples |    | [Code](Mathematics/Distributing%20Apples.cpp) |
+| ✔ | Christmas Party |    | [Code](Mathematics/Christmas%20Party.cpp) |
+| ✔ | Bracket Sequences I |    | [Code](Mathematics/Bracket%20Sequences%20I.cpp) |
+| ✔ | Bracket Sequences II |    | [Code](Mathematics/Bracket%20Sequences%20II.cpp) |
+| ✔ | Counting Necklaces |    | [Code](Mathematics/Counting%20Necklaces.cpp) |
+| ✔ | Counting Grids |    | [Code](Mathematics/Counting%20Grids.cpp) |
+| ✔ | Fibonacci Numbers |    | [Code](Mathematics/Fibonacci%20Numbers.cpp) |
+| ✔ | Throwing Dice |    | [Code](Mathematics/Throwing%20Dice.cpp) |
+| ✔ | Graph Paths I |    | [Code](Mathematics/Graph%20Paths%20I.cpp) |
+| ✔ | Graph Paths II |    | [Code](Mathematics/Graph%20Paths%20II.cpp) |
+| ✔ | Dice Probability |    | [Code](Mathematics/Dice%20Probability.cpp) |
+|  | Moving Robots |    | [Code](Mathematics/Moving%20Robots.cpp) |
+| ✔ | Candy Lottery | `Expected Value` | [Code](Mathematics/Candy%20Lottery.cpp) |
+|  | Inversion Probability |    | [Code](Mathematics/Inversion%20Probability.cpp) |
+| ✔ | Stick Game |    | [Code](Mathematics/Stick%20Game.cpp) |
+| ✔ | Nim Game I |    | [Code](Mathematics/Nim%20Game%20I.cpp) |
+| ✔ | Nim Game II |    | [Code](Mathematics/Nim%20Game%20II.cpp) |
+| ✔ | Stair Game |    | [Code](Mathematics/Stair%20Game.cpp) |
+| ✔ | Grundy's Game |    | [Code](Mathematics/Grundy's%20Game.cpp) |
+| ✔ | Another Game |    | [Code](Mathematics/Another%20Game.cpp) |
  ##  String Algorithms
  | Status | Name | Tags | Link |
  | ---- | ---- | ---- | ---- |
@@ -296,7 +297,7 @@ Milestones:
 |  | Stack Weights |    | [Code](Additional%20Problems/Stack%20Weights.cpp) |
 |  | Pyramid Array |    | [Code](Additional%20Problems/Pyramid%20Array.cpp) |
 | ✔ | Increasing Subsequence II |    | [Code](Additional%20Problems/Increasing%20Subsequence%20II.cpp) |
-|  | String Removals |    | [Code](Additional%20Problems/String%20Removals.cpp) |
+| ✔ | String Removals | `DP` `Cumulative sum` | [Code](Additional%20Problems/String%20Removals.cpp) |
 | ✔ | Bit Inversions |    | [Code](Additional%20Problems/Bit%20Inversions.cpp) |
 | ✔ | Xor Pyramid |    | [Code](Additional%20Problems/Xor%20Pyramid.cpp) |
 | ✔ | Writing Numbers |    | [Code](Additional%20Problems/Writing%20Numbers.cpp) |
