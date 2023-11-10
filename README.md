@@ -13,7 +13,7 @@ Milestones:
 - [x] 05/05/2022: `Solved 150th Problem`
 - [x] 04/10/2022: `Solved all Geometry Problems`
 - [x] 05/12/2022: `Solved 200th Problem`
-- [ ] 06/11/2023:`Solved all Range query Problems`
+- [x] 06/11/2023: `Solved all Range query Problems`
 
 
 
@@ -214,25 +214,25 @@ Milestones:
 | ✔ | Grundy's Game |    | [Code](Mathematics/Grundy's%20Game.cpp) |
 | ✔ | Another Game |    | [Code](Mathematics/Another%20Game.cpp) |
  ##  String Algorithms
- | Status | Name | Tags | Link |
- | ---- | ---- | ---- | ---- |
- |  | Word Combinations |    | [Code](String%20Algorithms/Word%20Combinations.cpp) |
- | ✔ | String Matching |    | [Code](String%20Algorithms/String%20Matching.cpp) |
- | ✔ | Finding Borders |    | [Code](String%20Algorithms/Finding%20Borders.cpp) |
- | ✔ | Finding Periods |    | [Code](String%20Algorithms/Finding%20Periods.cpp) |
- | ✔ | Minimal Rotation |    | [Code](String%20Algorithms/Minimal%20Rotation.cpp) |
- | ✔ | Longest Palindrome |    | [Code](String%20Algorithms/Longest%20Palindrome.cpp) |
- |  | Required Substring |    | [Code](String%20Algorithms/Required%20Substring.cpp) |
- | ✔ | Palindrome Queries |    | [Code](String%20Algorithms/Palindrome%20Queries.cpp) |
- | ✔ | Finding Patterns |    | [Code](String%20Algorithms/Finding%20Patterns.cpp) |
- | ✔ | Counting Patterns |    | [Code](String%20Algorithms/Counting%20Patterns.cpp) |
- | ✔ | Pattern Positions |    | [Code](String%20Algorithms/Pattern%20Positions.cpp) |
- | ✔ | Distinct Substrings |    | [Code](String%20Algorithms/Distinct%20Substrings.cpp) |
- |  | Repeating Substring |    | [Code](String%20Algorithms/Repeating%20Substring.cpp) |
- | ✔ | String Functions |    | [Code](String%20Algorithms/String%20Functions.cpp) |
- | ✔ | Substring Order I |    | [Code](String%20Algorithms/Substring%20Order%20I.cpp) |
- | ✔ | Substring Order II |    | [Code](String%20Algorithms/Substring%20Order%20II.cpp) |
- |  | Substring Distribution |    | [Code](String%20Algorithms/Substring%20Distribution.cpp) |
+| Status | Name | Tags | Link |
+| ---- | ---- | ---- | ---- |
+| ✔ | Word Combinations | `Trie` `DP` | [Code](String%20Algorithms/Word%20Combinations.cpp) |
+| ✔ | String Matching | `Suffix array` / `Hashing` | [Code](String%20Algorithms/String%20Matching.cpp) |
+| ✔ | Finding Borders | `Z function` `Prefix function` / `Hashing` | [Code](String%20Algorithms/Finding%20Borders.cpp) |
+| ✔ | Finding Periods | `Z function` `Prefix function` / `Hashing` | [Code](String%20Algorithms/Finding%20Periods.cpp) |
+| ✔ | Minimal Rotation | `Suffix Automata` | [Code](String%20Algorithms/Minimal%20Rotation.cpp) |
+| ✔ | Longest Palindrome | `Manacher` | [Code](String%20Algorithms/Longest%20Palindrome.cpp) |
+|  | Required Substring |    | [Code](String%20Algorithms/Required%20Substring.cpp) |
+| ✔ | Palindrome Queries | `Range Sum` `Hashing` | [Code](String%20Algorithms/Palindrome%20Queries.cpp) |
+| ✔ | Finding Patterns |    | [Code](String%20Algorithms/Finding%20Patterns.cpp) |
+| ✔ | Counting Patterns |    | [Code](String%20Algorithms/Counting%20Patterns.cpp) |
+| ✔ | Pattern Positions |    | [Code](String%20Algorithms/Pattern%20Positions.cpp) |
+| ✔ | Distinct Substrings |    | [Code](String%20Algorithms/Distinct%20Substrings.cpp) |
+| ✔ | Repeating Substring | `Hashing` `Binary Search` | [Code](String%20Algorithms/Repeating%20Substring.cpp) |
+| ✔ | String Functions |    | [Code](String%20Algorithms/String%20Functions.cpp) |
+| ✔ | Substring Order I |    | [Code](String%20Algorithms/Substring%20Order%20I.cpp) |
+| ✔ | Substring Order II |    | [Code](String%20Algorithms/Substring%20Order%20II.cpp) |
+| ✔ | Substring Distribution | `Suffix Array` `Longest Common Prefix` | [Code](String%20Algorithms/Substring%20Distribution.cpp) |
  ##  Geometry
  | Status | Name | Tags | Link |
  | ---- | ---- | ---- | ---- |
@@ -254,19 +254,19 @@ Milestones:
 | ✔ | Cut and Paste | `Implicit Treap` | [Code](Advanced%20Techniques/Cut%20and%20Paste.cpp) |
 | ✔ | Substring Reversals | `Implicit Treap` | [Code](Advanced%20Techniques/Substring%20Reversals.cpp) |
 | ✔ | Reversals and Sums | `Implicit Treap` | [Code](Advanced%20Techniques/Reversals%20and%20Sums.cpp) |
-| ✔ | Necessary Roads |    | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
-| ✔ | Necessary Cities |    | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
+| ✔ | Necessary Roads | `Bridges` | [Code](Advanced%20Techniques/Necessary%20Roads.cpp) |
+| ✔ | Necessary Cities | `Articulation Points` | [Code](Advanced%20Techniques/Necessary%20Cities.cpp) |
 |  | Eulerian Subgraphs |    | [Code](Advanced%20Techniques/Eulerian%20Subgraphs.cpp) |
 | ✔ | Monster Game I | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Monster%20Game%20I.cpp) |
 | ✔ | Monster Game II | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Monster%20Game%20II.cpp) |
 | ✔ | Subarray Squares | `DP` `Convex Hull Optimization` | [Code](Advanced%20Techniques/Subarray%20Squares.cpp) |
 |  | Houses and Schools |    | [Code](Advanced%20Techniques/Houses%20and%20Schools.cpp) |
 | ✔ | Knuth Division | `DP` `Knuth Optimization` | [Code](Advanced%20Techniques/Knuth%20Division.cpp) |
-| ✔ | Apples and Bananas |    | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
-| ✔ | One Bit Positions |    | [Code](Advanced%20Techniques/One%20Bit%20Positions.cpp) |
-| ✔ | Signal Processing |    | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
-| ✔ | New Roads Queries |    | [Code](Advanced%20Techniques/New%20Roads%20Queries.cpp) |
-| ✔ | Dynamic Connectivity |    | [Code](Advanced%20Techniques/Dynamic%20Connectivity.cpp) |
+| ✔ | Apples and Bananas | `FFT` | [Code](Advanced%20Techniques/Apples%20and%20Bananas.cpp) |
+| ✔ | One Bit Positions | `FFT` | [Code](Advanced%20Techniques/One%20Bit%20Positions.cpp) |
+| ✔ | Signal Processing | `FFT` | [Code](Advanced%20Techniques/Signal%20Processing.cpp) |
+| ✔ | New Roads Queries | `HLD` | [Code](Advanced%20Techniques/New%20Roads%20Queries.cpp) |
+| ✔ | Dynamic Connectivity | `Dynamic DSU` | [Code](Advanced%20Techniques/Dynamic%20Connectivity.cpp) |
 | ✔ | Parcel Delivery | `Max Flow Min Cost` `Fixed flow` | [Code](Advanced%20Techniques/Parcel%20Delivery.cpp) |
 | ✔ | Task Assignment | `Max Flow Min Cost` | [Code](Advanced%20Techniques/Task%20Assignment.cpp) |
 | ✔ | Distinct Routes II | `Max Flow Min Cost` `Path reconstruction` | [Code](Advanced%20Techniques/Distinct%20Routes%20II.cpp) |
@@ -282,7 +282,7 @@ Milestones:
 |  | Even Outdegree Edges |    | [Code](Additional%20Problems/Even%20Outdegree%20Edges.cpp) |
 | ✔ | Multiplication Table | `Binary Search` `Harmonic Progression` | [Code](Additional%20Problems/Multiplication%20Table.cpp) |
 | ✔ | Advertisement | `Segment Tree` | [Code](Additional%20Problems/Advertisement.cpp) |
-|  | Special Substrings |    | [Code](Additional%20Problems/Special%20Substrings.cpp) |
+| ✔ | Special Substrings | `Constructive` `Hashing` | [Code](Additional%20Problems/Special%20Substrings.cpp) |
 |  | Permutation Inversions |    | [Code](Additional%20Problems/Permutation%20Inversions.cpp) |
 | ✔ | Maximum Xor Subarray | `Trie` `Divide and Conquer` | [Code](Additional%20Problems/Maximum%20Xor%20Subarray.cpp) |
 |  | Movie Festival Queries |    | [Code](Additional%20Problems/Movie%20Festival%20Queries.cpp) |
@@ -323,11 +323,11 @@ Milestones:
 |  | Removing Digits II |    | [Code](Additional%20Problems/Removing%20Digits%20II.cpp) |
 |  | Coin Arrangement |    | [Code](Additional%20Problems/Coin%20Arrangement.cpp) |
 |  | Counting Bishops |    | [Code](Additional%20Problems/Counting%20Bishops.cpp) |
-|  | Grid Puzzle I |    | [Code](Additional%20Problems/Grid%20Puzzle%20I.cpp) |
-|  | Grid Puzzle II |    | [Code](Additional%20Problems/Grid%20Puzzle%20II.cpp) |
+| ✔ | Grid Puzzle I | `Max Flow Min Cut` | [Code](Additional%20Problems/Grid%20Puzzle%20I.cpp) |
+| ✔ | Grid Puzzle II | `Max Flow Max Cost` | [Code](Additional%20Problems/Grid%20Puzzle%20II.cpp) |
 |  | Empty String |    | [Code](Additional%20Problems/Empty%20String.cpp) |
-|  | Grid Paths |    | [Code](Additional%20Problems/Grid%20Paths.cpp) |
-|  | Bit Substrings |    | [Code](Additional%20Problems/Bit%20Substrings.cpp) |
+| ✔ | Grid Paths | `DP` `Inclusion Exclusion Principle` | [Code](Additional%20Problems/Grid%20Paths.cpp) |
+| ✔ | Bit Substrings | `FFT` | [Code](Additional%20Problems/Bit%20Substrings.cpp) |
 |  | Reversal Sorting |    | [Code](Additional%20Problems/Reversal%20Sorting.cpp) |
 |  | Counting Reorders |    | [Code](Additional%20Problems/Counting%20Reorders.cpp) |
 |  | Book Shop II |    | [Code](Additional%20Problems/Book%20Shop%20II.cpp) |

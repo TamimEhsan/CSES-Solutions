@@ -1,62 +1,83 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
-
-const int MAX = 100009;
-ll mods[2] = {1000000007, 1000000009};
-//Some back-up primes: 1072857881, 1066517951, 1040160883
-ll bases[2] = {137, 281};
-ll pwbase[3][MAX];
-
-void Preprocess(){
-    pwbase[0][0] = pwbase[1][0] = 1;
-    for(ll i = 0; i < 2; i++){
-        for(ll j = 1; j < MAX; j++){
-            pwbase[i][j] = (pwbase[i][j - 1] * bases[i]) % mods[i];
+struct SuffixAuto {
+    struct State {
+        int len, link;
+        int next[26];
+        State(int _len = 0, int _link = -1) : len(_len), link(_link) {
+            memset(next, -1, sizeof(next));
         }
+    };
+
+    vector<State> states;
+    int last;
+
+    SuffixAuto() {}
+
+    SuffixAuto(const string &S) {
+        init(S);
     }
-}
 
-struct Hashing{
-    ll hsh[2][MAX];
-    string str;
+    inline int state(int len = 0, int link = -1) {
+        states.emplace_back(len, link);
+        return states.size() - 1;
+    }
 
-    Hashing(){}
-    Hashing(string _str) {str = _str; memset(hsh, 0, sizeof(hsh)); build();}
+    void init(const string &S) {
+        states.reserve(2 * S.size());
+        last = state();
+        for (char c : S)
+            extend(c);
+    }
 
-    void Build(){
-        for(ll i = str.size() - 1; i >= 0; i--){
-            for(int j = 0; j < 2; j++){
-                hsh[j][i] = (hsh[j][i + 1] * bases[j] + str[i]) % mods[j];
-                hsh[j][i] = (hsh[j][i] + mods[j]) % mods[j];
+    void extend(char _c) {
+        int c = _c - 'a'; // change for different alphabet
+        int cur = state(states[last].len + 1), P = last;
+        while (P != -1 && states[P].next[c] == -1) {
+            states[P].next[c] = cur;
+            P = states[P].link;
+        }
+        if (P == -1)
+            states[cur].link = 0;
+        else {
+            int Q = states[P].next[c];
+            if (states[P].len + 1 == states[Q].len)
+                states[cur].link = Q;
+            else {
+                int C = state(states[P].len + 1, states[Q].link);
+                copy(states[Q].next, states[Q].next + 26, states[C].next);
+                while (P != -1 && states[P].next[c] == Q) {
+                    states[P].next[c] = C;
+                    P = states[P].link;
+                }
+                states[Q].link = states[cur].link = C;
             }
         }
-    }
-
-    pair<ll,ll> GetHash(ll i, ll j){
-        assert(i <= j);
-        ll tmp1 = (hsh[0][i] - (hsh[0][j + 1] * pwbase[0][j - i + 1]) % mods[0]) % mods[0];
-        ll tmp2 = (hsh[1][i] - (hsh[1][j + 1] * pwbase[1][j - i + 1]) % mods[1]) % mods[1];
-        if(tmp1 < 0) tmp1 += mods[0];
-        if(tmp2 < 0) tmp2 += mods[1];
-        return make_pair(tmp1, tmp2);
+        last = cur;
     }
 };
+
+string S;
+SuffixAuto sa;
 
 
 
 int main(){
-    int n;
-    cin>>n;
     string s;
     cin>>s;
-    int m = s.size();
-    if( m>n ){
-        cout<<0<<endl;
-        return 0;
+    int n = s.size();
+    s = s+s;
+    sa.init(s);
+    int u = 0;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<26;j++){
+            if( sa.states[u].next[j]!=-1 ){
+                u = sa.states[u].next[j];
+                cout<<(char)(j+'a');
+                break;
+            }
+        }
     }
-    ll res = bigmod(26,n-m) * (n-m);
-    res%=M;
-    cout<<res;
-
 }
