@@ -14,6 +14,7 @@ Milestones:
 - [x] 04/10/2022: `Solved all Geometry Problems`
 - [x] 05/12/2022: `Solved 200th Problem`
 - [x] 06/11/2023: `Solved all Range query Problems`
+- [x] 11/11/2023: `Solved 250th Problem`
 
 
 
@@ -328,7 +329,7 @@ Milestones:
 |  | Empty String |    | [Code](Additional%20Problems/Empty%20String.cpp) |
 | ✔ | Grid Paths | `DP` `Inclusion Exclusion Principle` | [Code](Additional%20Problems/Grid%20Paths.cpp) |
 | ✔ | Bit Substrings | `FFT` | [Code](Additional%20Problems/Bit%20Substrings.cpp) |
-|  | Reversal Sorting |    | [Code](Additional%20Problems/Reversal%20Sorting.cpp) |
+| ✔ | Reversal Sorting | `Implicit Treap` | [Code](Additional%20Problems/Reversal%20Sorting.cpp) |
 |  | Counting Reorders |    | [Code](Additional%20Problems/Counting%20Reorders.cpp) |
 |  | Book Shop II |    | [Code](Additional%20Problems/Book%20Shop%20II.cpp) |
 | ✔ | Network Breakdown | `DSU with rollback` | [Code](Additional%20Problems/Network%20Breakdown.cpp) |
