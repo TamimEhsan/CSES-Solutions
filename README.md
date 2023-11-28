@@ -1,4 +1,8 @@
-This is gonna be my practice run for the upcoming ICPC
+This was my practice run for ICPC. There are more than 250 accepted solutions listed here. I have also added tags for some of the problems.
+
+- At first try to come up with a solution by yourself. 
+- If you can't then read some article on the associated tags and try again. 
+- If you still can't then you proceed to the solution. Try to understand what is going on. Then try your own approach. 
 
 The CSES problems can be found here: https://cses.fi/problemset/list/
 This set has some classic problems. 
@@ -81,10 +85,10 @@ Milestones:
  ##  Dynamic Programming
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-| ✔ | Dice Combinations |    | [Code](Dynamic%20Programming/Dice%20Combinations.cpp) |
-| ✔ | Minimizing Coins |    | [Code](Dynamic%20Programming/Minimizing%20Coins.cpp) |
-| ✔ | Coin Combinations I |    | [Code](Dynamic%20Programming/Coin%20Combinations%20I.cpp) |
-| ✔ | Coin Combinations II |    | [Code](Dynamic%20Programming/Coin%20Combinations%20II.cpp) |
+| ✔ | Dice Combinations | `Coin change DP` | [Code](Dynamic%20Programming/Dice%20Combinations.cpp) |
+| ✔ | Minimizing Coins | `Coin change DP` | [Code](Dynamic%20Programming/Minimizing%20Coins.cpp) |
+| ✔ | Coin Combinations I | `Coin change DP` | [Code](Dynamic%20Programming/Coin%20Combinations%20I.cpp) |
+| ✔ | Coin Combinations II | `Coin change DP` | [Code](Dynamic%20Programming/Coin%20Combinations%20II.cpp) |
 | ✔ | Removing Digits |    | [Code](Dynamic%20Programming/Removing%20Digits.cpp) |
 | ✔ | Grid Paths |    | [Code](Dynamic%20Programming/Grid%20Paths.cpp) |
 | ✔ | Book Shop |    | [Code](Dynamic%20Programming/Book%20Shop.cpp) |
@@ -94,8 +98,8 @@ Milestones:
 | ✔ | Rectangle Cutting |    | [Code](Dynamic%20Programming/Rectangle%20Cutting.cpp) |
 | ✔ | Money Sums |    | [Code](Dynamic%20Programming/Money%20Sums.cpp) |
 | ✔ | Removal Game |    | [Code](Dynamic%20Programming/Removal%20Game.cpp) |
-| ✔ | Two Sets II |    | [Code](Dynamic%20Programming/Two%20Sets%20II.cpp) |
-| ✔ | Increasing Subsequence |    | [Code](Dynamic%20Programming/Increasing%20Subsequence.cpp) |
+| ✔ | Two Sets II | `Knapsack DP` | [Code](Dynamic%20Programming/Two%20Sets%20II.cpp) |
+| ✔ | Increasing Subsequence | `LIS` | [Code](Dynamic%20Programming/Increasing%20Subsequence.cpp) |
 | ✔ | Projects |    | [Code](Dynamic%20Programming/Projects.cpp) |
 |  | Elevator Rides |    | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
 | ✔ | Counting Tilings | `Broken Profile DP` `Bitmask` | [Code](Dynamic%20Programming/Counting%20Tilings.cpp) |
@@ -134,7 +138,7 @@ Milestones:
 |  | De Bruijn Sequence |    | [Code](Graph%20Algorithms/De%20Bruijn%20Sequence.cpp) |
 | ✔ | Teleporters Path |  `Euler Path - Directed`  | [Code](Graph%20Algorithms/Teleporters%20Path.cpp) |
 | ✔ | Hamiltonian Flights | `Hamiltonian Path` `Bitmask DP` | [Code](Graph%20Algorithms/Hamiltonian%20Flights.cpp) |
-|  | Knight's Tour |    | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
+| ✔ | Knight's Tour | `Hamiltonian Path` `Heuristics` | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
 | ✔ | Download Speed | `Max Flow Min Cut` `Push Relabel` `Dinic` | [Code](Graph%20Algorithms/Download%20Speed.cpp) |
 | ✔ | Police Chase | `Max Flow Min Cut` `Push Relabel` | [Code](Graph%20Algorithms/Police%20Chase.cpp) |
 | ✔ | School Dance | `Max Flow``Bipartite Matching` `Hopkroft Carp` | [Code](Graph%20Algorithms/School%20Dance.cpp) |
@@ -159,7 +163,7 @@ Milestones:
 | ✔ | Increasing Array Queries | `Segment tree` `Tree walking` | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
 | ✔ | Forest Queries II |    | [Code](Range%20Queries/Forest%20Queries%20II.cpp) |
 | ✔ | Range Updates and Sums |    | [Code](Range%20Queries/Range%20Updates%20and%20Sums.cpp) |
-| ✔ | Polynomial Queries |    | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
+| ✔ | Polynomial Queries | `Lazy Segment Tree` | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
 | ✔ | Range Queries and Copies | `Persistent Segment Tree` | [Code](Range%20Queries/Range%20Queries%20and%20Copies.cpp) |
  ##  Tree Algorithms
 | Status | Name | Tags | Link |
@@ -306,7 +310,7 @@ Milestones:
 |  | Letter Pair Move Game |    | [Code](Additional%20Problems/Letter%20Pair%20Move%20Game.cpp) |
 | ✔ | Maximum Building I | `Segment Tree` | [Code](Additional%20Problems/Maximum%20Building%20I.cpp) |
 |  | Sorting Methods |    | [Code](Additional%20Problems/Sorting%20Methods.cpp) |
-|  | Cyclic Array |    | [Code](Additional%20Problems/Cyclic%20Array.cpp) |
+| ✔ | Cyclic Array | `Binary Search` `Greedy` | [Code](Additional%20Problems/Cyclic%20Array.cpp) |
 |  | List of Sums |    | [Code](Additional%20Problems/List%20of%20Sums.cpp) |
 |  | Increasing Array II |    | [Code](Additional%20Problems/Increasing%20Array%20II.cpp) |
 |  | Food Division |    | [Code](Additional%20Problems/Food%20Division.cpp) |
@@ -335,7 +339,7 @@ Milestones:
 | ✔ | Network Breakdown | `DSU with rollback` | [Code](Additional%20Problems/Network%20Breakdown.cpp) |
 |  | Visiting Cities |    | [Code](Additional%20Problems/Visiting%20Cities.cpp) |
 |  | Missing Coin Sum Queries |    | [Code](Additional%20Problems/Missing%20Coin%20Sum%20Queries.cpp) |
-|  | Number Grid |    | [Code](Additional%20Problems/Number%20Grid.cpp) |
+| ✔ | Number Grid | `Constructive` | [Code](Additional%20Problems/Number%20Grid.cpp) |
 |  | Maximum Building II |    | [Code](Additional%20Problems/Maximum%20Building%20II.cpp) |
 |  | Filling Trominos |    | [Code](Additional%20Problems/Filling%20Trominos.cpp) |
 | ✔ | Stick Divisions | `Huffman Coding` `greedy` | [Code](Additional%20Problems/Stick%20Divisions.cpp) |
