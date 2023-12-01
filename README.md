@@ -343,7 +343,7 @@ Milestones:
 |  | Maximum Building II |    | [Code](Additional%20Problems/Maximum%20Building%20II.cpp) |
 |  | Filling Trominos |    | [Code](Additional%20Problems/Filling%20Trominos.cpp) |
 | ✔ | Stick Divisions | `Huffman Coding` `greedy` | [Code](Additional%20Problems/Stick%20Divisions.cpp) |
-|  | Coding Company |    | [Code](Additional%20Problems/Coding%20Company.cpp) |
+| ✔ | Coding Company | `Open and Close Interval DP` | [Code](Additional%20Problems/Coding%20Company.cpp) |
 |  | Flight Route Requests |    | [Code](Additional%20Problems/Flight%20Route%20Requests.cpp) |
 |  | Two Stacks Sorting |    | [Code](Additional%20Problems/Two%20Stacks%20Sorting.cpp) |
 | ✔ | Tree Isomorphism II | `Tree Isomorphism` `unrooted` | [Code](Additional%20Problems/Tree%20Isomorphism%20II.cpp) |
