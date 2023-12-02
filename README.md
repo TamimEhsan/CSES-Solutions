@@ -17,8 +17,9 @@ Milestones:
 - [x] 05/05/2022: `Solved 150th Problem`
 - [x] 04/10/2022: `Solved all Geometry Problems`
 - [x] 05/12/2022: `Solved 200th Problem`
-- [x] 06/11/2023: `Solved all Range query Problems`
+- [x] 06/11/2023: `Solved all Range Query Problems`
 - [x] 11/11/2023: `Solved 250th Problem`
+- [x] 03/12/2023: `Solved all Sorting and Searching Problems`
 
 
 
@@ -80,7 +81,7 @@ Milestones:
 | ✔ | Array Division |    | [Code](Sorting%20and%20Searching/Array%20Division.cpp) |
 | ✔ | Sliding Median |    | [Code](Sorting%20and%20Searching/Sliding%20Median.cpp) |
 | ✔ | Sliding Cost | `OST` ``Point Update Range Sum`` | [Code](Sorting%20and%20Searching/Sliding%20Cost.cpp) |
-|  | Movie Festival II |    | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
+| ✔ | Movie Festival II | `Greedy Scheduling` `Binary Search` | [Code](Sorting%20and%20Searching/Movie%20Festival%20II.cpp) |
 | ✔ | Maximum Subarray Sum II |    | [Code](Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp) |
  ##  Dynamic Programming
 | Status | Name | Tags | Link |
