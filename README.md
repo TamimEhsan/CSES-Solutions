@@ -291,7 +291,7 @@ Milestones:
 | ✔ | Special Substrings | `Constructive` `Hashing` | [Code](Additional%20Problems/Special%20Substrings.cpp) |
 |  | Permutation Inversions |    | [Code](Additional%20Problems/Permutation%20Inversions.cpp) |
 | ✔ | Maximum Xor Subarray | `Trie` `Divide and Conquer` | [Code](Additional%20Problems/Maximum%20Xor%20Subarray.cpp) |
-|  | Movie Festival Queries |    | [Code](Additional%20Problems/Movie%20Festival%20Queries.cpp) |
+| ✔ | Movie Festival Queries | `Greedy Scheduling` `RMQ` `Binary Lifting` | [Code](Additional%20Problems/Movie%20Festival%20Queries.cpp) |
 | ✔ | Chess Tournament | `Greedy` | [Code](Additional%20Problems/Chess%20Tournament.cpp) |
 | ✔ | Tree Traversals |  | [Code](Additional%20Problems/Tree%20Traversals.cpp) |
 | ✔ | Network Renovation | `Euler Tour` | [Code](Additional%20Problems/Network%20Renovation.cpp) |
