@@ -11,16 +11,10 @@ This set has some classic problems.
 
 Milestones:
 
-- [x] 25/11/2021: `Solved all Introductory Problems`
-- [x] 30/11/2021: `Solved all Tree Problems`
 - [x] 29/12/2021: `Solved 100th Problem`
 - [x] 05/05/2022: `Solved 150th Problem`
-- [x] 04/10/2022: `Solved all Geometry Problems`
 - [x] 05/12/2022: `Solved 200th Problem`
-- [x] 06/11/2023: `Solved all Range Query Problems`
 - [x] 11/11/2023: `Solved 250th Problem`
-- [x] 03/12/2023: `Solved all Sorting and Searching Problems`
-
 
 ## Introductory Problems
 
@@ -41,12 +35,12 @@ Milestones:
 | ✔ | Gray Code |  | [Code](Introductory%20Problems/Gray%20Code.cpp) |
 | ✔ | Tower of Hanoi |  | [Code](Introductory%20Problems/Tower%20of%20Hanoi.cpp) |
 | ✔ | Creating Strings |  | [Code](Introductory%20Problems/Creating%20Strings.cpp) |
-| ✔ | Apple Division |  | [Code](Introductory%20Problems/Apple%20Division.cpp) |
+| ✔ | Apple Division |  | [Code](Introductory%20Problems/Apple%20Division.cpp) |Distinct Values Subsequences
 | ✔ | Chessboard and Queens |  | [Code](Introductory%20Problems/Chessboard%20and%20Queens.cpp) |
 |  | Raab Game I |  | [Code](Introductory%20Problems/Raab%20Game%20I.cpp) |
 |  | Mex Grid Construction |  | [Code](Introductory%20Problems/Mex%20Grid%20Construction.cpp) |
-|  | Knight Moves Grid |  | [Code](Introductory%20Problems/Knight%20Moves%20Grid.cpp) |
-|  | Grid Coloring I |  | [Code](Introductory%20Problems/Grid%20Coloring%20I.cpp) |
+| ✔ | Knight Moves Grid | `BFS` | [Code](Introductory%20Problems/Knight%20Moves%20Grid.cpp) |
+| ✔ | Grid Coloring I | `greedy` | [Code](Introductory%20Problems/Grid%20Coloring%20I.cpp) |
 | ✔ | Digit Queries |  | [Code](Introductory%20Problems/Digit%20Queries.cpp) |
 |  | String Reorder |  | [Code](Introductory%20Problems/String%20Reorder.cpp) |
 | ✔ | Grid Path Description |  | [Code](Introductory%20Problems/Grid%20Path%20Description.cpp) |
@@ -71,7 +65,7 @@ Milestones:
 | ✔ | Towers |  | [Code](Sorting%20and%20Searching/Towers.cpp) |
 | ✔ | Traffic Lights |  | [Code](Sorting%20and%20Searching/Traffic%20Lights.cpp) |
 |  | Distinct Values Subarrays |  | [Code](Sorting%20and%20Searching/Distinct%20Values%20Subarrays.cpp) |
-|  | Distinct Values Subsequences |  | [Code](Sorting%20and%20Searching/Distinct%20Values%20Subsequences.cpp) |
+| ✔ | Distinct Values Subsequences | `Counting` | [Code](Sorting%20and%20Searching/Distinct%20Values%20Subsequences.cpp) |
 | ✔ | Josephus Problem I |  | [Code](Sorting%20and%20Searching/Josephus%20Problem%20I.cpp) |
 | ✔ | Josephus Problem II | `OST` | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
 | ✔ | Nested Ranges Check |  | [Code](Sorting%20and%20Searching/Nested%20Ranges%20Check.cpp) |
@@ -224,7 +218,7 @@ Milestones:
 | ✔ | Divisor Analysis |  | [Code](Mathematics/Divisor%20Analysis.cpp) |
 | ✔ | Prime Multiples |  | [Code](Mathematics/Prime%20Multiples.cpp) |
 | ✔ | Counting Coprime Pairs |  | [Code](Mathematics/Counting%20Coprime%20Pairs.cpp) |
-|  | Next Prime |  | [Code](Mathematics/Next%20Prime.cpp) |
+| ✔ | Next Prime | `Segmented Sieve` | [Code](Mathematics/Next%20Prime.cpp) |
 | ✔ | Binomial Coefficients |  | [Code](Mathematics/Binomial%20Coefficients.cpp) |
 | ✔ | Creating Strings II |  | [Code](Mathematics/Creating%20Strings%20II.cpp) |
 | ✔ | Distributing Apples |  | [Code](Mathematics/Distributing%20Apples.cpp) |
