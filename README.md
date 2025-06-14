@@ -15,6 +15,7 @@ Milestones:
 - [x] 05/05/2022: `Solved 150th Problem`
 - [x] 05/12/2022: `Solved 200th Problem`
 - [x] 11/11/2023: `Solved 250th Problem`
+- [x] 14/06/2025: `Solved all Searching and Sorting Problems`
 
 ## Introductory Problems
 
@@ -38,7 +39,7 @@ Milestones:
 | ✔ | Apple Division |  | [Code](Introductory%20Problems/Apple%20Division.cpp) |Distinct Values Subsequences
 | ✔ | Chessboard and Queens |  | [Code](Introductory%20Problems/Chessboard%20and%20Queens.cpp) |
 |  | Raab Game I |  | [Code](Introductory%20Problems/Raab%20Game%20I.cpp) |
-|  | Mex Grid Construction |  | [Code](Introductory%20Problems/Mex%20Grid%20Construction.cpp) |
+| ✔ | Mex Grid Construction | `Brute Force` | [Code](Introductory%20Problems/Mex%20Grid%20Construction.cpp) |
 | ✔ | Knight Moves Grid | `BFS` | [Code](Introductory%20Problems/Knight%20Moves%20Grid.cpp) |
 | ✔ | Grid Coloring I | `greedy` | [Code](Introductory%20Problems/Grid%20Coloring%20I.cpp) |
 | ✔ | Digit Queries |  | [Code](Introductory%20Problems/Digit%20Queries.cpp) |
@@ -64,7 +65,7 @@ Milestones:
 | ✔ | Playlist |  | [Code](Sorting%20and%20Searching/Playlist.cpp) |
 | ✔ | Towers |  | [Code](Sorting%20and%20Searching/Towers.cpp) |
 | ✔ | Traffic Lights |  | [Code](Sorting%20and%20Searching/Traffic%20Lights.cpp) |
-|  | Distinct Values Subarrays |  | [Code](Sorting%20and%20Searching/Distinct%20Values%20Subarrays.cpp) |
+| ✔ | Distinct Values Subarrays | `Counting` | [Code](Sorting%20and%20Searching/Distinct%20Values%20Subarrays.cpp) |
 | ✔ | Distinct Values Subsequences | `Counting` | [Code](Sorting%20and%20Searching/Distinct%20Values%20Subsequences.cpp) |
 | ✔ | Josephus Problem I |  | [Code](Sorting%20and%20Searching/Josephus%20Problem%20I.cpp) |
 | ✔ | Josephus Problem II | `OST` | [Code](Sorting%20and%20Searching/Josephus%20Problem%20II.cpp) |
@@ -99,7 +100,7 @@ Milestones:
 | ✔ | Array Description |  | [Code](Dynamic%20Programming/Array%20Description.cpp) |
 | ✔ | Counting Towers |  | [Code](Dynamic%20Programming/Counting%20Towers.cpp) |
 | ✔ | Edit Distance |  | [Code](Dynamic%20Programming/Edit%20Distance.cpp) |
-|  | Longest Common Subsequence |  | [Code](Dynamic%20Programming/Longest%20Common%20Subsequence.cpp) |
+| ✔ | Longest Common Subsequence | `LCS` | [Code](Dynamic%20Programming/Longest%20Common%20Subsequence.cpp) |
 | ✔ | Rectangle Cutting |  | [Code](Dynamic%20Programming/Rectangle%20Cutting.cpp) |
 |  | Minimal Grid Path |  | [Code](Dynamic%20Programming/Minimal%20Grid%20Path.cpp) |
 | ✔ | Money Sums |  | [Code](Dynamic%20Programming/Money%20Sums.cpp) |
@@ -284,8 +285,8 @@ Milestones:
 | ✔ | Polygon Lattice Points |  | [Code](Geometry/Polygon%20Lattice%20Points.cpp) |
 |  | Minimum Euclidean Distance |  | [Code](Geometry/Minimum%20Euclidean%20Distance.cpp) |
 | ✔ | Convex Hull |  | [Code](Geometry/Convex%20Hull.cpp) |
-|  | Maximum Manhattan Distances |  | [Code](Geometry/Maximum%20Manhattan%20Distances.cpp) |
-|  | All Manhattan Distances |  | [Code](Geometry/All%20Manhattan%20Distances.cpp) |
+| ✔ | Maximum Manhattan Distances | `Chebyshev Transformation` | [Code](Geometry/Maximum%20Manhattan%20Distances.cpp) |
+| ✔ | All Manhattan Distances | `Counting` | [Code](Geometry/All%20Manhattan%20Distances.cpp) |
 | ✔ | Intersection Points | `Range Query with Sweep Line` | [Code](Geometry/Intersection%20Points.cpp) |
 |  | Line Segments Trace I |  | [Code](Geometry/Line%20Segments%20Trace%20I.cpp) |
 |  | Line Segments Trace II |  | [Code](Geometry/Line%20Segments%20Trace%20II.cpp) |
@@ -328,12 +329,12 @@ Milestones:
 
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-|  | Sliding Window Sum |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Sum.cpp) |
-|  | Sliding Window Minimum |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Minimum.cpp) |
-|  | Sliding Window Xor |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Xor.cpp) |
+| ✔ | Sliding Window Sum |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Sum.cpp) |
+| ✔ | Sliding Window Minimum |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Minimum.cpp) |
+| ✔ | Sliding Window Xor |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Xor.cpp) |
 |  | Sliding Window Or |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Or.cpp) |
-|  | Sliding Window Distinct Values |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Distinct%20Values.cpp) |
-|  | Sliding Window Mode |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Mode.cpp) |
+| ✔ | Sliding Window Distinct Values |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Distinct%20Values.cpp) |
+| ✔ | Sliding Window Mode |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Mode.cpp) |
 |  | Sliding Window Mex |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Mex.cpp) |
 | ✔ | Sliding Window Median |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Median.cpp) |
 | ✔ | Sliding Window Cost |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Cost.cpp) |
@@ -344,7 +345,7 @@ Milestones:
 
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-|  | Hidden Integer |  | [Code](Interactive%20Problems/Hidden%20Integer.cpp) |
+| ✔ | Hidden Integer | `Binary Search` | [Code](Interactive%20Problems/Hidden%20Integer.cpp) |
 |  | Hidden Permutation |  | [Code](Interactive%20Problems/Hidden%20Permutation.cpp) |
 |  | K-th Highest Score |  | [Code](Interactive%20Problems/K-th%20Highest%20Score.cpp) |
 |  | Permuted Binary Strings |  | [Code](Interactive%20Problems/Permuted%20Binary%20Strings.cpp) |
