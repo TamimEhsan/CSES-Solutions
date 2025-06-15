@@ -109,7 +109,7 @@ Milestones:
 |  | Mountain Range |  | [Code](Dynamic%20Programming/Mountain%20Range.cpp) |
 | ✔ | Increasing Subsequence | `LIS` | [Code](Dynamic%20Programming/Increasing%20Subsequence.cpp) |
 | ✔ | Projects |  | [Code](Dynamic%20Programming/Projects.cpp) |
-|  | Elevator Rides |  | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
+| ✔ | Elevator Rides | `Bitmask DP` | [Code](Dynamic%20Programming/Elevator%20Rides.cpp) |
 | ✔ | Counting Tilings | `Broken Profile DP` `Bitmask` | [Code](Dynamic%20Programming/Counting%20Tilings.cpp) |
 | ✔ | Counting Numbers | `Digit Dp` | [Code](Dynamic%20Programming/Counting%20Numbers.cpp) |
 | ✔ | Increasing Subsequence II |  | [Code](Dynamic%20Programming/Increasing%20Subsequence%20II.cpp) |
@@ -332,13 +332,13 @@ Milestones:
 | ✔ | Sliding Window Sum |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Sum.cpp) |
 | ✔ | Sliding Window Minimum |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Minimum.cpp) |
 | ✔ | Sliding Window Xor |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Xor.cpp) |
-|  | Sliding Window Or |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Or.cpp) |
+| ✔ | Sliding Window Or | `Two Stack` | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Or.cpp) |
 | ✔ | Sliding Window Distinct Values |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Distinct%20Values.cpp) |
 | ✔ | Sliding Window Mode |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Mode.cpp) |
-|  | Sliding Window Mex |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Mex.cpp) |
+| ✔ | Sliding Window Mex |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Mex.cpp) |
 | ✔ | Sliding Window Median |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Median.cpp) |
 | ✔ | Sliding Window Cost |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Cost.cpp) |
-|  | Sliding Window Inversions |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Inversions.cpp) |
+| ✔ | Sliding Window Inversions | `Segment Tree` | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Inversions.cpp) |
 |  | Sliding Window Advertisement |  | [Code](Sliding%20Window%20Problems/Sliding%20Window%20Advertisement.cpp) |
 
 ## Interactive Problems
@@ -358,8 +358,8 @@ Milestones:
 | ---- | ---- | ---- | ---- |
 | ✔ | Counting Bits |  | [Code](Bitwise%20Operations/Counting%20Bits.cpp) |
 | ✔ | Maximum Xor Subarray | `Trie` `Divide and Conquer` | [Code](Bitwise%20Operations/Maximum%20Xor%20Subarray.cpp) |
-|  | Maximum Xor Subset |  | [Code](Bitwise%20Operations/Maximum%20Xor%20Subset.cpp) |
-|  | Number of Subset Xors |  | [Code](Bitwise%20Operations/Number%20of%20Subset%20Xors.cpp) |
+| ✔ | Maximum Xor Subset | `Xor Basis` | [Code](Bitwise%20Operations/Maximum%20Xor%20Subset.cpp) |
+| ✔ | Number of Subset Xors | `Xor Basis` | [Code](Bitwise%20Operations/Number%20of%20Subset%20Xors.cpp) |
 |  | K Subset Xors |  | [Code](Bitwise%20Operations/K%20Subset%20Xors.cpp) |
 |  | All Subarray Xors |  | [Code](Bitwise%20Operations/All%20Subarray%20Xors.cpp) |
 | ✔ | Xor Pyramid Peak |  | [Code](Bitwise%20Operations/Xor%20Pyramid%20Peak.cpp) |
