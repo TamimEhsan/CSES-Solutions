@@ -1,3 +1,8 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
+#pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("O3")
+
 #include<bits/stdc++.h>
 using namespace std;
 //#define INF 2147483647
@@ -85,8 +90,10 @@ void rec(int l, int r) {
 
 
 int main(){
+    FASTIO;
     int n;
     cin>>n;
+    a.reserve(n);
     for(int i=0;i<n;i++){
         int x,y;
         cin>>x>>y;
@@ -97,6 +104,4 @@ int main(){
     mindist = 1E20;
     rec(0, n);
     cout<<mindist;
-
-
 }

@@ -171,8 +171,8 @@ Milestones:
 | ✔ | Salary Queries |  | [Code](Range%20Queries/Salary%20Queries.cpp) |
 | ✔ | Prefix Sum Queries |  | [Code](Range%20Queries/Prefix%20Sum%20Queries.cpp) |
 | ✔ | Pizzeria Queries |  | [Code](Range%20Queries/Pizzeria%20Queries.cpp) |
-|  | Visible Buildings Queries |  | [Code](Range%20Queries/Visible%20Buildings%20Queries.cpp) |
-|  | Range Interval Queries |  | [Code](Range%20Queries/Range%20Interval%20Queries.cpp) |
+| ✔ | Visible Buildings Queries | `Binary Lifting` | [Code](Range%20Queries/Visible%20Buildings%20Queries.cpp) |
+| ✔ | Range Interval Queries | `Merge Sort Tree` | [Code](Range%20Queries/Range%20Interval%20Queries.cpp) |
 | ✔ | Subarray Sum Queries |  | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
 |  | Subarray Sum Queries II |  | [Code](Range%20Queries/Subarray%20Sum%20Queries%20II.cpp) |
 | ✔ | Distinct Values Queries |  | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
@@ -278,7 +278,7 @@ Milestones:
 
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-|  | Point Location Test |  | [Code](Geometry/Point%20Location%20Test.cpp) |
+| ✔ | Point Location Test | `Cross Product` | [Code](Geometry/Point%20Location%20Test.cpp) |
 | ✔ | Line Segment Intersection |  | [Code](Geometry/Line%20Segment%20Intersection.cpp) |
 | ✔ | Polygon Area |  | [Code](Geometry/Polygon%20Area.cpp) |
 | ✔ | Point in Polygon |  | [Code](Geometry/Point%20in%20Polygon.cpp) |
@@ -346,8 +346,8 @@ Milestones:
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
 | ✔ | Hidden Integer | `Binary Search` | [Code](Interactive%20Problems/Hidden%20Integer.cpp) |
-|  | Hidden Permutation |  | [Code](Interactive%20Problems/Hidden%20Permutation.cpp) |
-|  | K-th Highest Score |  | [Code](Interactive%20Problems/K-th%20Highest%20Score.cpp) |
+| ✔ | Hidden Permutation | `Merge Sort` | [Code](Interactive%20Problems/Hidden%20Permutation.cpp) |
+| ✔ | K-th Highest Score | `Binary Seach`  | [Code](Interactive%20Problems/K-th%20Highest%20Score.cpp) |
 |  | Permuted Binary Strings |  | [Code](Interactive%20Problems/Permuted%20Binary%20Strings.cpp) |
 |  | Colored Chairs |  | [Code](Interactive%20Problems/Colored%20Chairs.cpp) |
 |  | Inversion Sorting |  | [Code](Interactive%20Problems/Inversion%20Sorting.cpp) |
@@ -395,9 +395,9 @@ Milestones:
 | ✔ | Graph Girth | `BFS Tree` | [Code](Advanced%20Graph%20Problems/Graph%20Girth.cpp) |
 |  | Fixed Length Walk Queries |  | [Code](Advanced%20Graph%20Problems/Fixed%20Length%20Walk%20Queries.cpp) |
 |  | Transfer Speeds Sum |  | [Code](Advanced%20Graph%20Problems/Transfer%20Speeds%20Sum.cpp) |
-|  | MST Edge Check |  | [Code](Advanced%20Graph%20Problems/MST%20Edge%20Check.cpp) |
+| ✔ | MST Edge Check | `DSU` | [Code](Advanced%20Graph%20Problems/MST%20Edge%20Check.cpp) |
 |  | MST Edge Set Check |  | [Code](Advanced%20Graph%20Problems/MST%20Edge%20Set%20Check.cpp) |
-|  | MST Edge Cost |  | [Code](Advanced%20Graph%20Problems/MST%20Edge%20Cost.cpp) |
+| ✔ | MST Edge Cost | `HLD` `DSU` | [Code](Advanced%20Graph%20Problems/MST%20Edge%20Cost.cpp) |
 | ✔ | Network Breakdown | `DSU with rollback` | [Code](Advanced%20Graph%20Problems/Network%20Breakdown.cpp) |
 |  | Tree Coin Collecting I |  | [Code](Advanced%20Graph%20Problems/Tree%20Coin%20Collecting%20I.cpp) |
 |  | Tree Coin Collecting II |  | [Code](Advanced%20Graph%20Problems/Tree%20Coin%20Collecting%20II.cpp) |
