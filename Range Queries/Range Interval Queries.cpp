@@ -1,53 +1,141 @@
-#include<bits/stdc++.h>
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+ 
+#include <bits/stdc++.h>
 using namespace std;
-
-#define FASTIO ios_base::sync_with_stdio(false);cin.tie(NULL); cout.tie(NULL);
-#define endl '\n'
-
-const int MAXN = 100005;
-
-int A[MAXN];
-vector<int>tree[MAXN*5];
-
-#define Left (node*2)
-#define Right (node*2+1)
-#define mid ((lo+hi)/2)
-
-void build(int node, int lo, int hi){
-    if(lo==hi) {tree[node].push_back(A[lo]); return;}
-    build(Left,lo,mid);
-    build(Right,mid+1,hi);
-    merge(tree[Left].begin(),tree[Left].end(),tree[Right].begin(),tree[Right].end(),back_inserter(tree[node]));
-}
-
-// Function to count elements in the range [i, j] that are less than x
-int query(int node, int lo, int hi, int i, int j, int x){
-    if(i>hi || j<lo) return 0;
-    if(lo>=i && hi<=j) return lower_bound(tree[node].begin(),tree[node].end(),x) - tree[node].begin();
-    int p1 = query(Left,lo,mid,i,j,x);
-    int p2 = query(Right,mid+1,hi,i,j,x);
-    return p1+p2;
-}
-
-void solve() {
-    int n,q;
-    cin>>n>>q;
-    for(int i=0;i<n;i++){
-         cin>>A[i];
+ 
+struct Event {
+    int type; // 0 = insert x[i], 1 = query
+    int idx;  // i for insert, query index for query
+    int val;  // value of x[i]
+    int c, d; // [c, d] for query
+    int ans_idx; // index to store answer
+    int multiplier = 1; // multiplier for value, if needed
+};
+ 
+struct FenwickTree {
+    vector<int> bit;  // binary indexed tree
+    int n;
+ 
+    FenwickTree(int n) {
+        this->n = n;
+        bit.assign(n, 0);
     }
-    build(1,0,n-1);
-    while(q--){
-        int a,b,c,d;
-        cin>>a>>b>>c>>d;
-        a--; b--; // Convert to 0-based index
-        int count = query(1, 0, n - 1, a, b, d + 1) - query(1, 0, n - 1, a, b, c);
-        cout << count << endl;
+ 
+    FenwickTree(vector<int> const &a) : FenwickTree(a.size()) {
+        for (size_t i = 0; i < a.size(); i++)
+            add(i, a[i]);
     }
-}
-
+ 
+    int sum(int r) {
+        int ret = 0;
+        for (; r >= 0; r = (r & (r + 1)) - 1)
+            ret += bit[r];
+        return ret;
+    }
+ 
+    int sum(int l, int r) {
+        if (l > r) return 0;
+        return sum(r) - sum(l - 1);
+    }
+ 
+    void add(int idx, int delta) {
+        for (; idx < n; idx = idx | (idx + 1))
+            bit[idx] += delta;
+    }
+};
+ 
 int main() {
-    FASTIO;
-    solve();
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+ 
+    int n, q;
+    cin >> n >> q;
+ 
+    vector<int> x(n);
+    for (int i = 0; i < n; ++i)
+        cin >> x[i];
+ 
+    vector<vector<int>> queries(q, vector<int>(4));
+    for (int i = 0; i < q; ++i) {
+        int a, b, c, d;
+        cin >> a >> b >> c >> d;
+        queries[i] = {a - 1, b - 1, c, d}; // convert to 0-based
+    }
+ 
+    // Coordinate compression
+    set<int> all_values;
+    for (int v : x)
+        all_values.insert(v);
+    
+ 
+    unordered_map<int, int> compress;
+    int id = 0;
+    for (int v : all_values)
+        compress[v] = ++id;
+ 
+    for (int &v : x)
+        v = compress[v];
+    for (auto &qr : queries) {
+        auto it = all_values.lower_bound(qr[2]);
+        if ( it == all_values.end() ) {
+            qr[2] = compress.size()+1; // no valid c
+        } else {
+            qr[2] = compress[*it];
+        }
+ 
+        it = all_values.upper_bound(qr[3]);
+        if ( it == all_values.begin() ) {
+            qr[3] = 0; // no valid d
+        } else {
+            it--;
+            qr[3] = compress[*it];
+        }
+        // cout << qr[2] << " " << qr[3] << "\n";
+    }
+  
+ 
+    // Prepare Events
+    vector<Event> events;
+    for (int i = 0; i < n; ++i) {
+        events.push_back({0, i, x[i]}); // insert x[i]
+    }
+ 
+    for (int i = 0; i < q; ++i) {
+        int a = queries[i][0], b = queries[i][1];
+        int c = queries[i][2], d = queries[i][3];
+        events.push_back({1, b, 0, c, d, i, 1}); // query at time b
+        events.push_back({1, a-1, 0, c, d, i, -1}); // query at time b
+ 
+    }
+ 
+    // Sort events by index (time), so insertions come before queries
+    sort(events.begin(), events.end(), [](const Event &e1, const Event &e2) {
+        if (e1.idx != e2.idx) return e1.idx < e2.idx;
+        return e1.type < e2.type; // insert before query
+    });
+ 
+    // Fenwick Tree
+    FenwickTree bit(compress.size()+1);
+    vector<int> ans(q);
+ 
+    for (auto e : events) {
+        if (e.type == 0) {
+            // Insert event: add x[i] to BIT
+            bit.add(e.val, 1);
+            // cout << "Inserted: " << e.val << "\n";
+        } else {
+            // Query event: get count of values in [c, d]
+            ans[e.ans_idx] += bit.sum(e.c, e.d) * e.multiplier;
+            // cout << "Query [" << e.c << ", " << e.d << "] at index " << e.idx 
+                //  << ": count = " << bit.sum(e.c, e.d) * e.multiplier << "\n";
+        }
+    }
+ 
+    // Final output
+    for (int a : ans)
+        cout << a << "\n";
  
     return 0;
 }

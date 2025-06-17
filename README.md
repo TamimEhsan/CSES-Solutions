@@ -174,7 +174,7 @@ Milestones:
 | ✔ | Visible Buildings Queries | `Binary Lifting` | [Code](Range%20Queries/Visible%20Buildings%20Queries.cpp) |
 | ✔ | Range Interval Queries | `Merge Sort Tree` | [Code](Range%20Queries/Range%20Interval%20Queries.cpp) |
 | ✔ | Subarray Sum Queries |  | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
-|  | Subarray Sum Queries II |  | [Code](Range%20Queries/Subarray%20Sum%20Queries%20II.cpp) |
+| ✔ | Subarray Sum Queries II | `Segment tree` | [Code](Range%20Queries/Subarray%20Sum%20Queries%20II.cpp) |
 | ✔ | Distinct Values Queries |  | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
 |  | Distinct Values Queries II |  | [Code](Range%20Queries/Distinct%20Values%20Queries%20II.cpp) |
 | ✔ | Increasing Array Queries | `Segment tree` `Tree walking` | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
@@ -385,7 +385,7 @@ Milestones:
 
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-|  | Nearest Shops |  | [Code](Advanced%20Graph%20Problems/Nearest%20Shops.cpp) |
+| ✔ | Nearest Shops | `BFS` | [Code](Advanced%20Graph%20Problems/Nearest%20Shops.cpp) |
 | ✔ | Prüfer Code | `Prüfer Code` | [Code](Advanced%20Graph%20Problems/Prüfer%20Code.cpp) |
 | ✔ | Tree Traversals |  | [Code](Advanced%20Graph%20Problems/Tree%20Traversals.cpp) |
 |  | Course Schedule II |  | [Code](Advanced%20Graph%20Problems/Course%20Schedule%20II.cpp) |
@@ -418,7 +418,7 @@ Milestones:
 
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-|  | Filled Subgrid Count I |  | [Code](Counting%20Problems/Filled%20Subgrid%20Count%20I.cpp) |
+| ✔ | Filled Subgrid Count I | `DP` | [Code](Counting%20Problems/Filled%20Subgrid%20Count%20I.cpp) |
 |  | Filled Subgrid Count II |  | [Code](Counting%20Problems/Filled%20Subgrid%20Count%20II.cpp) |
 |  | All Letter Subgrid Count I |  | [Code](Counting%20Problems/All%20Letter%20Subgrid%20Count%20I.cpp) |
 |  | All Letter Subgrid Count II |  | [Code](Counting%20Problems/All%20Letter%20Subgrid%20Count%20II.cpp) |
@@ -447,7 +447,7 @@ Milestones:
 | ✔ | Swap Game |  | [Code](Additional%20Problems%20I/Swap%20Game.cpp) |
 |  | Beautiful Permutation II |  | [Code](Additional%20Problems%20I/Beautiful%20Permutation%20II.cpp) |
 | ✔ | Multiplication Table | `Binary Search` `Harmonic Progression` | [Code](Additional%20Problems%20I/Multiplication%20Table.cpp) |
-|  | Bubble Sort Rounds I |  | [Code](Additional%20Problems%20I/Bubble%20Sort%20Rounds%20I.cpp) |
+| ✔ | Bubble Sort Rounds I | `Sorting` | [Code](Additional%20Problems%20I/Bubble%20Sort%20Rounds%20I.cpp) |
 |  | Bubble Sort Rounds II |  | [Code](Additional%20Problems%20I/Bubble%20Sort%20Rounds%20II.cpp) |
 |  | Nearest Campsites I |  | [Code](Additional%20Problems%20I/Nearest%20Campsites%20I.cpp) |
 |  | Nearest Campsites II |  | [Code](Additional%20Problems%20I/Nearest%20Campsites%20II.cpp) |
