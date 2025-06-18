@@ -442,8 +442,8 @@ Milestones:
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
 | ✔ | Shortest Subsequence |  | [Code](Additional%20Problems%20I/Shortest%20Subsequence.cpp) |
-|  | Distinct Values Sum |  | [Code](Additional%20Problems%20I/Distinct%20Values%20Sum.cpp) |
-|  | Distinct Values Splits |  | [Code](Additional%20Problems%20I/Distinct%20Values%20Splits.cpp) |
+| ✔ | Distinct Values Sum | `Contribution Technique` | [Code](Additional%20Problems%20I/Distinct%20Values%20Sum.cpp) |
+| ✔ | Distinct Values Splits | `DP` `Prefix Sum` | [Code](Additional%20Problems%20I/Distinct%20Values%20Splits.cpp) |
 | ✔ | Swap Game |  | [Code](Additional%20Problems%20I/Swap%20Game.cpp) |
 |  | Beautiful Permutation II |  | [Code](Additional%20Problems%20I/Beautiful%20Permutation%20II.cpp) |
 | ✔ | Multiplication Table | `Binary Search` `Harmonic Progression` | [Code](Additional%20Problems%20I/Multiplication%20Table.cpp) |
