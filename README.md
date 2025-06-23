@@ -130,7 +130,7 @@ Milestones:
 | ✔ | High Score | `Single Source Shortest Path` ` Bellman Ford` | [Code](Graph%20Algorithms/High%20Score.cpp) |
 | ✔ | Flight Discount | `Single Source Shortest Path` ` Dijkstra` | [Code](Graph%20Algorithms/Flight%20Discount.cpp) |
 | ✔ | Cycle Finding | `Negative Cycle` `Bellman Ford` | [Code](Graph%20Algorithms/Cycle%20Finding.cpp) |
-|  | Flight Routes |  | [Code](Graph%20Algorithms/Flight%20Routes.cpp) |
+| ✔ | Flight Routes | `Dijkstra` | [Code](Graph%20Algorithms/Flight%20Routes.cpp) |
 | ✔ | Round Trip II | `DFS` `Cycle in directed graph` | [Code](Graph%20Algorithms/Round%20Trip%20II.cpp) |
 | ✔ | Course Schedule | `Topological Sort` | [Code](Graph%20Algorithms/Course%20Schedule.cpp) |
 | ✔ | Longest Flight Route | `Topological Sort` `DP` | [Code](Graph%20Algorithms/Longest%20Flight%20Route.cpp) |
@@ -176,7 +176,7 @@ Milestones:
 | ✔ | Subarray Sum Queries |  | [Code](Range%20Queries/Subarray%20Sum%20Queries.cpp) |
 | ✔ | Subarray Sum Queries II | `Segment tree` | [Code](Range%20Queries/Subarray%20Sum%20Queries%20II.cpp) |
 | ✔ | Distinct Values Queries |  | [Code](Range%20Queries/Distinct%20Values%20Queries.cpp) |
-|  | Distinct Values Queries II |  | [Code](Range%20Queries/Distinct%20Values%20Queries%20II.cpp) |
+| ✔ | Distinct Values Queries II | `Segment Tree` | [Code](Range%20Queries/Distinct%20Values%20Queries%20II.cpp) |
 | ✔ | Increasing Array Queries | `Segment tree` `Tree walking` | [Code](Range%20Queries/Increasing%20Array%20Queries.cpp) |
 | ✔ | Movie Festival Queries | `Greedy Scheduling` `RMQ` `Binary Lifting` | [Code](Range%20Queries/Movie%20Festival%20Queries.cpp) |
 | ✔ | Forest Queries II |  | [Code](Range%20Queries/Forest%20Queries%20II.cpp) |
@@ -419,7 +419,7 @@ Milestones:
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
 | ✔ | Filled Subgrid Count I | `DP` | [Code](Counting%20Problems/Filled%20Subgrid%20Count%20I.cpp) |
-|  | Filled Subgrid Count II |  | [Code](Counting%20Problems/Filled%20Subgrid%20Count%20II.cpp) |
+| ✔ | Filled Subgrid Count II | `DP` `Monotone stack` | [Code](Counting%20Problems/Filled%20Subgrid%20Count%20II.cpp) |
 |  | All Letter Subgrid Count I |  | [Code](Counting%20Problems/All%20Letter%20Subgrid%20Count%20I.cpp) |
 |  | All Letter Subgrid Count II |  | [Code](Counting%20Problems/All%20Letter%20Subgrid%20Count%20II.cpp) |
 |  | Border Subgrid Count I |  | [Code](Counting%20Problems/Border%20Subgrid%20Count%20I.cpp) |
