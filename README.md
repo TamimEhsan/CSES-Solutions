@@ -1,13 +1,10 @@
-This was my practice run for ICPC. There are more than 250 accepted solutions listed here. I have also added tags for some of the problems.
+The CSES Problem Set contains a collection of algorithm programming practice problems. You can access the problems here: https://cses.fi/problemset/list/. This set has 400 classic problems of various categories and difficulties. 
+
+This was my practice run for ICPC. There are more than 290 accepted solutions listed here. I have also added tags for some of the problems.
 
 - At first try to come up with a solution by yourself. 
 - If you can't then read some article on the associated tags and try again. 
 - If you still can't then you proceed to the solution. Try to understand what is going on. Then try your own approach. 
-
-The CSES problems can be found here: https://cses.fi/problemset/list/
-This set has some classic problems. 
-
-
 
 Milestones:
 
@@ -16,6 +13,8 @@ Milestones:
 - [x] 05/12/2022: `Solved 200th Problem`
 - [x] 11/11/2023: `Solved 250th Problem`
 - [x] 14/06/2025: `Solved all Searching and Sorting Problems`
+- [x] 26/06/2025: `Solved all Range Queries Problems`
+
 
 ## Introductory Problems
 
@@ -183,7 +182,7 @@ Milestones:
 | ✔ | Range Updates and Sums |  | [Code](Range%20Queries/Range%20Updates%20and%20Sums.cpp) |
 | ✔ | Polynomial Queries | `Lazy Segment Tree` | [Code](Range%20Queries/Polynomial%20Queries.cpp) |
 | ✔ | Range Queries and Copies | `Persistent Segment Tree` | [Code](Range%20Queries/Range%20Queries%20and%20Copies.cpp) |
-|  | Missing Coin Sum Queries |  | [Code](Range%20Queries/Missing%20Coin%20Sum%20Queries.cpp) |
+| ✔ | Missing Coin Sum Queries | `Iterative Segment Tree` | [Code](Range%20Queries/Missing%20Coin%20Sum%20Queries.cpp) |
 
 ## Tree Algorithms
 
