@@ -48,6 +48,23 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Improve mobile tab scrolling
+    const tabContainer = document.querySelector('.nav-tabs');
+    if (tabContainer && window.innerWidth <= 768) {
+        const activeTab = tabContainer.querySelector('.nav-link.active');
+        if (activeTab) {
+            activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+    }
+
+    // Handle orientation change
+    window.addEventListener('orientationchange', function() {
+        setTimeout(() => {
+            window.scrollTo(0, window.scrollY + 1);
+            window.scrollTo(0, window.scrollY - 1);
+        }, 100);
+    });
 });
 
 // Copy code functionality

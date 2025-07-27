@@ -1,5 +1,5 @@
 <div class="row mb-4">
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3 mb-md-0">
         <div class="card text-center">
             <div class="card-body">
                 <h2 class="card-title text-primary"><%= stats.totalTopics %></h2>
@@ -7,7 +7,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3 mb-md-0">
         <div class="card text-center">
             <div class="card-body">
                 <h2 class="card-title text-info"><%= stats.totalProblems %></h2>
@@ -27,7 +27,7 @@
 
 <div class="row">
     <% topics.forEach(topic => { %>
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="card topic-card h-100">
                 <div class="card-body">
                     <a href="<%= topic.id %>/index.html" class="topic-link">
