@@ -11,14 +11,16 @@
             <div class="problem-item">
                 <div class="status-indicator <%= problem.solved ? 'status-solved' : 'status-unsolved' %>"></div>
                 <div class="problem-info">
-                    <a href="<%= problem.id %>/index.html" class="problem-name"><%= problem.name %></a>
-                    <% if (problem.tags.length > 0) { %>
-                        <div class="problem-tags">
-                            <% problem.tags.forEach(tag => { %>
-                                <span class="tag"><%= tag %></span>
-                            <% }); %>
-                        </div>
-                    <% } %>
+                    <div class="problem-header">
+                        <a href="<%= problem.id %>/index.html" class="problem-name"><%= problem.name %></a>
+                        <% if (problem.tags.length > 0) { %>
+                            <div class="problem-tags">
+                                <% problem.tags.forEach(tag => { %>
+                                    <span class="tag"><%= tag %></span>
+                                <% }); %>
+                            </div>
+                        <% } %>
+                    </div>
                 </div>
                 <a href="<%= problem.link %>" target="_blank" class="btn btn-sm btn-outline-primary">
                     <i class="fas fa-external-link-alt"></i>

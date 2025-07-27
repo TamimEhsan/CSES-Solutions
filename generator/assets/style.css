@@ -67,12 +67,20 @@ body {
     flex: 1;
 }
 
+.problem-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .problem-name {
     font-weight: 600;
     color: var(--cses-primary);
     text-decoration: none;
     margin-bottom: 0;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .problem-name:hover {
@@ -213,6 +221,136 @@ body {
     color: #6c757d !important;
 }
 
+/* Enhanced Tab Navigation */
+.tab-nav-wrapper {
+    position: relative;
+    background: white;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.tab-nav-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.tab-nav-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-tabs-custom {
+    border: none;
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 50px;
+    align-items: flex-end;
+    gap: 0;
+}
+
+.nav-link-custom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: #6c757d;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    position: relative;
+    margin-bottom: -2px;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.nav-link-custom::before {
+    display: none;
+}
+
+.nav-link-custom:hover {
+    color: var(--cses-info);
+    background-color: rgba(52, 152, 219, 0.05);
+    border-bottom-color: rgba(52, 152, 219, 0.3);
+    transform: none;
+    box-shadow: none;
+}
+
+.nav-link-custom.active {
+    background: white;
+    color: var(--cses-info);
+    border-bottom-color: var(--cses-info);
+    transform: none;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.nav-link-custom.active:hover {
+    color: var(--cses-info);
+    background: white;
+    transform: none;
+}
+
+.nav-link-custom i {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.tab-text {
+    flex-shrink: 0;
+}
+
+.nav-link-custom .badge {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.35rem;
+    border-radius: 10px;
+    background-color: #6c757d;
+    color: white;
+}
+
+.nav-link-custom.active .badge {
+    background-color: var(--cses-info);
+    color: white;
+}
+
+/* Tab Navigation Gradients */
+.tab-nav-gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    pointer-events: none;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tab-nav-gradient-left {
+    left: 0;
+    background: linear-gradient(90deg, white, transparent);
+}
+
+.tab-nav-gradient-right {
+    right: 0;
+    background: linear-gradient(270deg, white, transparent);
+}
+
+.tab-nav-wrapper.show-left .tab-nav-gradient-left,
+.tab-nav-wrapper.show-right .tab-nav-gradient-right {
+    opacity: 1;
+}
+
+/* Remove old tab styles */
+.nav-tabs .nav-link {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .container {
         padding-left: 15px;
@@ -226,6 +364,25 @@ body {
     /* Topic cards on mobile */
     .topic-card {
         margin-bottom: 1rem;
+    }
+
+    /* Problem header mobile layout - separate lines */
+    .problem-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .problem-name {
+        white-space: normal;
+        font-size: 1rem;
+        line-height: 1.4;
+        width: 100%;
+    }
+
+    .problem-tags {
+        width: 100%;
+        margin-top: 0;
     }
 
     /* Problem items mobile layout */
@@ -285,6 +442,27 @@ body {
         font-size: 0.875rem;
         padding: 0.5rem 0.75rem;
         white-space: nowrap;
+    }
+
+    /* Enhanced mobile tab navigation */
+    .nav-tabs-custom {
+        padding: 0 0.5rem;
+        gap: 0;
+        min-height: 45px;
+    }
+
+    .nav-link-custom {
+        padding: 0.625rem 1rem;
+        font-size: 0.85rem;
+        min-width: auto;
+    }
+
+    .nav-link-custom .tab-text {
+        display: block;
+    }
+
+    .tab-nav-gradient {
+        width: 15px;
     }
 
     /* Breadcrumb responsive */
@@ -444,6 +622,32 @@ body {
     .footer .py-4 {
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
+    }
+}
+
+/* Very small screens - icon only tabs */
+@media (max-width: 480px) {
+    .nav-link-custom .tab-text {
+        display: none;
+    }
+
+    .nav-link-custom {
+        padding: 0.5rem 0.625rem;
+        min-width: 40px;
+        justify-content: center;
+    }
+
+    .nav-link-custom .badge {
+        position: absolute;
+        top: 0.25rem;
+        right: 0.25rem;
+        margin: 0;
+        font-size: 0.6rem;
+        min-width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 

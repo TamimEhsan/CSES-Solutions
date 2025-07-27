@@ -18,70 +18,79 @@
 </div>
 
 <div class="card">
-    <div class="card-header p-0">
-        <ul class="nav nav-tabs card-header-tabs flex-nowrap overflow-auto" id="problemTabs" role="tablist">
-            <% let activeSet = false; %>
-            <% if (content.description) { %>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
-                        id="description-tab" 
-                        data-bs-toggle="tab" 
-                        data-bs-target="#description" 
-                        type="button" 
-                        role="tab" 
-                        aria-controls="description" 
-                        aria-selected="<%= !activeSet ? 'true' : 'false' %>">
-                    <i class="fas fa-info-circle me-1"></i>
-                    Description
-                </button>
-            </li>
-            <% } %>
-            <% if (content.hints) { %>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
-                        id="hints-tab" 
-                        data-bs-toggle="tab" 
-                        data-bs-target="#hints" 
-                        type="button" 
-                        role="tab" 
-                        aria-controls="hints" 
-                        aria-selected="<%= !activeSet ? 'true' : 'false' %>">
-                    <i class="fas fa-lightbulb me-1"></i>
-                    Hints
-                </button>
-            </li>
-            <% } %>
-            <% if (content.solution) { %>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
-                        id="solution-tab" 
-                        data-bs-toggle="tab" 
-                        data-bs-target="#solution" 
-                        type="button" 
-                        role="tab" 
-                        aria-controls="solution" 
-                        aria-selected="<%= !activeSet ? 'true' : 'false' %>">
-                    <i class="fas fa-check-circle me-1"></i>
-                    Solution
-                </button>
-            </li>
-            <% } %>
-            <% if (content.code) { %>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
-                        id="code-tab" 
-                        data-bs-toggle="tab" 
-                        data-bs-target="#code" 
-                        type="button" 
-                        role="tab" 
-                        aria-controls="code" 
-                        aria-selected="<%= !activeSet ? 'true' : 'false' %>">
-                    <i class="fas fa-code me-1"></i>
-                    Code
-                </button>
-            </li>
-            <% } %>
-        </ul>
+    <div class="card-header p-0 bg-white">
+        <div class="tab-nav-wrapper">
+            <div class="tab-nav-scroll" id="problemTabsScroll">
+                <ul class="nav nav-tabs-custom" id="problemTabs" role="tablist">
+                    <% let activeSet = false; %>
+                    <% if (content.description) { %>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link-custom <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
+                                id="description-tab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#description" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="description" 
+                                aria-selected="<%= !activeSet ? 'true' : 'false' %>">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="tab-text">Description</span>
+                        </button>
+                    </li>
+                    <% } %>
+                    <% if (content.hints) { %>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link-custom <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
+                                id="hints-tab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#hints" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="hints" 
+                                aria-selected="<%= !activeSet ? 'true' : 'false' %>">
+                            <i class="fas fa-lightbulb"></i>
+                            <span class="tab-text">Hints</span>
+                        </button>
+                    </li>
+                    <% } %>
+                    <% if (content.solution) { %>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link-custom <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
+                                id="solution-tab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#solution" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="solution" 
+                                aria-selected="<%= !activeSet ? 'true' : 'false' %>">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="tab-text">Solution</span>
+                        </button>
+                    </li>
+                    <% } %>
+                    <% if (content.code) { %>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link-custom <%= !activeSet ? (activeSet = true, 'active') : '' %>" 
+                                id="code-tab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#code" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="code" 
+                                aria-selected="<%= !activeSet ? 'true' : 'false' %>">
+                            <i class="fas fa-code"></i>
+                            <span class="tab-text">Code</span>
+                            <% if (content.code && Object.keys(content.code).length > 1) { %>
+                                <span class="badge bg-primary ms-1"><%= Object.keys(content.code).length %></span>
+                            <% } %>
+                        </button>
+                    </li>
+                    <% } %>
+                </ul>
+            </div>
+            <div class="tab-nav-gradient tab-nav-gradient-left"></div>
+            <div class="tab-nav-gradient tab-nav-gradient-right"></div>
+        </div>
     </div>
     <div class="card-body">
         <div class="tab-content" id="problemTabContent">
