@@ -7,7 +7,7 @@
         {
           "id": "weird-algorithm",
           "name": "Weird Algorithm",
-          "tags": [],
+          "tags": ["Bruteforce"],
           "link": "https://cses.fi/problemset/task/weird-20algorithm"
         },
         {

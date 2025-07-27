@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Copy code functionality
 function copyCode(button) {
-    const codeBlock = button.nextElementSibling.querySelector('code');
+    const codeBlock = button.parentElement.nextElementSibling.querySelector('code');
     if (codeBlock) {
         navigator.clipboard.writeText(codeBlock.textContent).then(() => {
             const originalText = button.textContent;
