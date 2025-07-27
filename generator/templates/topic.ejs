@@ -5,24 +5,33 @@
     </a>
 </div>
 
-<div class="card">
+<div class="card shadow-sm border-0">
     <div class="card-body p-0">
         <% problems.forEach(problem => { %>
-            <div class="problem-item">
-                <div class="status-indicator <%= problem.solved ? 'status-solved' : 'status-unsolved' %>"></div>
-                <div class="problem-info">
-                    <div class="problem-header">
-                        <a href="<%= problem.id %>/index.html" class="problem-name"><%= problem.name %></a>
+            <div class="d-flex align-items-center justify-content-between p-3 border-bottom border-light-subtle transition-colors" 
+                 style="transition: background-color 0.2s ease;"
+                 onmouseover="this.style.backgroundColor='#f8f9fa'"
+                 onmouseout="this.style.backgroundColor='transparent'">
+                <div class="status-indicator <%= problem.solved ? 'status-solved' : 'status-unsolved' %> me-3"></div>
+                <div class="flex-grow-1">
+                    <div class="d-flex align-items-center flex-wrap gap-3">
+                        <a href="<%= problem.id %>/index.html" 
+                           class="text-decoration-none fw-semibold text-dark-emphasis flex-shrink-0"
+                           style="color: var(--cses-primary);">
+                            <%= problem.name %>
+                        </a>
                         <% if (problem.tags.length > 0) { %>
-                            <div class="problem-tags">
+                            <div class="d-flex flex-wrap gap-2 flex-shrink-0">
                                 <% problem.tags.forEach(tag => { %>
-                                    <span class="tag"><%= tag %></span>
+                                    <span class="badge bg-light text-dark rounded-pill px-3 py-1 fw-normal" style="font-size: 0.8rem;">
+                                        <%= tag %>
+                                    </span>
                                 <% }); %>
                             </div>
                         <% } %>
                     </div>
                 </div>
-                <a href="<%= problem.link %>" target="_blank" class="btn btn-sm btn-outline-primary">
+                <a href="<%= problem.link %>" target="_blank" class="btn btn-sm btn-outline-primary flex-shrink-0">
                     <i class="fas fa-external-link-alt"></i>
                 </a>
             </div>

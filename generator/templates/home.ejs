@@ -1,25 +1,25 @@
 <div class="row mb-4">
     <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card text-center">
+        <div class="card text-center shadow-sm border-0">
             <div class="card-body">
-                <h2 class="card-title text-primary"><%= stats.totalTopics %></h2>
-                <p class="card-text">Topics</p>
+                <h2 class="card-title text-primary mb-1"><%= stats.totalTopics %></h2>
+                <p class="card-text text-muted">Topics</p>
             </div>
         </div>
     </div>
     <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card text-center">
+        <div class="card text-center shadow-sm border-0">
             <div class="card-body">
-                <h2 class="card-title text-info"><%= stats.totalProblems %></h2>
-                <p class="card-text">Problems</p>
+                <h2 class="card-title text-info mb-1"><%= stats.totalProblems %></h2>
+                <p class="card-text text-muted">Problems</p>
             </div>
         </div>
     </div>
     <div class="col-md-4">
-        <div class="card text-center">
+        <div class="card text-center shadow-sm border-0">
             <div class="card-body">
-                <h2 class="card-title text-success"><%= stats.totalSolved %></h2>
-                <p class="card-text">Solved</p>
+                <h2 class="card-title text-success mb-1"><%= stats.totalSolved %></h2>
+                <p class="card-text text-muted">Solved</p>
             </div>
         </div>
     </div>
@@ -28,11 +28,14 @@
 <div class="row">
     <% topics.forEach(topic => { %>
         <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-            <div class="card topic-card h-100">
+            <div class="card h-100 shadow-sm border-0 transition-transform" 
+                 style="transition: transform 0.2s ease, box-shadow 0.2s ease;"
+                 onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'"
+                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 10px rgba(0,0,0,0.1)'">
                 <div class="card-body">
-                    <a href="<%= topic.id %>/index.html" class="topic-link">
-                        <h5 class="card-title text-dark"><%= topic.name %></h5>
-                        <div class="progress progress-custom mb-3">
+                    <a href="<%= topic.id %>/index.html" class="text-decoration-none text-dark">
+                        <h5 class="card-title text-dark-emphasis fw-semibold"><%= topic.name %></h5>
+                        <div class="progress mb-3" style="height: 8px;">
                             <div class="progress-bar progress-bar-custom" 
                                  role="progressbar" 
                                  style="width: <%= topic.progress %>%" 
