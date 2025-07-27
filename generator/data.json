@@ -1,0 +1,2980 @@
+{
+  "topics": [
+    {
+      "id": "introductory-problems",
+      "name": "Introductory Problems",
+      "problems": [
+        {
+          "id": "weird-algorithm",
+          "name": "Weird Algorithm",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/weird-20algorithm"
+        },
+        {
+          "id": "missing-number",
+          "name": "Missing Number",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/missing-20number"
+        },
+        {
+          "id": "repetitions",
+          "name": "Repetitions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/repetitions"
+        },
+        {
+          "id": "increasing-array",
+          "name": "Increasing Array",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/increasing-20array"
+        },
+        {
+          "id": "permutations",
+          "name": "Permutations",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permutations"
+        },
+        {
+          "id": "number-spiral",
+          "name": "Number Spiral",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/number-20spiral"
+        },
+        {
+          "id": "two-knights",
+          "name": "Two Knights",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/two-20knights"
+        },
+        {
+          "id": "two-sets",
+          "name": "Two Sets",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/two-20sets"
+        },
+        {
+          "id": "bit-strings",
+          "name": "Bit Strings",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bit-20strings"
+        },
+        {
+          "id": "trailing-zeros",
+          "name": "Trailing Zeros",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/trailing-20zeros"
+        },
+        {
+          "id": "coin-piles",
+          "name": "Coin Piles",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/coin-20piles"
+        },
+        {
+          "id": "palindrome-reorder",
+          "name": "Palindrome Reorder",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/palindrome-20reorder"
+        },
+        {
+          "id": "gray-code",
+          "name": "Gray Code",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/gray-20code"
+        },
+        {
+          "id": "tower-of-hanoi",
+          "name": "Tower of Hanoi",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/tower-20of-20hanoi"
+        },
+        {
+          "id": "creating-strings",
+          "name": "Creating Strings",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/creating-20strings"
+        },
+        {
+          "id": "apple-division",
+          "name": "Apple Division",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/apple-20division"
+        },
+        {
+          "id": "chessboard-and-queens",
+          "name": "Chessboard and Queens",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/chessboard-20and-20queens"
+        },
+        {
+          "id": "raab-game-i",
+          "name": "Raab Game I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/raab-20game-20i"
+        },
+        {
+          "id": "mex-grid-construction",
+          "name": "Mex Grid Construction",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/mex-20grid-20construction"
+        },
+        {
+          "id": "knight-moves-grid",
+          "name": "Knight Moves Grid",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/knight-20moves-20grid"
+        },
+        {
+          "id": "grid-coloring-i",
+          "name": "Grid Coloring I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20coloring-20i"
+        },
+        {
+          "id": "digit-queries",
+          "name": "Digit Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/digit-20queries"
+        },
+        {
+          "id": "string-reorder",
+          "name": "String Reorder",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/string-20reorder"
+        },
+        {
+          "id": "grid-path-description",
+          "name": "Grid Path Description",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20path-20description"
+        }
+      ]
+    },
+    {
+      "id": "sorting-and-searching",
+      "name": "Sorting and Searching",
+      "problems": [
+        {
+          "id": "distinct-numbers",
+          "name": "Distinct Numbers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20numbers"
+        },
+        {
+          "id": "apartments",
+          "name": "Apartments",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/apartments"
+        },
+        {
+          "id": "ferris-wheel",
+          "name": "Ferris Wheel",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/ferris-20wheel"
+        },
+        {
+          "id": "concert-tickets",
+          "name": "Concert Tickets",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/concert-20tickets"
+        },
+        {
+          "id": "restaurant-customers",
+          "name": "Restaurant Customers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/restaurant-20customers"
+        },
+        {
+          "id": "movie-festival",
+          "name": "Movie Festival",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/movie-20festival"
+        },
+        {
+          "id": "sum-of-two-values",
+          "name": "Sum of Two Values",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sum-20of-20two-20values"
+        },
+        {
+          "id": "maximum-subarray-sum",
+          "name": "Maximum Subarray Sum",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/maximum-20subarray-20sum"
+        },
+        {
+          "id": "stick-lengths",
+          "name": "Stick Lengths",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/stick-20lengths"
+        },
+        {
+          "id": "missing-coin-sum",
+          "name": "Missing Coin Sum",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/missing-20coin-20sum"
+        },
+        {
+          "id": "collecting-numbers",
+          "name": "Collecting Numbers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/collecting-20numbers"
+        },
+        {
+          "id": "collecting-numbers-ii",
+          "name": "Collecting Numbers II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/collecting-20numbers-20ii"
+        },
+        {
+          "id": "playlist",
+          "name": "Playlist",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/playlist"
+        },
+        {
+          "id": "towers",
+          "name": "Towers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/towers"
+        },
+        {
+          "id": "traffic-lights",
+          "name": "Traffic Lights",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/traffic-20lights"
+        },
+        {
+          "id": "distinct-values-subarrays",
+          "name": "Distinct Values Subarrays",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20subarrays"
+        },
+        {
+          "id": "distinct-values-subsequences",
+          "name": "Distinct Values Subsequences",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20subsequences"
+        },
+        {
+          "id": "josephus-problem-i",
+          "name": "Josephus Problem I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/josephus-20problem-20i"
+        },
+        {
+          "id": "josephus-problem-ii",
+          "name": "Josephus Problem II",
+          "tags": [
+            "ost"
+          ],
+          "link": "https://cses.fi/problemset/task/josephus-20problem-20ii"
+        },
+        {
+          "id": "nested-ranges-check",
+          "name": "Nested Ranges Check",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nested-20ranges-20check"
+        },
+        {
+          "id": "nested-ranges-count",
+          "name": "Nested Ranges Count",
+          "tags": [
+            "point",
+            "update",
+            "range",
+            "sum"
+          ],
+          "link": "https://cses.fi/problemset/task/nested-20ranges-20count"
+        },
+        {
+          "id": "room-allocation",
+          "name": "Room Allocation",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/room-20allocation"
+        },
+        {
+          "id": "factory-machines",
+          "name": "Factory Machines",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/factory-20machines"
+        },
+        {
+          "id": "tasks-and-deadlines",
+          "name": "Tasks and Deadlines",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/tasks-20and-20deadlines"
+        },
+        {
+          "id": "reading-books",
+          "name": "Reading Books",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/reading-20books"
+        },
+        {
+          "id": "sum-of-three-values",
+          "name": "Sum of Three Values",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sum-20of-20three-20values"
+        },
+        {
+          "id": "sum-of-four-values",
+          "name": "Sum of Four Values",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sum-20of-20four-20values"
+        },
+        {
+          "id": "nearest-smaller-values",
+          "name": "Nearest Smaller Values",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nearest-20smaller-20values"
+        },
+        {
+          "id": "subarray-sums-i",
+          "name": "Subarray Sums I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subarray-20sums-20i"
+        },
+        {
+          "id": "subarray-sums-ii",
+          "name": "Subarray Sums II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subarray-20sums-20ii"
+        },
+        {
+          "id": "subarray-divisibility",
+          "name": "Subarray Divisibility",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subarray-20divisibility"
+        },
+        {
+          "id": "distinct-values-subarrays-ii",
+          "name": "Distinct Values Subarrays II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20subarrays-20ii"
+        },
+        {
+          "id": "array-division",
+          "name": "Array Division",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/array-20division"
+        },
+        {
+          "id": "movie-festival-ii",
+          "name": "Movie Festival II",
+          "tags": [
+            "greedy",
+            "scheduling",
+            "binary",
+            "search"
+          ],
+          "link": "https://cses.fi/problemset/task/movie-20festival-20ii"
+        },
+        {
+          "id": "maximum-subarray-sum-ii",
+          "name": "Maximum Subarray Sum II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/maximum-20subarray-20sum-20ii"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-programming",
+      "name": "Dynamic Programming",
+      "problems": [
+        {
+          "id": "dice-combinations",
+          "name": "Dice Combinations",
+          "tags": [
+            "coin",
+            "change",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/dice-20combinations"
+        },
+        {
+          "id": "minimizing-coins",
+          "name": "Minimizing Coins",
+          "tags": [
+            "coin",
+            "change",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/minimizing-20coins"
+        },
+        {
+          "id": "coin-combinations-i",
+          "name": "Coin Combinations I",
+          "tags": [
+            "coin",
+            "change",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/coin-20combinations-20i"
+        },
+        {
+          "id": "coin-combinations-ii",
+          "name": "Coin Combinations II",
+          "tags": [
+            "coin",
+            "change",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/coin-20combinations-20ii"
+        },
+        {
+          "id": "removing-digits",
+          "name": "Removing Digits",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/removing-20digits"
+        },
+        {
+          "id": "grid-paths-i",
+          "name": "Grid Paths I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20paths-20i"
+        },
+        {
+          "id": "book-shop",
+          "name": "Book Shop",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/book-20shop"
+        },
+        {
+          "id": "array-description",
+          "name": "Array Description",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/array-20description"
+        },
+        {
+          "id": "counting-towers",
+          "name": "Counting Towers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20towers"
+        },
+        {
+          "id": "edit-distance",
+          "name": "Edit Distance",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/edit-20distance"
+        },
+        {
+          "id": "longest-common-subsequence",
+          "name": "Longest Common Subsequence",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/longest-20common-20subsequence"
+        },
+        {
+          "id": "rectangle-cutting",
+          "name": "Rectangle Cutting",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/rectangle-20cutting"
+        },
+        {
+          "id": "minimal-grid-path",
+          "name": "Minimal Grid Path",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/minimal-20grid-20path"
+        },
+        {
+          "id": "money-sums",
+          "name": "Money Sums",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/money-20sums"
+        },
+        {
+          "id": "removal-game",
+          "name": "Removal Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/removal-20game"
+        },
+        {
+          "id": "two-sets-ii",
+          "name": "Two Sets II",
+          "tags": [
+            "knapsack",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/two-20sets-20ii"
+        },
+        {
+          "id": "mountain-range",
+          "name": "Mountain Range",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/mountain-20range"
+        },
+        {
+          "id": "increasing-subsequence",
+          "name": "Increasing Subsequence",
+          "tags": [
+            "lis"
+          ],
+          "link": "https://cses.fi/problemset/task/increasing-20subsequence"
+        },
+        {
+          "id": "projects",
+          "name": "Projects",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/projects"
+        },
+        {
+          "id": "elevator-rides",
+          "name": "Elevator Rides",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/elevator-20rides"
+        },
+        {
+          "id": "counting-tilings",
+          "name": "Counting Tilings",
+          "tags": [
+            "broken",
+            "profile",
+            "dp",
+            "bitmask"
+          ],
+          "link": "https://cses.fi/problemset/task/counting-20tilings"
+        },
+        {
+          "id": "counting-numbers",
+          "name": "Counting Numbers",
+          "tags": [
+            "digit",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/counting-20numbers"
+        },
+        {
+          "id": "increasing-subsequence-ii",
+          "name": "Increasing Subsequence II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/increasing-20subsequence-20ii"
+        }
+      ]
+    },
+    {
+      "id": "graph-algorithms",
+      "name": "Graph Algorithms",
+      "problems": [
+        {
+          "id": "counting-rooms",
+          "name": "Counting Rooms",
+          "tags": [
+            "bfs"
+          ],
+          "link": "https://cses.fi/problemset/task/counting-20rooms"
+        },
+        {
+          "id": "labyrinth",
+          "name": "Labyrinth",
+          "tags": [
+            "bfs"
+          ],
+          "link": "https://cses.fi/problemset/task/labyrinth"
+        },
+        {
+          "id": "building-roads",
+          "name": "Building Roads",
+          "tags": [
+            "bfs",
+            "dfs",
+            "forest",
+            "counting"
+          ],
+          "link": "https://cses.fi/problemset/task/building-20roads"
+        },
+        {
+          "id": "message-route",
+          "name": "Message Route",
+          "tags": [
+            "bfs"
+          ],
+          "link": "https://cses.fi/problemset/task/message-20route"
+        },
+        {
+          "id": "building-teams",
+          "name": "Building Teams",
+          "tags": [
+            "bicoloring",
+            "dfs"
+          ],
+          "link": "https://cses.fi/problemset/task/building-20teams"
+        },
+        {
+          "id": "round-trip",
+          "name": "Round Trip",
+          "tags": [
+            "cycle",
+            "in",
+            "undirected",
+            "graph",
+            "dfs"
+          ],
+          "link": "https://cses.fi/problemset/task/round-20trip"
+        },
+        {
+          "id": "monsters",
+          "name": "Monsters",
+          "tags": [
+            "bfs"
+          ],
+          "link": "https://cses.fi/problemset/task/monsters"
+        },
+        {
+          "id": "shortest-routes-i",
+          "name": "Shortest Routes I",
+          "tags": [
+            "single",
+            "source",
+            "shortest",
+            "path",
+            "dijkstra"
+          ],
+          "link": "https://cses.fi/problemset/task/shortest-20routes-20i"
+        },
+        {
+          "id": "shortest-routes-ii",
+          "name": "Shortest Routes II",
+          "tags": [
+            "all",
+            "pair",
+            "shortes",
+            "path",
+            "floyd",
+            "warshall"
+          ],
+          "link": "https://cses.fi/problemset/task/shortest-20routes-20ii"
+        },
+        {
+          "id": "high-score",
+          "name": "High Score",
+          "tags": [
+            "single",
+            "source",
+            "shortest",
+            "path",
+            "bellman",
+            "ford"
+          ],
+          "link": "https://cses.fi/problemset/task/high-20score"
+        },
+        {
+          "id": "flight-discount",
+          "name": "Flight Discount",
+          "tags": [
+            "single",
+            "source",
+            "shortest",
+            "path",
+            "dijkstra"
+          ],
+          "link": "https://cses.fi/problemset/task/flight-20discount"
+        },
+        {
+          "id": "cycle-finding",
+          "name": "Cycle Finding",
+          "tags": [
+            "negative",
+            "cycle",
+            "bellman",
+            "ford"
+          ],
+          "link": "https://cses.fi/problemset/task/cycle-20finding"
+        },
+        {
+          "id": "flight-routes",
+          "name": "Flight Routes",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/flight-20routes"
+        },
+        {
+          "id": "round-trip-ii",
+          "name": "Round Trip II",
+          "tags": [
+            "dfs",
+            "cycle",
+            "in",
+            "directed",
+            "graph"
+          ],
+          "link": "https://cses.fi/problemset/task/round-20trip-20ii"
+        },
+        {
+          "id": "course-schedule",
+          "name": "Course Schedule",
+          "tags": [
+            "topological",
+            "sort"
+          ],
+          "link": "https://cses.fi/problemset/task/course-20schedule"
+        },
+        {
+          "id": "longest-flight-route",
+          "name": "Longest Flight Route",
+          "tags": [
+            "topological",
+            "sort",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/longest-20flight-20route"
+        },
+        {
+          "id": "game-routes",
+          "name": "Game Routes",
+          "tags": [
+            "topological",
+            "sort",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/game-20routes"
+        },
+        {
+          "id": "investigation",
+          "name": "Investigation",
+          "tags": [
+            "dijkstra"
+          ],
+          "link": "https://cses.fi/problemset/task/investigation"
+        },
+        {
+          "id": "planets-queries-i",
+          "name": "Planets Queries I",
+          "tags": [
+            "binary",
+            "lifting"
+          ],
+          "link": "https://cses.fi/problemset/task/planets-20queries-20i"
+        },
+        {
+          "id": "planets-queries-ii",
+          "name": "Planets Queries II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/planets-20queries-20ii"
+        },
+        {
+          "id": "planets-cycles",
+          "name": "Planets Cycles",
+          "tags": [
+            "dfs"
+          ],
+          "link": "https://cses.fi/problemset/task/planets-20cycles"
+        },
+        {
+          "id": "road-reparation",
+          "name": "Road Reparation",
+          "tags": [
+            "minimum",
+            "spanning",
+            "tree",
+            "kruskal"
+          ],
+          "link": "https://cses.fi/problemset/task/road-20reparation"
+        },
+        {
+          "id": "road-construction",
+          "name": "Road Construction",
+          "tags": [
+            "dsu"
+          ],
+          "link": "https://cses.fi/problemset/task/road-20construction"
+        },
+        {
+          "id": "flight-routes-check",
+          "name": "Flight Routes Check",
+          "tags": [
+            "strongly",
+            "connected",
+            "components"
+          ],
+          "link": "https://cses.fi/problemset/task/flight-20routes-20check"
+        },
+        {
+          "id": "planets-and-kingdoms",
+          "name": "Planets and Kingdoms",
+          "tags": [
+            "strongly",
+            "connected",
+            "components"
+          ],
+          "link": "https://cses.fi/problemset/task/planets-20and-20kingdoms"
+        },
+        {
+          "id": "giant-pizza",
+          "name": "Giant Pizza",
+          "tags": [
+            "2-sat"
+          ],
+          "link": "https://cses.fi/problemset/task/giant-20pizza"
+        },
+        {
+          "id": "coin-collector",
+          "name": "Coin Collector",
+          "tags": [
+            "condensation",
+            "graph",
+            "topological",
+            "sort",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/coin-20collector"
+        },
+        {
+          "id": "mail-delivery",
+          "name": "Mail Delivery",
+          "tags": [
+            "euler",
+            "tour",
+            "-",
+            "undirected"
+          ],
+          "link": "https://cses.fi/problemset/task/mail-20delivery"
+        },
+        {
+          "id": "de-bruijn-sequence",
+          "name": "De Bruijn Sequence",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/de-20bruijn-20sequence"
+        },
+        {
+          "id": "teleporters-path",
+          "name": "Teleporters Path",
+          "tags": [
+            "euler",
+            "path",
+            "-",
+            "directed"
+          ],
+          "link": "https://cses.fi/problemset/task/teleporters-20path"
+        },
+        {
+          "id": "hamiltonian-flights",
+          "name": "Hamiltonian Flights",
+          "tags": [
+            "hamiltonian",
+            "path",
+            "bitmask",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/hamiltonian-20flights"
+        },
+        {
+          "id": "knight-s-tour",
+          "name": "Knight's Tour",
+          "tags": [
+            "hamiltonian",
+            "path",
+            "heuristics"
+          ],
+          "link": "https://cses.fi/problemset/task/knight-s-20tour"
+        },
+        {
+          "id": "download-speed",
+          "name": "Download Speed",
+          "tags": [
+            "max",
+            "flow",
+            "min",
+            "cut",
+            "push",
+            "relabel",
+            "dinic"
+          ],
+          "link": "https://cses.fi/problemset/task/download-20speed"
+        },
+        {
+          "id": "police-chase",
+          "name": "Police Chase",
+          "tags": [
+            "max",
+            "flow",
+            "min",
+            "cut",
+            "push",
+            "relabel"
+          ],
+          "link": "https://cses.fi/problemset/task/police-20chase"
+        },
+        {
+          "id": "school-dance",
+          "name": "School Dance",
+          "tags": [
+            "max",
+            "flowbipartite",
+            "matching",
+            "hopkroft",
+            "carp"
+          ],
+          "link": "https://cses.fi/problemset/task/school-20dance"
+        },
+        {
+          "id": "distinct-routes",
+          "name": "Distinct Routes",
+          "tags": [
+            "max",
+            "flow",
+            "dinic",
+            "path",
+            "reconstruction"
+          ],
+          "link": "https://cses.fi/problemset/task/distinct-20routes"
+        }
+      ]
+    },
+    {
+      "id": "range-queries",
+      "name": "Range Queries",
+      "problems": [
+        {
+          "id": "static-range-sum-queries",
+          "name": "Static Range Sum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/static-20range-20sum-20queries"
+        },
+        {
+          "id": "static-range-minimum-queries",
+          "name": "Static Range Minimum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/static-20range-20minimum-20queries"
+        },
+        {
+          "id": "dynamic-range-sum-queries",
+          "name": "Dynamic Range Sum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/dynamic-20range-20sum-20queries"
+        },
+        {
+          "id": "dynamic-range-minimum-queries",
+          "name": "Dynamic Range Minimum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/dynamic-20range-20minimum-20queries"
+        },
+        {
+          "id": "range-xor-queries",
+          "name": "Range Xor Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/range-20xor-20queries"
+        },
+        {
+          "id": "range-update-queries",
+          "name": "Range Update Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/range-20update-20queries"
+        },
+        {
+          "id": "forest-queries",
+          "name": "Forest Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/forest-20queries"
+        },
+        {
+          "id": "hotel-queries",
+          "name": "Hotel Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/hotel-20queries"
+        },
+        {
+          "id": "list-removals",
+          "name": "List Removals",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/list-20removals"
+        },
+        {
+          "id": "salary-queries",
+          "name": "Salary Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/salary-20queries"
+        },
+        {
+          "id": "prefix-sum-queries",
+          "name": "Prefix Sum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/prefix-20sum-20queries"
+        },
+        {
+          "id": "pizzeria-queries",
+          "name": "Pizzeria Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/pizzeria-20queries"
+        },
+        {
+          "id": "visible-buildings-queries",
+          "name": "Visible Buildings Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/visible-20buildings-20queries"
+        },
+        {
+          "id": "range-interval-queries",
+          "name": "Range Interval Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/range-20interval-20queries"
+        },
+        {
+          "id": "subarray-sum-queries",
+          "name": "Subarray Sum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subarray-20sum-20queries"
+        },
+        {
+          "id": "subarray-sum-queries-ii",
+          "name": "Subarray Sum Queries II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subarray-20sum-20queries-20ii"
+        },
+        {
+          "id": "distinct-values-queries",
+          "name": "Distinct Values Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20queries"
+        },
+        {
+          "id": "distinct-values-queries-ii",
+          "name": "Distinct Values Queries II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20queries-20ii"
+        },
+        {
+          "id": "increasing-array-queries",
+          "name": "Increasing Array Queries",
+          "tags": [
+            "segment",
+            "tree",
+            "tree",
+            "walking"
+          ],
+          "link": "https://cses.fi/problemset/task/increasing-20array-20queries"
+        },
+        {
+          "id": "movie-festival-queries",
+          "name": "Movie Festival Queries",
+          "tags": [
+            "greedy",
+            "scheduling",
+            "rmq",
+            "binary",
+            "lifting"
+          ],
+          "link": "https://cses.fi/problemset/task/movie-20festival-20queries"
+        },
+        {
+          "id": "forest-queries-ii",
+          "name": "Forest Queries II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/forest-20queries-20ii"
+        },
+        {
+          "id": "range-updates-and-sums",
+          "name": "Range Updates and Sums",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/range-20updates-20and-20sums"
+        },
+        {
+          "id": "polynomial-queries",
+          "name": "Polynomial Queries",
+          "tags": [
+            "lazy",
+            "segment",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/polynomial-20queries"
+        },
+        {
+          "id": "range-queries-and-copies",
+          "name": "Range Queries and Copies",
+          "tags": [
+            "persistent",
+            "segment",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/range-20queries-20and-20copies"
+        },
+        {
+          "id": "missing-coin-sum-queries",
+          "name": "Missing Coin Sum Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/missing-20coin-20sum-20queries"
+        }
+      ]
+    },
+    {
+      "id": "tree-algorithms",
+      "name": "Tree Algorithms",
+      "problems": [
+        {
+          "id": "subordinates",
+          "name": "Subordinates",
+          "tags": [
+            "subtree",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/subordinates"
+        },
+        {
+          "id": "tree-matching",
+          "name": "Tree Matching",
+          "tags": [
+            "tree",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/tree-20matching"
+        },
+        {
+          "id": "tree-diameter",
+          "name": "Tree Diameter",
+          "tags": [
+            "tree",
+            "diameter"
+          ],
+          "link": "https://cses.fi/problemset/task/tree-20diameter"
+        },
+        {
+          "id": "tree-distances-i",
+          "name": "Tree Distances I",
+          "tags": [
+            "tree",
+            "diameter"
+          ],
+          "link": "https://cses.fi/problemset/task/tree-20distances-20i"
+        },
+        {
+          "id": "tree-distances-ii",
+          "name": "Tree Distances II",
+          "tags": [
+            "tree",
+            "rerooting",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/tree-20distances-20ii"
+        },
+        {
+          "id": "company-queries-i",
+          "name": "Company Queries I",
+          "tags": [
+            "binary",
+            "lifting"
+          ],
+          "link": "https://cses.fi/problemset/task/company-20queries-20i"
+        },
+        {
+          "id": "company-queries-ii",
+          "name": "Company Queries II",
+          "tags": [
+            "lca"
+          ],
+          "link": "https://cses.fi/problemset/task/company-20queries-20ii"
+        },
+        {
+          "id": "distance-queries",
+          "name": "Distance Queries",
+          "tags": [
+            "lca"
+          ],
+          "link": "https://cses.fi/problemset/task/distance-20queries"
+        },
+        {
+          "id": "counting-paths",
+          "name": "Counting Paths",
+          "tags": [
+            "hld"
+          ],
+          "link": "https://cses.fi/problemset/task/counting-20paths"
+        },
+        {
+          "id": "subtree-queries",
+          "name": "Subtree Queries",
+          "tags": [
+            "hld"
+          ],
+          "link": "https://cses.fi/problemset/task/subtree-20queries"
+        },
+        {
+          "id": "path-queries",
+          "name": "Path Queries",
+          "tags": [
+            "hld"
+          ],
+          "link": "https://cses.fi/problemset/task/path-20queries"
+        },
+        {
+          "id": "path-queries-ii",
+          "name": "Path Queries II",
+          "tags": [
+            "hld"
+          ],
+          "link": "https://cses.fi/problemset/task/path-20queries-20ii"
+        },
+        {
+          "id": "distinct-colors",
+          "name": "Distinct Colors",
+          "tags": [
+            "mo",
+            "on",
+            "tree",
+            "-",
+            "sack",
+            "small",
+            "to",
+            "large"
+          ],
+          "link": "https://cses.fi/problemset/task/distinct-20colors"
+        },
+        {
+          "id": "finding-a-centroid",
+          "name": "Finding a Centroid",
+          "tags": [
+            "centroid"
+          ],
+          "link": "https://cses.fi/problemset/task/finding-20a-20centroid"
+        },
+        {
+          "id": "fixed-length-paths-i",
+          "name": "Fixed-Length Paths I",
+          "tags": [
+            "centroid",
+            "decomposition"
+          ],
+          "link": "https://cses.fi/problemset/task/fixed-length-20paths-20i"
+        },
+        {
+          "id": "fixed-length-paths-ii",
+          "name": "Fixed-Length Paths II",
+          "tags": [
+            "centroid",
+            "decomposition"
+          ],
+          "link": "https://cses.fi/problemset/task/fixed-length-20paths-20ii"
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "problems": [
+        {
+          "id": "josephus-queries",
+          "name": "Josephus Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/josephus-20queries"
+        },
+        {
+          "id": "exponentiation",
+          "name": "Exponentiation",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/exponentiation"
+        },
+        {
+          "id": "exponentiation-ii",
+          "name": "Exponentiation II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/exponentiation-20ii"
+        },
+        {
+          "id": "counting-divisors",
+          "name": "Counting Divisors",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20divisors"
+        },
+        {
+          "id": "common-divisors",
+          "name": "Common Divisors",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/common-20divisors"
+        },
+        {
+          "id": "sum-of-divisors",
+          "name": "Sum of Divisors",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sum-20of-20divisors"
+        },
+        {
+          "id": "divisor-analysis",
+          "name": "Divisor Analysis",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/divisor-20analysis"
+        },
+        {
+          "id": "prime-multiples",
+          "name": "Prime Multiples",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/prime-20multiples"
+        },
+        {
+          "id": "counting-coprime-pairs",
+          "name": "Counting Coprime Pairs",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20coprime-20pairs"
+        },
+        {
+          "id": "next-prime",
+          "name": "Next Prime",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/next-20prime"
+        },
+        {
+          "id": "binomial-coefficients",
+          "name": "Binomial Coefficients",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/binomial-20coefficients"
+        },
+        {
+          "id": "creating-strings-ii",
+          "name": "Creating Strings II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/creating-20strings-20ii"
+        },
+        {
+          "id": "distributing-apples",
+          "name": "Distributing Apples",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distributing-20apples"
+        },
+        {
+          "id": "christmas-party",
+          "name": "Christmas Party",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/christmas-20party"
+        },
+        {
+          "id": "permutation-order",
+          "name": "Permutation Order",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permutation-20order"
+        },
+        {
+          "id": "permutation-rounds",
+          "name": "Permutation Rounds",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permutation-20rounds"
+        },
+        {
+          "id": "bracket-sequences-i",
+          "name": "Bracket Sequences I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bracket-20sequences-20i"
+        },
+        {
+          "id": "bracket-sequences-ii",
+          "name": "Bracket Sequences II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bracket-20sequences-20ii"
+        },
+        {
+          "id": "counting-necklaces",
+          "name": "Counting Necklaces",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20necklaces"
+        },
+        {
+          "id": "counting-grids",
+          "name": "Counting Grids",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20grids"
+        },
+        {
+          "id": "fibonacci-numbers",
+          "name": "Fibonacci Numbers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/fibonacci-20numbers"
+        },
+        {
+          "id": "throwing-dice",
+          "name": "Throwing Dice",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/throwing-20dice"
+        },
+        {
+          "id": "graph-paths-i",
+          "name": "Graph Paths I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/graph-20paths-20i"
+        },
+        {
+          "id": "graph-paths-ii",
+          "name": "Graph Paths II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/graph-20paths-20ii"
+        },
+        {
+          "id": "system-of-linear-equations",
+          "name": "System of Linear Equations",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/system-20of-20linear-20equations"
+        },
+        {
+          "id": "sum-of-four-squares",
+          "name": "Sum of Four Squares",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sum-20of-20four-20squares"
+        },
+        {
+          "id": "triangle-number-sums",
+          "name": "Triangle Number Sums",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/triangle-20number-20sums"
+        },
+        {
+          "id": "dice-probability",
+          "name": "Dice Probability",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/dice-20probability"
+        },
+        {
+          "id": "moving-robots",
+          "name": "Moving Robots",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/moving-20robots"
+        },
+        {
+          "id": "candy-lottery",
+          "name": "Candy Lottery",
+          "tags": [
+            "expected",
+            "value"
+          ],
+          "link": "https://cses.fi/problemset/task/candy-20lottery"
+        },
+        {
+          "id": "inversion-probability",
+          "name": "Inversion Probability",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/inversion-20probability"
+        },
+        {
+          "id": "stick-game",
+          "name": "Stick Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/stick-20game"
+        },
+        {
+          "id": "nim-game-i",
+          "name": "Nim Game I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nim-20game-20i"
+        },
+        {
+          "id": "nim-game-ii",
+          "name": "Nim Game II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nim-20game-20ii"
+        },
+        {
+          "id": "stair-game",
+          "name": "Stair Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/stair-20game"
+        },
+        {
+          "id": "grundy-s-game",
+          "name": "Grundy's Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grundy-s-20game"
+        },
+        {
+          "id": "another-game",
+          "name": "Another Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/another-20game"
+        }
+      ]
+    },
+    {
+      "id": "string-algorithms",
+      "name": "String Algorithms",
+      "problems": [
+        {
+          "id": "word-combinations",
+          "name": "Word Combinations",
+          "tags": [
+            "trie",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/word-20combinations"
+        },
+        {
+          "id": "string-matching",
+          "name": "String Matching",
+          "tags": [
+            "suffix",
+            "array",
+            "-",
+            "hashing"
+          ],
+          "link": "https://cses.fi/problemset/task/string-20matching"
+        },
+        {
+          "id": "finding-borders",
+          "name": "Finding Borders",
+          "tags": [
+            "z",
+            "function",
+            "prefix",
+            "function",
+            "-",
+            "hashing"
+          ],
+          "link": "https://cses.fi/problemset/task/finding-20borders"
+        },
+        {
+          "id": "finding-periods",
+          "name": "Finding Periods",
+          "tags": [
+            "z",
+            "function",
+            "prefix",
+            "function",
+            "-",
+            "hashing"
+          ],
+          "link": "https://cses.fi/problemset/task/finding-20periods"
+        },
+        {
+          "id": "minimal-rotation",
+          "name": "Minimal Rotation",
+          "tags": [
+            "suffix",
+            "automata"
+          ],
+          "link": "https://cses.fi/problemset/task/minimal-20rotation"
+        },
+        {
+          "id": "longest-palindrome",
+          "name": "Longest Palindrome",
+          "tags": [
+            "manacher"
+          ],
+          "link": "https://cses.fi/problemset/task/longest-20palindrome"
+        },
+        {
+          "id": "all-palindromes",
+          "name": "All Palindromes",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/all-20palindromes"
+        },
+        {
+          "id": "required-substring",
+          "name": "Required Substring",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/required-20substring"
+        },
+        {
+          "id": "palindrome-queries",
+          "name": "Palindrome Queries",
+          "tags": [
+            "range",
+            "sum",
+            "hashing"
+          ],
+          "link": "https://cses.fi/problemset/task/palindrome-20queries"
+        },
+        {
+          "id": "finding-patterns",
+          "name": "Finding Patterns",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/finding-20patterns"
+        },
+        {
+          "id": "counting-patterns",
+          "name": "Counting Patterns",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20patterns"
+        },
+        {
+          "id": "pattern-positions",
+          "name": "Pattern Positions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/pattern-20positions"
+        },
+        {
+          "id": "distinct-substrings",
+          "name": "Distinct Substrings",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20substrings"
+        },
+        {
+          "id": "distinct-subsequences",
+          "name": "Distinct Subsequences",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20subsequences"
+        },
+        {
+          "id": "repeating-substring",
+          "name": "Repeating Substring",
+          "tags": [
+            "hashing",
+            "binary",
+            "search"
+          ],
+          "link": "https://cses.fi/problemset/task/repeating-20substring"
+        },
+        {
+          "id": "string-functions",
+          "name": "String Functions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/string-20functions"
+        },
+        {
+          "id": "inverse-suffix-array",
+          "name": "Inverse Suffix Array",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/inverse-20suffix-20array"
+        },
+        {
+          "id": "string-transform",
+          "name": "String Transform",
+          "tags": [
+            "inverse",
+            "burrows",
+            "wheeler",
+            "transform"
+          ],
+          "link": "https://cses.fi/problemset/task/string-20transform"
+        },
+        {
+          "id": "substring-order-i",
+          "name": "Substring Order I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/substring-20order-20i"
+        },
+        {
+          "id": "substring-order-ii",
+          "name": "Substring Order II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/substring-20order-20ii"
+        },
+        {
+          "id": "substring-distribution",
+          "name": "Substring Distribution",
+          "tags": [
+            "suffix",
+            "array",
+            "longest",
+            "common",
+            "prefix"
+          ],
+          "link": "https://cses.fi/problemset/task/substring-20distribution"
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "problems": [
+        {
+          "id": "point-location-test",
+          "name": "Point Location Test",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/point-20location-20test"
+        },
+        {
+          "id": "line-segment-intersection",
+          "name": "Line Segment Intersection",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/line-20segment-20intersection"
+        },
+        {
+          "id": "polygon-area",
+          "name": "Polygon Area",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/polygon-20area"
+        },
+        {
+          "id": "point-in-polygon",
+          "name": "Point in Polygon",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/point-20in-20polygon"
+        },
+        {
+          "id": "polygon-lattice-points",
+          "name": "Polygon Lattice Points",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/polygon-20lattice-20points"
+        },
+        {
+          "id": "minimum-euclidean-distance",
+          "name": "Minimum Euclidean Distance",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/minimum-20euclidean-20distance"
+        },
+        {
+          "id": "convex-hull",
+          "name": "Convex Hull",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/convex-20hull"
+        },
+        {
+          "id": "maximum-manhattan-distances",
+          "name": "Maximum Manhattan Distances",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/maximum-20manhattan-20distances"
+        },
+        {
+          "id": "all-manhattan-distances",
+          "name": "All Manhattan Distances",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/all-20manhattan-20distances"
+        },
+        {
+          "id": "intersection-points",
+          "name": "Intersection Points",
+          "tags": [
+            "range",
+            "query",
+            "with",
+            "sweep",
+            "line"
+          ],
+          "link": "https://cses.fi/problemset/task/intersection-20points"
+        },
+        {
+          "id": "line-segments-trace-i",
+          "name": "Line Segments Trace I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/line-20segments-20trace-20i"
+        },
+        {
+          "id": "line-segments-trace-ii",
+          "name": "Line Segments Trace II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/line-20segments-20trace-20ii"
+        },
+        {
+          "id": "lines-and-queries-i",
+          "name": "Lines and Queries I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/lines-20and-20queries-20i"
+        },
+        {
+          "id": "lines-and-queries-ii",
+          "name": "Lines and Queries II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/lines-20and-20queries-20ii"
+        },
+        {
+          "id": "area-of-rectangles",
+          "name": "Area of Rectangles",
+          "tags": [
+            "range",
+            "query",
+            "and",
+            "update",
+            "with",
+            "sweep",
+            "line"
+          ],
+          "link": "https://cses.fi/problemset/task/area-20of-20rectangles"
+        },
+        {
+          "id": "robot-path",
+          "name": "Robot Path",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/robot-20path"
+        }
+      ]
+    },
+    {
+      "id": "advanced-techniques",
+      "name": "Advanced Techniques",
+      "problems": [
+        {
+          "id": "meet-in-the-middle",
+          "name": "Meet in the Middle",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/meet-20in-20the-20middle"
+        },
+        {
+          "id": "hamming-distance",
+          "name": "Hamming Distance",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/hamming-20distance"
+        },
+        {
+          "id": "corner-subgrid-check",
+          "name": "Corner Subgrid Check",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/corner-20subgrid-20check"
+        },
+        {
+          "id": "corner-subgrid-count",
+          "name": "Corner Subgrid Count",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/corner-20subgrid-20count"
+        },
+        {
+          "id": "reachable-nodes",
+          "name": "Reachable Nodes",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/reachable-20nodes"
+        },
+        {
+          "id": "reachability-queries",
+          "name": "Reachability Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/reachability-20queries"
+        },
+        {
+          "id": "cut-and-paste",
+          "name": "Cut and Paste",
+          "tags": [
+            "implicit",
+            "treap"
+          ],
+          "link": "https://cses.fi/problemset/task/cut-20and-20paste"
+        },
+        {
+          "id": "substring-reversals",
+          "name": "Substring Reversals",
+          "tags": [
+            "implicit",
+            "treap"
+          ],
+          "link": "https://cses.fi/problemset/task/substring-20reversals"
+        },
+        {
+          "id": "reversals-and-sums",
+          "name": "Reversals and Sums",
+          "tags": [
+            "implicit",
+            "treap"
+          ],
+          "link": "https://cses.fi/problemset/task/reversals-20and-20sums"
+        },
+        {
+          "id": "necessary-roads",
+          "name": "Necessary Roads",
+          "tags": [
+            "bridges"
+          ],
+          "link": "https://cses.fi/problemset/task/necessary-20roads"
+        },
+        {
+          "id": "necessary-cities",
+          "name": "Necessary Cities",
+          "tags": [
+            "articulation",
+            "points"
+          ],
+          "link": "https://cses.fi/problemset/task/necessary-20cities"
+        },
+        {
+          "id": "eulerian-subgraphs",
+          "name": "Eulerian Subgraphs",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/eulerian-20subgraphs"
+        },
+        {
+          "id": "monster-game-i",
+          "name": "Monster Game I",
+          "tags": [
+            "dp",
+            "convex",
+            "hull",
+            "optimization"
+          ],
+          "link": "https://cses.fi/problemset/task/monster-20game-20i"
+        },
+        {
+          "id": "monster-game-ii",
+          "name": "Monster Game II",
+          "tags": [
+            "dp",
+            "convex",
+            "hull",
+            "optimization"
+          ],
+          "link": "https://cses.fi/problemset/task/monster-20game-20ii"
+        },
+        {
+          "id": "subarray-squares",
+          "name": "Subarray Squares",
+          "tags": [
+            "dp",
+            "convex",
+            "hull",
+            "optimization"
+          ],
+          "link": "https://cses.fi/problemset/task/subarray-20squares"
+        },
+        {
+          "id": "houses-and-schools",
+          "name": "Houses and Schools",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/houses-20and-20schools"
+        },
+        {
+          "id": "knuth-division",
+          "name": "Knuth Division",
+          "tags": [
+            "dp",
+            "knuth",
+            "optimization"
+          ],
+          "link": "https://cses.fi/problemset/task/knuth-20division"
+        },
+        {
+          "id": "apples-and-bananas",
+          "name": "Apples and Bananas",
+          "tags": [
+            "fft"
+          ],
+          "link": "https://cses.fi/problemset/task/apples-20and-20bananas"
+        },
+        {
+          "id": "one-bit-positions",
+          "name": "One Bit Positions",
+          "tags": [
+            "fft"
+          ],
+          "link": "https://cses.fi/problemset/task/one-20bit-20positions"
+        },
+        {
+          "id": "signal-processing",
+          "name": "Signal Processing",
+          "tags": [
+            "fft"
+          ],
+          "link": "https://cses.fi/problemset/task/signal-20processing"
+        },
+        {
+          "id": "new-roads-queries",
+          "name": "New Roads Queries",
+          "tags": [
+            "hld"
+          ],
+          "link": "https://cses.fi/problemset/task/new-20roads-20queries"
+        },
+        {
+          "id": "dynamic-connectivity",
+          "name": "Dynamic Connectivity",
+          "tags": [
+            "dynamic",
+            "dsu"
+          ],
+          "link": "https://cses.fi/problemset/task/dynamic-20connectivity"
+        },
+        {
+          "id": "parcel-delivery",
+          "name": "Parcel Delivery",
+          "tags": [
+            "max",
+            "flow",
+            "min",
+            "cost",
+            "fixed",
+            "flow"
+          ],
+          "link": "https://cses.fi/problemset/task/parcel-20delivery"
+        },
+        {
+          "id": "task-assignment",
+          "name": "Task Assignment",
+          "tags": [
+            "max",
+            "flow",
+            "min",
+            "cost"
+          ],
+          "link": "https://cses.fi/problemset/task/task-20assignment"
+        },
+        {
+          "id": "distinct-routes-ii",
+          "name": "Distinct Routes II",
+          "tags": [
+            "max",
+            "flow",
+            "min",
+            "cost",
+            "path",
+            "reconstruction"
+          ],
+          "link": "https://cses.fi/problemset/task/distinct-20routes-20ii"
+        }
+      ]
+    },
+    {
+      "id": "sliding-window-problems",
+      "name": "Sliding Window Problems",
+      "problems": [
+        {
+          "id": "sliding-window-sum",
+          "name": "Sliding Window Sum",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20sum"
+        },
+        {
+          "id": "sliding-window-minimum",
+          "name": "Sliding Window Minimum",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20minimum"
+        },
+        {
+          "id": "sliding-window-xor",
+          "name": "Sliding Window Xor",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20xor"
+        },
+        {
+          "id": "sliding-window-or",
+          "name": "Sliding Window Or",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20or"
+        },
+        {
+          "id": "sliding-window-distinct-values",
+          "name": "Sliding Window Distinct Values",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20distinct-20values"
+        },
+        {
+          "id": "sliding-window-mode",
+          "name": "Sliding Window Mode",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20mode"
+        },
+        {
+          "id": "sliding-window-mex",
+          "name": "Sliding Window Mex",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20mex"
+        },
+        {
+          "id": "sliding-window-median",
+          "name": "Sliding Window Median",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20median"
+        },
+        {
+          "id": "sliding-window-cost",
+          "name": "Sliding Window Cost",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20cost"
+        },
+        {
+          "id": "sliding-window-inversions",
+          "name": "Sliding Window Inversions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20inversions"
+        },
+        {
+          "id": "sliding-window-advertisement",
+          "name": "Sliding Window Advertisement",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sliding-20window-20advertisement"
+        }
+      ]
+    },
+    {
+      "id": "interactive-problems",
+      "name": "Interactive Problems",
+      "problems": [
+        {
+          "id": "hidden-integer",
+          "name": "Hidden Integer",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/hidden-20integer"
+        },
+        {
+          "id": "hidden-permutation",
+          "name": "Hidden Permutation",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/hidden-20permutation"
+        },
+        {
+          "id": "k-th-highest-score",
+          "name": "K-th Highest Score",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/k-th-20highest-20score"
+        },
+        {
+          "id": "permuted-binary-strings",
+          "name": "Permuted Binary Strings",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permuted-20binary-20strings"
+        },
+        {
+          "id": "colored-chairs",
+          "name": "Colored Chairs",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/colored-20chairs"
+        },
+        {
+          "id": "inversion-sorting",
+          "name": "Inversion Sorting",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/inversion-20sorting"
+        }
+      ]
+    },
+    {
+      "id": "bitwise-operations",
+      "name": "Bitwise Operations",
+      "problems": [
+        {
+          "id": "counting-bits",
+          "name": "Counting Bits",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20bits"
+        },
+        {
+          "id": "maximum-xor-subarray",
+          "name": "Maximum Xor Subarray",
+          "tags": [
+            "trie",
+            "divide",
+            "and",
+            "conquer"
+          ],
+          "link": "https://cses.fi/problemset/task/maximum-20xor-20subarray"
+        },
+        {
+          "id": "maximum-xor-subset",
+          "name": "Maximum Xor Subset",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/maximum-20xor-20subset"
+        },
+        {
+          "id": "number-of-subset-xors",
+          "name": "Number of Subset Xors",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/number-20of-20subset-20xors"
+        },
+        {
+          "id": "k-subset-xors",
+          "name": "K Subset Xors",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/k-20subset-20xors"
+        },
+        {
+          "id": "all-subarray-xors",
+          "name": "All Subarray Xors",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/all-20subarray-20xors"
+        },
+        {
+          "id": "xor-pyramid-peak",
+          "name": "Xor Pyramid Peak",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/xor-20pyramid-20peak"
+        },
+        {
+          "id": "xor-pyramid-diagonal",
+          "name": "Xor Pyramid Diagonal",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/xor-20pyramid-20diagonal"
+        },
+        {
+          "id": "xor-pyramid-row",
+          "name": "Xor Pyramid Row",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/xor-20pyramid-20row"
+        },
+        {
+          "id": "sos-bit-problem",
+          "name": "SOS Bit Problem",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sos-20bit-20problem"
+        },
+        {
+          "id": "and-subset-count",
+          "name": "And Subset Count",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/and-20subset-20count"
+        }
+      ]
+    },
+    {
+      "id": "construction-problems",
+      "name": "Construction Problems",
+      "problems": [
+        {
+          "id": "inverse-inversions",
+          "name": "Inverse Inversions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/inverse-20inversions"
+        },
+        {
+          "id": "monotone-subsequences",
+          "name": "Monotone Subsequences",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/monotone-20subsequences"
+        },
+        {
+          "id": "third-permutation",
+          "name": "Third Permutation",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/third-20permutation"
+        },
+        {
+          "id": "permutation-prime-sums",
+          "name": "Permutation Prime Sums",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permutation-20prime-20sums"
+        },
+        {
+          "id": "chess-tournament",
+          "name": "Chess Tournament",
+          "tags": [
+            "greedy"
+          ],
+          "link": "https://cses.fi/problemset/task/chess-20tournament"
+        },
+        {
+          "id": "distinct-sums-grid",
+          "name": "Distinct Sums Grid",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20sums-20grid"
+        },
+        {
+          "id": "filling-trominos",
+          "name": "Filling Trominos",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/filling-20trominos"
+        },
+        {
+          "id": "grid-path-construction",
+          "name": "Grid Path Construction",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20path-20construction"
+        }
+      ]
+    },
+    {
+      "id": "advanced-graph-problems",
+      "name": "Advanced Graph Problems",
+      "problems": [
+        {
+          "id": "nearest-shops",
+          "name": "Nearest Shops",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nearest-20shops"
+        },
+        {
+          "id": "pr-fer-code",
+          "name": "Prüfer Code",
+          "tags": [
+            "pr-fer",
+            "code"
+          ],
+          "link": "https://cses.fi/problemset/task/pr-fer-20code"
+        },
+        {
+          "id": "tree-traversals",
+          "name": "Tree Traversals",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/tree-20traversals"
+        },
+        {
+          "id": "course-schedule-ii",
+          "name": "Course Schedule II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/course-20schedule-20ii"
+        },
+        {
+          "id": "acyclic-graph-edges",
+          "name": "Acyclic Graph Edges",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/acyclic-20graph-20edges"
+        },
+        {
+          "id": "strongly-connected-edges",
+          "name": "Strongly Connected Edges",
+          "tags": [
+            "bridge"
+          ],
+          "link": "https://cses.fi/problemset/task/strongly-20connected-20edges"
+        },
+        {
+          "id": "even-outdegree-edges",
+          "name": "Even Outdegree Edges",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/even-20outdegree-20edges"
+        },
+        {
+          "id": "graph-girth",
+          "name": "Graph Girth",
+          "tags": [
+            "bfs",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/graph-20girth"
+        },
+        {
+          "id": "fixed-length-walk-queries",
+          "name": "Fixed Length Walk Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/fixed-20length-20walk-20queries"
+        },
+        {
+          "id": "transfer-speeds-sum",
+          "name": "Transfer Speeds Sum",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/transfer-20speeds-20sum"
+        },
+        {
+          "id": "mst-edge-check",
+          "name": "MST Edge Check",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/mst-20edge-20check"
+        },
+        {
+          "id": "mst-edge-set-check",
+          "name": "MST Edge Set Check",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/mst-20edge-20set-20check"
+        },
+        {
+          "id": "mst-edge-cost",
+          "name": "MST Edge Cost",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/mst-20edge-20cost"
+        },
+        {
+          "id": "network-breakdown",
+          "name": "Network Breakdown",
+          "tags": [
+            "dsu",
+            "with",
+            "rollback"
+          ],
+          "link": "https://cses.fi/problemset/task/network-20breakdown"
+        },
+        {
+          "id": "tree-coin-collecting-i",
+          "name": "Tree Coin Collecting I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/tree-20coin-20collecting-20i"
+        },
+        {
+          "id": "tree-coin-collecting-ii",
+          "name": "Tree Coin Collecting II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/tree-20coin-20collecting-20ii"
+        },
+        {
+          "id": "tree-isomorphism-i",
+          "name": "Tree Isomorphism I",
+          "tags": [
+            "tree",
+            "isomorphism",
+            "rooted"
+          ],
+          "link": "https://cses.fi/problemset/task/tree-20isomorphism-20i"
+        },
+        {
+          "id": "tree-isomorphism-ii",
+          "name": "Tree Isomorphism II",
+          "tags": [
+            "tree",
+            "isomorphism",
+            "unrooted"
+          ],
+          "link": "https://cses.fi/problemset/task/tree-20isomorphism-20ii"
+        },
+        {
+          "id": "flight-route-requests",
+          "name": "Flight Route Requests",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/flight-20route-20requests"
+        },
+        {
+          "id": "critical-cities",
+          "name": "Critical Cities",
+          "tags": [
+            "dominator",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/critical-20cities"
+        },
+        {
+          "id": "visiting-cities",
+          "name": "Visiting Cities",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/visiting-20cities"
+        },
+        {
+          "id": "graph-coloring",
+          "name": "Graph Coloring",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/graph-20coloring"
+        },
+        {
+          "id": "bus-companies",
+          "name": "Bus Companies",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bus-20companies"
+        },
+        {
+          "id": "split-into-two-paths",
+          "name": "Split into Two Paths",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/split-20into-20two-20paths"
+        },
+        {
+          "id": "network-renovation",
+          "name": "Network Renovation",
+          "tags": [
+            "euler",
+            "tour"
+          ],
+          "link": "https://cses.fi/problemset/task/network-20renovation"
+        },
+        {
+          "id": "forbidden-cities",
+          "name": "Forbidden Cities",
+          "tags": [
+            "block",
+            "cut",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/forbidden-20cities"
+        },
+        {
+          "id": "creating-offices",
+          "name": "Creating Offices",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/creating-20offices"
+        },
+        {
+          "id": "new-flight-routes",
+          "name": "New Flight Routes",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/new-20flight-20routes"
+        }
+      ]
+    },
+    {
+      "id": "counting-problems",
+      "name": "Counting Problems",
+      "problems": [
+        {
+          "id": "filled-subgrid-count-i",
+          "name": "Filled Subgrid Count I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/filled-20subgrid-20count-20i"
+        },
+        {
+          "id": "filled-subgrid-count-ii",
+          "name": "Filled Subgrid Count II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/filled-20subgrid-20count-20ii"
+        },
+        {
+          "id": "all-letter-subgrid-count-i",
+          "name": "All Letter Subgrid Count I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/all-20letter-20subgrid-20count-20i"
+        },
+        {
+          "id": "all-letter-subgrid-count-ii",
+          "name": "All Letter Subgrid Count II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/all-20letter-20subgrid-20count-20ii"
+        },
+        {
+          "id": "border-subgrid-count-i",
+          "name": "Border Subgrid Count I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/border-20subgrid-20count-20i"
+        },
+        {
+          "id": "border-subgrid-count-ii",
+          "name": "Border Subgrid Count II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/border-20subgrid-20count-20ii"
+        },
+        {
+          "id": "raab-game-ii",
+          "name": "Raab Game II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/raab-20game-20ii"
+        },
+        {
+          "id": "empty-string",
+          "name": "Empty String",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/empty-20string"
+        },
+        {
+          "id": "permutation-inversions",
+          "name": "Permutation Inversions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permutation-20inversions"
+        },
+        {
+          "id": "counting-bishops",
+          "name": "Counting Bishops",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20bishops"
+        },
+        {
+          "id": "counting-sequences",
+          "name": "Counting Sequences",
+          "tags": [
+            "inclusion",
+            "exclusion",
+            "principle"
+          ],
+          "link": "https://cses.fi/problemset/task/counting-20sequences"
+        },
+        {
+          "id": "grid-paths-ii",
+          "name": "Grid Paths II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20paths-20ii"
+        },
+        {
+          "id": "counting-permutations",
+          "name": "Counting Permutations",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20permutations"
+        },
+        {
+          "id": "grid-completion",
+          "name": "Grid Completion",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20completion"
+        },
+        {
+          "id": "counting-reorders",
+          "name": "Counting Reorders",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20reorders"
+        },
+        {
+          "id": "tournament-graph-distribution",
+          "name": "Tournament Graph Distribution",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/tournament-20graph-20distribution"
+        },
+        {
+          "id": "collecting-numbers-distribution",
+          "name": "Collecting Numbers Distribution",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/collecting-20numbers-20distribution"
+        },
+        {
+          "id": "functional-graph-distribution",
+          "name": "Functional Graph Distribution",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/functional-20graph-20distribution"
+        }
+      ]
+    },
+    {
+      "id": "additional-problems-i",
+      "name": "Additional Problems I",
+      "problems": [
+        {
+          "id": "shortest-subsequence",
+          "name": "Shortest Subsequence",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/shortest-20subsequence"
+        },
+        {
+          "id": "distinct-values-sum",
+          "name": "Distinct Values Sum",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20sum"
+        },
+        {
+          "id": "distinct-values-splits",
+          "name": "Distinct Values Splits",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/distinct-20values-20splits"
+        },
+        {
+          "id": "swap-game",
+          "name": "Swap Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/swap-20game"
+        },
+        {
+          "id": "beautiful-permutation-ii",
+          "name": "Beautiful Permutation II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/beautiful-20permutation-20ii"
+        },
+        {
+          "id": "multiplication-table",
+          "name": "Multiplication Table",
+          "tags": [
+            "binary",
+            "search",
+            "harmonic",
+            "progression"
+          ],
+          "link": "https://cses.fi/problemset/task/multiplication-20table"
+        },
+        {
+          "id": "bubble-sort-rounds-i",
+          "name": "Bubble Sort Rounds I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bubble-20sort-20rounds-20i"
+        },
+        {
+          "id": "bubble-sort-rounds-ii",
+          "name": "Bubble Sort Rounds II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bubble-20sort-20rounds-20ii"
+        },
+        {
+          "id": "nearest-campsites-i",
+          "name": "Nearest Campsites I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nearest-20campsites-20i"
+        },
+        {
+          "id": "nearest-campsites-ii",
+          "name": "Nearest Campsites II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/nearest-20campsites-20ii"
+        },
+        {
+          "id": "advertisement",
+          "name": "Advertisement",
+          "tags": [
+            "segment",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/advertisement"
+        },
+        {
+          "id": "special-substrings",
+          "name": "Special Substrings",
+          "tags": [
+            "constructive",
+            "hashing"
+          ],
+          "link": "https://cses.fi/problemset/task/special-20substrings"
+        },
+        {
+          "id": "counting-lcm-arrays",
+          "name": "Counting LCM Arrays",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/counting-20lcm-20arrays"
+        },
+        {
+          "id": "square-subsets",
+          "name": "Square Subsets",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/square-20subsets"
+        },
+        {
+          "id": "subarray-sum-constraints",
+          "name": "Subarray Sum Constraints",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subarray-20sum-20constraints"
+        },
+        {
+          "id": "water-containers-moves",
+          "name": "Water Containers Moves",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/water-20containers-20moves"
+        },
+        {
+          "id": "water-containers-queries",
+          "name": "Water Containers Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/water-20containers-20queries"
+        },
+        {
+          "id": "stack-weights",
+          "name": "Stack Weights",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/stack-20weights"
+        },
+        {
+          "id": "maximum-average-subarrays",
+          "name": "Maximum Average Subarrays",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/maximum-20average-20subarrays"
+        },
+        {
+          "id": "subsets-with-fixed-average",
+          "name": "Subsets with Fixed Average",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/subsets-20with-20fixed-20average"
+        },
+        {
+          "id": "two-array-average",
+          "name": "Two Array Average",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/two-20array-20average"
+        },
+        {
+          "id": "pyramid-array",
+          "name": "Pyramid Array",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/pyramid-20array"
+        },
+        {
+          "id": "permutation-subsequence",
+          "name": "Permutation Subsequence",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/permutation-20subsequence"
+        },
+        {
+          "id": "bit-inversions",
+          "name": "Bit Inversions",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bit-20inversions"
+        },
+        {
+          "id": "writing-numbers",
+          "name": "Writing Numbers",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/writing-20numbers"
+        },
+        {
+          "id": "letter-pair-move-game",
+          "name": "Letter Pair Move Game",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/letter-20pair-20move-20game"
+        },
+        {
+          "id": "maximum-building-i",
+          "name": "Maximum Building I",
+          "tags": [
+            "segment",
+            "tree"
+          ],
+          "link": "https://cses.fi/problemset/task/maximum-20building-20i"
+        },
+        {
+          "id": "sorting-methods",
+          "name": "Sorting Methods",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/sorting-20methods"
+        },
+        {
+          "id": "cyclic-array",
+          "name": "Cyclic Array",
+          "tags": [
+            "binary",
+            "search",
+            "greedy"
+          ],
+          "link": "https://cses.fi/problemset/task/cyclic-20array"
+        },
+        {
+          "id": "list-of-sums",
+          "name": "List of Sums",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/list-20of-20sums"
+        }
+      ]
+    },
+    {
+      "id": "additional-problems-ii",
+      "name": "Additional Problems II",
+      "problems": [
+        {
+          "id": "bouncing-ball-steps",
+          "name": "Bouncing Ball Steps",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bouncing-20ball-20steps"
+        },
+        {
+          "id": "bouncing-ball-cycle",
+          "name": "Bouncing Ball Cycle",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/bouncing-20ball-20cycle"
+        },
+        {
+          "id": "knight-moves-queries",
+          "name": "Knight Moves Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/knight-20moves-20queries"
+        },
+        {
+          "id": "k-subset-sums-i",
+          "name": "K Subset Sums I",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/k-20subset-20sums-20i"
+        },
+        {
+          "id": "k-subset-sums-ii",
+          "name": "K Subset Sums II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/k-20subset-20sums-20ii"
+        },
+        {
+          "id": "increasing-array-ii",
+          "name": "Increasing Array II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/increasing-20array-20ii"
+        },
+        {
+          "id": "food-division",
+          "name": "Food Division",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/food-20division"
+        },
+        {
+          "id": "swap-round-sorting",
+          "name": "Swap Round Sorting",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/swap-20round-20sorting"
+        },
+        {
+          "id": "binary-subsequences",
+          "name": "Binary Subsequences",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/binary-20subsequences"
+        },
+        {
+          "id": "school-excursion",
+          "name": "School Excursion",
+          "tags": [
+            "knapsack",
+            "dp",
+            "bitset"
+          ],
+          "link": "https://cses.fi/problemset/task/school-20excursion"
+        },
+        {
+          "id": "coin-grid",
+          "name": "Coin Grid",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/coin-20grid"
+        },
+        {
+          "id": "grid-coloring-ii",
+          "name": "Grid Coloring II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/grid-20coloring-20ii"
+        },
+        {
+          "id": "programmers-and-artists",
+          "name": "Programmers and Artists",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/programmers-20and-20artists"
+        },
+        {
+          "id": "removing-digits-ii",
+          "name": "Removing Digits II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/removing-20digits-20ii"
+        },
+        {
+          "id": "coin-arrangement",
+          "name": "Coin Arrangement",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/coin-20arrangement"
+        },
+        {
+          "id": "replace-with-difference",
+          "name": "Replace with Difference",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/replace-20with-20difference"
+        },
+        {
+          "id": "grid-puzzle-i",
+          "name": "Grid Puzzle I",
+          "tags": [
+            "max",
+            "flow",
+            "min",
+            "cut"
+          ],
+          "link": "https://cses.fi/problemset/task/grid-20puzzle-20i"
+        },
+        {
+          "id": "grid-puzzle-ii",
+          "name": "Grid Puzzle II",
+          "tags": [
+            "max",
+            "flow",
+            "max",
+            "cost"
+          ],
+          "link": "https://cses.fi/problemset/task/grid-20puzzle-20ii"
+        },
+        {
+          "id": "bit-substrings",
+          "name": "Bit Substrings",
+          "tags": [
+            "fft"
+          ],
+          "link": "https://cses.fi/problemset/task/bit-20substrings"
+        },
+        {
+          "id": "reversal-sorting",
+          "name": "Reversal Sorting",
+          "tags": [
+            "implicit",
+            "treap"
+          ],
+          "link": "https://cses.fi/problemset/task/reversal-20sorting"
+        },
+        {
+          "id": "book-shop-ii",
+          "name": "Book Shop II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/book-20shop-20ii"
+        },
+        {
+          "id": "gcd-subsets",
+          "name": "GCD Subsets",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/gcd-20subsets"
+        },
+        {
+          "id": "minimum-cost-pairs",
+          "name": "Minimum Cost Pairs",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/minimum-20cost-20pairs"
+        },
+        {
+          "id": "same-sum-subsets",
+          "name": "Same Sum Subsets",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/same-20sum-20subsets"
+        },
+        {
+          "id": "mex-grid-queries",
+          "name": "Mex Grid Queries",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/mex-20grid-20queries"
+        },
+        {
+          "id": "maximum-building-ii",
+          "name": "Maximum Building II",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/maximum-20building-20ii"
+        },
+        {
+          "id": "stick-divisions",
+          "name": "Stick Divisions",
+          "tags": [
+            "huffman",
+            "coding",
+            "greedy"
+          ],
+          "link": "https://cses.fi/problemset/task/stick-20divisions"
+        },
+        {
+          "id": "stick-difference",
+          "name": "Stick Difference",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/stick-20difference"
+        },
+        {
+          "id": "coding-company",
+          "name": "Coding Company",
+          "tags": [
+            "open",
+            "and",
+            "close",
+            "interval",
+            "dp"
+          ],
+          "link": "https://cses.fi/problemset/task/coding-20company"
+        },
+        {
+          "id": "two-stacks-sorting",
+          "name": "Two Stacks Sorting",
+          "tags": [],
+          "link": "https://cses.fi/problemset/task/two-20stacks-20sorting"
+        }
+      ]
+    }
+  ]
+}

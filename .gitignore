@@ -2,3 +2,7 @@
 **/*.o
 migration
 .cph
+node_modules
+build
+dist
+dev

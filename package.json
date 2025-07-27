@@ -1,0 +1,20 @@
+{
+  "name": "cses-site",
+  "version": "1.0.0",
+  "main": "generator.js",
+  "scripts": {
+    "build": "node ./generator/generator.js --basePath generator --outputPath ./build --topicsPath ./data",
+    "dev": "node ./generator/generator.js --basePath generator --outputPath ./dev --topicsPath ./data",
+    "clean": "rm -rf dist dev",
+    "serve": "npx http-server dist -p 3000 -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "http-server": "^14.1.1",
+    "marked": "^16.1.1"
+  }
+}

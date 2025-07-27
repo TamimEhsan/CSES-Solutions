@@ -1,0 +1,27 @@
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="text-dark"><%= topic.name %></h1>
+    <a href="../index.html" class="btn btn-outline-primary">
+        <i class="fas fa-arrow-left me-2"></i>Back to Topics
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body p-0">
+        <% problems.forEach(problem => { %>
+            <div class="problem-item">
+                <div class="status-indicator <%= problem.solved ? 'status-solved' : 'status-unsolved' %>"></div>
+                <div class="problem-info">
+                    <a href="<%= problem.id %>/index.html" class="problem-name"><%= problem.name %></a>
+                    <div class="problem-tags">
+                        <% problem.tags.forEach(tag => { %>
+                            <span class="tag"><%= tag %></span>
+                        <% }); %>
+                    </div>
+                </div>
+                <a href="<%= problem.link %>" target="_blank" class="btn btn-sm btn-outline-primary">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        <% }); %>
+    </div>
+</div>

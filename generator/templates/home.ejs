@@ -1,0 +1,63 @@
+<div class="row mb-4">
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h2 class="card-title text-primary"><%= stats.totalTopics %></h2>
+                <p class="card-text">Topics</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h2 class="card-title text-info"><%= stats.totalProblems %></h2>
+                <p class="card-text">Problems</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h2 class="card-title text-success"><%= stats.totalSolved %></h2>
+                <p class="card-text">Solved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <% topics.forEach(topic => { %>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card topic-card h-100">
+                <div class="card-body">
+                    <a href="<%= topic.id %>/index.html" class="topic-link">
+                        <h5 class="card-title text-dark"><%= topic.name %></h5>
+                        <div class="progress progress-custom mb-3">
+                            <div class="progress-bar progress-bar-custom" 
+                                 role="progressbar" 
+                                 style="width: <%= topic.progress %>%" 
+                                 aria-valuenow="<%= topic.progress %>" 
+                                 aria-valuemin="0" 
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="text-muted small">Total</div>
+                                <div class="fw-bold text-primary"><%= topic.totalProblems %></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="text-muted small">Solved</div>
+                                <div class="fw-bold text-success"><%= topic.solvedProblems %></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="text-muted small">Progress</div>
+                                <div class="fw-bold text-info"><%= topic.progress %>%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <% }); %>
+</div>
