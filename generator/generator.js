@@ -153,7 +153,7 @@ class CSESStaticGenerator {
         });
 
         const html = ejs.render(this.templates.base, {
-            title: 'CSES Solutions - Competitive Programming Practice',
+            title: 'CSES Solutions',
             description: 'Comprehensive solutions and explanations for CSES Problem Set - competitive programming practice problems with detailed analysis.',
             keywords: 'CSES, competitive programming, algorithms, data structures, programming solutions, CSES Problem Set, CSES solutions, CSES practice problems',
             breadcrumb: '<li class="breadcrumb-item active">Home</li>',
@@ -299,21 +299,44 @@ class CSESStaticGenerator {
     }
 
     copyStaticAssets() {
-        // Copy CSS file
-        const cssSource = path.join(this.assetsPath, 'style.css');
-        const cssTarget = path.join(this.outputPath, 'style.css');
-        if (fs.existsSync(cssSource)) {
-            fs.copyFileSync(cssSource, cssTarget);
-        }
-        
-        // Copy JS file
-        const jsSource = path.join(this.assetsPath, 'script.js');
-        const jsTarget = path.join(this.outputPath, 'script.js');
-        if (fs.existsSync(jsSource)) {
-            fs.copyFileSync(jsSource, jsTarget);
+        // Copy all files from assets directory to output directory
+        if (fs.existsSync(this.assetsPath)) {
+            this.copyDirectory(this.assetsPath, this.outputPath);
+            // const files = fs.readdirSync(this.assetsPath, { withFileTypes: true });
+            
+            // files.forEach(file => {
+            //     const sourcePath = path.join(this.assetsPath, file.name);
+            //     const targetPath = path.join(this.outputPath, file.name);
+                
+            //     if (file.isFile()) {
+            //         fs.copyFileSync(sourcePath, targetPath);
+            //     } else if (file.isDirectory()) {
+            //         // Recursively copy directories
+            //         this.copyDirectory(sourcePath, targetPath);
+            //     }
+            // });
         }
         
         console.log('✓ Copied static assets');
+    }
+
+    copyDirectory(source, target) {
+        if (!fs.existsSync(target)) {
+            fs.mkdirSync(target, { recursive: true });
+        }
+        
+        const files = fs.readdirSync(source, { withFileTypes: true });
+        
+        files.forEach(file => {
+            const sourcePath = path.join(source, file.name);
+            const targetPath = path.join(target, file.name);
+            
+            if (file.isFile()) {
+                fs.copyFileSync(sourcePath, targetPath);
+            } else if (file.isDirectory()) {
+                this.copyDirectory(sourcePath, targetPath);
+            }
+        });
     }
 
     printSummary() {
