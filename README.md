@@ -37,7 +37,7 @@ Milestones:
 | ✔ | Creating Strings |  | [Code](Introductory%20Problems/Creating%20Strings.cpp) |
 | ✔ | Apple Division |  | [Code](Introductory%20Problems/Apple%20Division.cpp) |Distinct Values Subsequences
 | ✔ | Chessboard and Queens |  | [Code](Introductory%20Problems/Chessboard%20and%20Queens.cpp) |
-|  | Raab Game I |  | [Code](Introductory%20Problems/Raab%20Game%20I.cpp) |
+| ✔ | Raab Game I |  | [Code](Introductory%20Problems/Raab%20Game%20I.cpp) |
 | ✔ | Mex Grid Construction | `Brute Force` | [Code](Introductory%20Problems/Mex%20Grid%20Construction.cpp) |
 | ✔ | Knight Moves Grid | `BFS` | [Code](Introductory%20Problems/Knight%20Moves%20Grid.cpp) |
 | ✔ | Grid Coloring I | `greedy` | [Code](Introductory%20Problems/Grid%20Coloring%20I.cpp) |
@@ -372,7 +372,7 @@ Milestones:
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
 | ✔ | Inverse Inversions |  | [Code](Construction%20Problems/Inverse%20Inversions.cpp) |
-|  | Monotone Subsequences |  | [Code](Construction%20Problems/Monotone%20Subsequences.cpp) |
+| ✔ | Monotone Subsequences |  | [Code](Construction%20Problems/Monotone%20Subsequences.cpp) |
 |  | Third Permutation |  | [Code](Construction%20Problems/Third%20Permutation.cpp) |
 |  | Permutation Prime Sums |  | [Code](Construction%20Problems/Permutation%20Prime%20Sums.cpp) |
 | ✔ | Chess Tournament | `Greedy` | [Code](Construction%20Problems/Chess%20Tournament.cpp) |
@@ -475,7 +475,7 @@ Milestones:
 
 | Status | Name | Tags | Link |
 | ---- | ---- | ---- | ---- |
-|  | Bouncing Ball Steps |  | [Code](Additional%20Problems%20II/Bouncing%20Ball%20Steps.cpp) |
+| ✔ | Bouncing Ball Steps |  | [Code](Additional%20Problems%20II/Bouncing%20Ball%20Steps.cpp) |
 |  | Bouncing Ball Cycle |  | [Code](Additional%20Problems%20II/Bouncing%20Ball%20Cycle.cpp) |
 |  | Knight Moves Queries |  | [Code](Additional%20Problems%20II/Knight%20Moves%20Queries.cpp) |
 |  | K Subset Sums I |  | [Code](Additional%20Problems%20II/K%20Subset%20Sums%20I.cpp) |
