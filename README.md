@@ -14,6 +14,7 @@ Milestones:
 - [x] 11/11/2023: `Solved 250th Problem`
 - [x] 14/06/2025: `Solved all Searching and Sorting Problems`
 - [x] 26/06/2025: `Solved all Range Queries Problems`
+- [x] 30/10/2025: `Solved all Introductory Problems`
 
 
 ## Introductory Problems
@@ -42,7 +43,7 @@ Milestones:
 | ✔ | Knight Moves Grid | `BFS` | [Code](Introductory%20Problems/Knight%20Moves%20Grid.cpp) |
 | ✔ | Grid Coloring I | `greedy` | [Code](Introductory%20Problems/Grid%20Coloring%20I.cpp) |
 | ✔ | Digit Queries |  | [Code](Introductory%20Problems/Digit%20Queries.cpp) |
-|  | String Reorder |  | [Code](Introductory%20Problems/String%20Reorder.cpp) |
+| ✔ | String Reorder | `greedy` `constructive` | [Code](Introductory%20Problems/String%20Reorder.cpp) |
 | ✔ | Grid Path Description |  | [Code](Introductory%20Problems/Grid%20Path%20Description.cpp) |
 
 ## Sorting and Searching
@@ -101,7 +102,7 @@ Milestones:
 | ✔ | Edit Distance |  | [Code](Dynamic%20Programming/Edit%20Distance.cpp) |
 | ✔ | Longest Common Subsequence | `LCS` | [Code](Dynamic%20Programming/Longest%20Common%20Subsequence.cpp) |
 | ✔ | Rectangle Cutting |  | [Code](Dynamic%20Programming/Rectangle%20Cutting.cpp) |
-|  | Minimal Grid Path |  | [Code](Dynamic%20Programming/Minimal%20Grid%20Path.cpp) |
+| ✔ | Minimal Grid Path | `BFS` | [Code](Dynamic%20Programming/Minimal%20Grid%20Path.cpp) |
 | ✔ | Money Sums |  | [Code](Dynamic%20Programming/Money%20Sums.cpp) |
 | ✔ | Removal Game |  | [Code](Dynamic%20Programming/Removal%20Game.cpp) |
 | ✔ | Two Sets II | `Knapsack DP` | [Code](Dynamic%20Programming/Two%20Sets%20II.cpp) |
@@ -145,7 +146,7 @@ Milestones:
 | ✔ | Giant Pizza | `2-SAT` | [Code](Graph%20Algorithms/Giant%20Pizza.cpp) |
 | ✔ | Coin Collector | `Condensation Graph` `Topological Sort` `DP` | [Code](Graph%20Algorithms/Coin%20Collector.cpp) |
 | ✔ | Mail Delivery | `Euler Tour - Undirected` | [Code](Graph%20Algorithms/Mail%20Delivery.cpp) |
-|  | De Bruijn Sequence |  | [Code](Graph%20Algorithms/De%20Bruijn%20Sequence.cpp) |
+| ✔ | De Bruijn Sequence | `De Bruijn Sequence` | [Code](Graph%20Algorithms/De%20Bruijn%20Sequence.cpp) |
 | ✔ | Teleporters Path | `Euler Path - Directed` | [Code](Graph%20Algorithms/Teleporters%20Path.cpp) |
 | ✔ | Hamiltonian Flights | `Hamiltonian Path` `Bitmask DP` | [Code](Graph%20Algorithms/Hamiltonian%20Flights.cpp) |
 | ✔ | Knight's Tour | `Hamiltonian Path` `Heuristics` | [Code](Graph%20Algorithms/Knight's%20Tour.cpp) |
