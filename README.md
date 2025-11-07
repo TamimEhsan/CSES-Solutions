@@ -15,7 +15,7 @@ Milestones:
 - [x] 14/06/2025: `Solved all Searching and Sorting Problems`
 - [x] 26/06/2025: `Solved all Range Queries Problems`
 - [x] 30/10/2025: `Solved all Introductory Problems`
-
+- [x] 07/11/2025: `Solved 300th Problem`
 
 ## Introductory Problems
 
@@ -374,8 +374,8 @@ Milestones:
 | ---- | ---- | ---- | ---- |
 | ✔ | Inverse Inversions |  | [Code](Construction%20Problems/Inverse%20Inversions.cpp) |
 | ✔ | Monotone Subsequences |  | [Code](Construction%20Problems/Monotone%20Subsequences.cpp) |
-|  | Third Permutation |  | [Code](Construction%20Problems/Third%20Permutation.cpp) |
-|  | Permutation Prime Sums |  | [Code](Construction%20Problems/Permutation%20Prime%20Sums.cpp) |
+| ✔ | Third Permutation | `Construction` | [Code](Construction%20Problems/Third%20Permutation.cpp) |
+| ✔ | Permutation Prime Sums | `Math` `Greedy` | [Code](Construction%20Problems/Permutation%20Prime%20Sums.cpp) |
 | ✔ | Chess Tournament | `Greedy` | [Code](Construction%20Problems/Chess%20Tournament.cpp) |
 |  | Distinct Sums Grid |  | [Code](Construction%20Problems/Distinct%20Sums%20Grid.cpp) |
 |  | Filling Trominos |  | [Code](Construction%20Problems/Filling%20Trominos.cpp) |
@@ -405,7 +405,7 @@ Milestones:
 | ✔ | Tree Isomorphism II | `Tree Isomorphism` `unrooted` | [Code](Advanced%20Graph%20Problems/Tree%20Isomorphism%20II.cpp) |
 |  | Flight Route Requests |  | [Code](Advanced%20Graph%20Problems/Flight%20Route%20Requests.cpp) |
 | ✔ | Critical Cities | `Dominator Tree` | [Code](Advanced%20Graph%20Problems/Critical%20Cities.cpp) |
-|  | Visiting Cities |  | [Code](Advanced%20Graph%20Problems/Visiting%20Cities.cpp) |
+| ✔ | Visiting Cities | `Dijkstra` `Articulation Point` | [Code](Advanced%20Graph%20Problems/Visiting%20Cities.cpp) |
 |  | Graph Coloring |  | [Code](Advanced%20Graph%20Problems/Graph%20Coloring.cpp) |
 |  | Bus Companies |  | [Code](Advanced%20Graph%20Problems/Bus%20Companies.cpp) |
 |  | Split into Two Paths |  | [Code](Advanced%20Graph%20Problems/Split%20into%20Two%20Paths.cpp) |
