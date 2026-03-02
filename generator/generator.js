@@ -15,8 +15,8 @@ class CSESStaticGenerator {
         this.templatesPath = path.join(this.basePath, this.templatesPath);
         this.assetsPath = options.assetsPath || 'assets';
         this.assetsPath = path.join(this.basePath, this.assetsPath);
-        this.baseUrl = options.baseUrl || '';
-        
+        this.baseUrl = options.baseUrl || 'https://tamimehsan.github.io/CSES-Solutions';
+
         this.data = null;
         this.templates = {};
         this.marked = null;
@@ -181,6 +181,7 @@ class CSESStaticGenerator {
             title: 'CSES Solutions',
             description: 'Comprehensive solutions and explanations for CSES Problem Set - competitive programming practice problems with detailed analysis.',
             keywords: 'CSES, competitive programming, algorithms, data structures, programming solutions, CSES Problem Set, CSES solutions, CSES practice problems',
+            canonicalUrl: this.baseUrl + '/',
             breadcrumb: '<li class="breadcrumb-item active">Home</li>',
             content,
             cssPath: 'style.css',
@@ -219,6 +220,7 @@ class CSESStaticGenerator {
             title: `${topic.name} - CSES Solutions`,
             description: `${topic.name} problems from CSES Problem Set with detailed solutions and explanations.`,
             keywords: `CSES, competitive programming, algorithms, data structures, programming solutions, ${topic.name}, ${topic.name} problems, ${topic.name} solutions`,
+            canonicalUrl: `${this.baseUrl}/${topic.id}/`,
             breadcrumb: `<li class="breadcrumb-item"><a href="../index.html">Home</a></li><li class="breadcrumb-item active">${topic.name}</li>`,
             content,
             cssPath: '../style.css',
@@ -257,6 +259,7 @@ class CSESStaticGenerator {
             title: `${problem.name} - CSES Solutions`,
             description: `Solution and explanation for ${problem.name} from CSES Problem Set.`,
             keywords: `CSES, competitive programming, algorithms, data structures, programming solutions, ${problem.name}, Solution for ${problem.name}, ${problem.name} solution, ${problem.name} CSES solution`,
+            canonicalUrl: `${this.baseUrl}/${topic.id}/${problem.id}/`,
             breadcrumb: `<li class="breadcrumb-item"><a href="../../index.html">Home</a></li><li class="breadcrumb-item"><a href="../index.html">${topic.name}</a></li><li class="breadcrumb-item active">${problem.name}</li>`,
             content,
             cssPath: '../../style.css',

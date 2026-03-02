@@ -14,6 +14,124 @@ body {
     background-color: #f8f9fa;
 }
 
+/* Compact Header */
+.compact-header {
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.03) 0%, rgba(52, 152, 219, 0.08) 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.compact-subtitle {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #495057;
+    line-height: 1.6;
+}
+
+.stats-compact {
+    background: white;
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.progress-overview {
+    margin-bottom: 1rem;
+}
+
+.progress-text {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.progress-ratio {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cses-success);
+}
+
+.progress-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.progress-percentage {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cses-success);
+}
+
+.stats-mini {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+.stat-item i {
+    color: var(--cses-info);
+    font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+    .compact-subtitle {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .stats-compact {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .compact-header {
+        padding: 1rem;
+    }
+
+    .stats-mini {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .stat-item {
+        justify-content: center;
+    }
+
+    .progress-ratio {
+        font-size: 1.25rem;
+    }
+
+    .progress-percentage {
+        font-size: 1.25rem;
+    }
+}
+
+/* Visually hidden for accessibility */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
 /* Code blocks with JetBrains Mono */
 pre[class*="language-"],
 code[class*="language-"] {
@@ -80,6 +198,7 @@ code[class*="language-"] {
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.5rem;
+    margin-top: 0;
 }
 
 .stats-label {
@@ -632,11 +751,12 @@ code[class*="language-"] {
     align-items: center;
     gap: 1rem;
     padding: 1.25rem 1.5rem;
+    flex-wrap: nowrap;
 }
 
 /* Status check */
 .problem-status {
-    flex-shrink: 0;
+    flex: 0 0 auto;
 }
 
 .status-check {
@@ -670,6 +790,8 @@ code[class*="language-"] {
 /* Problem info */
 .problem-info {
     min-width: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
 }
 
 .problem-name {
@@ -748,26 +870,16 @@ code[class*="language-"] {
 
 /* Problem actions */
 .problem-actions {
-    flex-shrink: 0;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 /* Mobile responsive for problem cards */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .problem-card-inner {
-        flex-direction: column;
-        align-items: flex-start;
         gap: 0.75rem;
         padding: 1rem;
-    }
-
-    .problem-info {
-        width: 100%;
-    }
-
-    .problem-actions {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
     }
 
     .topic-header-icon {
