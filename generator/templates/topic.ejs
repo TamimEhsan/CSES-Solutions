@@ -1,40 +1,96 @@
-<div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
-    <h1 class="text-dark mb-0"><%= topic.name %></h1>
-    <a href="../index.html" class="btn btn-outline-primary flex-shrink-0">
-        <i class="fas fa-arrow-left me-2"></i>Back to Topics
-    </a>
+<!-- Topic Header with Progress -->
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-body p-4">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+            <div class="d-flex align-items-center gap-3 flex-grow-1">
+                <div class="topic-header-icon">
+                    <i class="fas <%= topic.icon %>"></i>
+                </div>
+                <div>
+                    <h1 class="text-dark mb-2" style="font-size: 1.75rem; font-weight: 600;"><%= topic.name %></h1>
+                    <div class="d-flex align-items-center gap-3 flex-wrap">
+                        <span class="text-muted">
+                            <i class="fas fa-tasks me-1"></i>
+                            <%= stats.solvedProblems %>/<%= stats.totalProblems %> Solved
+                        </span>
+                        <div class="progress-ring-container">
+                            <svg class="progress-ring" width="50" height="50">
+                                <circle class="progress-ring-circle-bg" stroke="#e9ecef" stroke-width="4" fill="transparent" r="20" cx="25" cy="25"/>
+                                <circle class="progress-ring-circle" stroke="url(#gradient)" stroke-width="4" fill="transparent" r="20" cx="25" cy="25"
+                                        style="stroke-dasharray: <%= 2 * Math.PI * 20 %>; stroke-dashoffset: <%= 2 * Math.PI * 20 * (1 - stats.progress / 100) %>; transition: stroke-dashoffset 1s ease;"/>
+                                <defs>
+                                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <text x="25" y="25" text-anchor="middle" dy=".3em" class="progress-ring-text"><%= stats.progress %>%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="../index.html" class="btn btn-outline-primary flex-shrink-0">
+                <i class="fas fa-arrow-left me-2"></i>Back to Topics
+            </a>
+        </div>
+    </div>
 </div>
 
-<div class="card shadow-sm border-0">
-    <div class="card-body p-0">
-        <% problems.forEach(problem => { %>
-            <div class="d-flex align-items-center justify-content-between p-3 border-bottom border-light-subtle transition-colors" 
-                 style="transition: background-color 0.2s ease;"
-                 onmouseover="this.style.backgroundColor='#f8f9fa'"
-                 onmouseout="this.style.backgroundColor='transparent'">
-                <div class="status-indicator <%= problem.solved ? 'status-solved' : 'status-unsolved' %> me-3"></div>
-                <div class="flex-grow-1">
-                    <div class="d-flex align-items-center flex-wrap gap-3">
-                        <a href="<%= problem.id %>/index.html" 
-                           class="text-decoration-none fw-semibold text-dark-emphasis flex-shrink-0"
-                           style="color: var(--cses-primary);">
+<!-- Problems List -->
+<div class="problems-list">
+    <% problems.forEach((problem, index) => { %>
+        <div class="problem-card" style="animation-delay: <%= index * 0.03 %>s;">
+            <div class="problem-card-inner">
+                <div class="problem-status">
+                    <% if (problem.solved) { %>
+                        <div class="status-check solved">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    <% } else { %>
+                        <div class="status-check unsolved">
+                            <i class="far fa-circle"></i>
+                        </div>
+                    <% } %>
+                </div>
+
+                <div class="problem-info flex-grow-1">
+                    <div class="d-flex align-items-center flex-wrap gap-2 mb-2">
+                        <a href="<%= problem.id %>/index.html" class="problem-name">
                             <%= problem.name %>
                         </a>
                         <% if (problem.tags.length > 0) { %>
-                            <div class="d-flex flex-wrap gap-2 flex-shrink-0">
+                            <div class="d-flex flex-wrap gap-2">
                                 <% problem.tags.forEach(tag => { %>
-                                    <span class="badge bg-light text-dark rounded-pill px-3 py-1 fw-normal" style="font-size: 0.8rem;">
-                                        <%= tag %>
-                                    </span>
+                                    <span class="problem-tag"><%= tag %></span>
                                 <% }); %>
                             </div>
                         <% } %>
                     </div>
+
+                    <% if (problem.codeLanguages && problem.codeLanguages.length > 0) { %>
+                        <div class="language-badges">
+                            <% problem.codeLanguages.forEach(lang => { %>
+                                <span class="language-badge <%= lang.lang %>">
+                                    <% if (lang.lang === 'cpp') { %>
+                                        <i class="fas fa-code"></i> C++
+                                    <% } else if (lang.lang === 'java') { %>
+                                        <i class="fab fa-java"></i> Java
+                                    <% } else if (lang.lang === 'python') { %>
+                                        <i class="fab fa-python"></i> Python
+                                    <% } %>
+                                </span>
+                            <% }); %>
+                        </div>
+                    <% } %>
                 </div>
-                <a href="<%= problem.link %>" target="_blank" class="btn btn-sm btn-outline-primary flex-shrink-0">
-                    <i class="fas fa-external-link-alt"></i>
-                </a>
+
+                <div class="problem-actions">
+                    <a href="<%= problem.link %>" target="_blank" class="btn btn-sm btn-outline-primary" title="View on CSES">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
             </div>
-        <% }); %>
-    </div>
+        </div>
+    <% }); %>
 </div>

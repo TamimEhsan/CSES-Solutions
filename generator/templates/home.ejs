@@ -1,25 +1,34 @@
-<div class="row mb-4">
+<div class="row mb-5">
     <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card text-center shadow-sm border-0">
-            <div class="card-body">
-                <h2 class="card-title text-primary mb-1"><%= stats.totalTopics %></h2>
-                <p class="card-text text-muted">Topics</p>
+        <div class="card stats-card text-center shadow-sm border-0">
+            <div class="card-body py-4">
+                <div class="stats-icon primary mx-auto">
+                    <i class="fas fa-folder-open"></i>
+                </div>
+                <h2 class="stats-number text-primary"><%= stats.totalTopics %></h2>
+                <p class="stats-label mb-0">Topics</p>
             </div>
         </div>
     </div>
     <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card text-center shadow-sm border-0">
-            <div class="card-body">
-                <h2 class="card-title text-info mb-1"><%= stats.totalProblems %></h2>
-                <p class="card-text text-muted">Problems</p>
+        <div class="card stats-card text-center shadow-sm border-0">
+            <div class="card-body py-4">
+                <div class="stats-icon info mx-auto">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h2 class="stats-number text-info"><%= stats.totalProblems %></h2>
+                <p class="stats-label mb-0">Problems</p>
             </div>
         </div>
     </div>
     <div class="col-md-4">
-        <div class="card text-center shadow-sm border-0">
-            <div class="card-body">
-                <h2 class="card-title text-success mb-1"><%= stats.totalSolved %></h2>
-                <p class="card-text text-muted">Solved</p>
+        <div class="card stats-card text-center shadow-sm border-0">
+            <div class="card-body py-4">
+                <div class="stats-icon success mx-auto">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2 class="stats-number text-success"><%= stats.totalSolved %></h2>
+                <p class="stats-label mb-0">Solved</p>
             </div>
         </div>
     </div>
@@ -28,37 +37,50 @@
 <div class="row">
     <% topics.forEach(topic => { %>
         <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm border-0 transition-transform" 
-                 style="transition: transform 0.2s ease, box-shadow 0.2s ease;"
-                 onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.15)'"
-                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 10px rgba(0,0,0,0.1)'">
-                <div class="card-body">
+            <div class="card topic-card h-100 shadow-sm border-0">
+                <div class="card-body p-4 pb-0">
                     <a href="<%= topic.id %>/index.html" class="text-decoration-none text-dark">
-                        <h5 class="card-title text-dark-emphasis fw-semibold"><%= topic.name %></h5>
-                        <div class="progress mb-3" style="height: 8px;">
-                            <div class="progress-bar progress-bar-custom" 
-                                 role="progressbar" 
-                                 style="width: <%= topic.progress %>%" 
-                                 aria-valuenow="<%= topic.progress %>" 
-                                 aria-valuemin="0" 
-                                 aria-valuemax="100">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="topic-icon me-3">
+                                <i class="fas <%= topic.icon %>"></i>
                             </div>
+                            <h5 class="topic-card-title mb-0 flex-grow-1"><%= topic.name %></h5>
+                            <% if (topic.progress === 100) { %>
+                                <span class="badge bg-success completed-badge">
+                                    <i class="fas fa-check"></i>
+                                </span>
+                            <% } %>
                         </div>
-                        <div class="row text-center">
+                        <div class="row text-center topic-card-stats mb-4">
                             <div class="col-4">
-                                <div class="text-muted small">Total</div>
+                                <div class="text-muted small mb-1">Total</div>
                                 <div class="fw-bold text-primary"><%= topic.totalProblems %></div>
                             </div>
                             <div class="col-4">
-                                <div class="text-muted small">Solved</div>
+                                <div class="text-muted small mb-1">Solved</div>
                                 <div class="fw-bold text-success"><%= topic.solvedProblems %></div>
                             </div>
                             <div class="col-4">
-                                <div class="text-muted small">Progress</div>
-                                <div class="fw-bold text-info"><%= topic.progress %>%</div>
+                                <div class="text-muted small mb-1">Progress</div>
+                                <% if (topic.progress === 100) { %>
+                                    <div class="fw-bold text-success">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                <% } else { %>
+                                    <div class="fw-bold text-info"><%= topic.progress %>%</div>
+                                <% } %>
                             </div>
                         </div>
                     </a>
+                </div>
+                <div class="progress topic-card-progress">
+                    <div class="progress-bar progress-bar-custom"
+                         role="progressbar"
+                         style="width: <%= topic.progress %>%"
+                         aria-valuenow="<%= topic.progress %>"
+                         aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
                 </div>
             </div>
         </div>

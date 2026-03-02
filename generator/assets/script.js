@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return new bootstrap.Tooltip(tooltipTriggerEl);
         });
     }
-    
+
     // Add click handlers for custom tabs
     document.querySelectorAll('.nav-link-custom').forEach(tab => {
         tab.addEventListener('click', function(e) {
@@ -125,19 +125,76 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Copy code functionality
 function copyCode(button) {
-    const codeBlock = button.parentElement.nextElementSibling.querySelector('code');
+    const container = button.closest('[data-filename]') || button.parentElement.parentElement;
+    const codeBlock = container.querySelector('code');
     if (codeBlock) {
         navigator.clipboard.writeText(codeBlock.textContent).then(() => {
-            const originalText = button.textContent;
-            button.textContent = 'Copied!';
+            const originalHTML = button.innerHTML;
+            button.innerHTML = '<i class="fas fa-check me-1"></i>Copied!';
             button.classList.add('btn-success');
             button.classList.remove('btn-outline-secondary');
-            
+
             setTimeout(() => {
-                button.textContent = originalText;
+                button.innerHTML = originalHTML;
                 button.classList.remove('btn-success');
                 button.classList.add('btn-outline-secondary');
             }, 2000);
         });
+    }
+}
+
+// Download code functionality
+function downloadCode(button) {
+    const container = button.closest('[data-filename]');
+    const codeBlock = container.querySelector('code');
+    const filename = container.getAttribute('data-filename');
+
+    if (codeBlock && filename) {
+        const code = codeBlock.textContent;
+        const blob = new Blob([code], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+
+        // Visual feedback
+        const originalHTML = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-check me-1"></i>Downloaded!';
+        button.classList.add('btn-success');
+        button.classList.remove('btn-outline-secondary');
+
+        setTimeout(() => {
+            button.innerHTML = originalHTML;
+            button.classList.remove('btn-success');
+            button.classList.add('btn-outline-secondary');
+        }, 2000);
+    }
+}
+
+// Language switcher functionality
+function switchLanguage(langId, button) {
+    // Hide all language content blocks
+    document.querySelectorAll('.lang-content').forEach(content => {
+        content.style.display = 'none';
+    });
+
+    // Remove active class from all language buttons
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    // Show selected language content
+    const targetContent = document.getElementById('lang-' + langId);
+    if (targetContent) {
+        targetContent.style.display = 'block';
+    }
+
+    // Add active class to clicked button
+    if (button) {
+        button.classList.add('active');
     }
 }

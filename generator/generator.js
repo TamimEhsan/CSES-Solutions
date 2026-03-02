@@ -127,17 +127,42 @@ class CSESStaticGenerator {
         this.printSummary();
     }
 
+    getTopicIcon(topicId) {
+        const iconMap = {
+            'introductory-problems': 'fa-rocket',
+            'sorting-and-searching': 'fa-sort',
+            'dynamic-programming': 'fa-layer-group',
+            'graph-algorithms': 'fa-project-diagram',
+            'range-queries': 'fa-chart-bar',
+            'tree-algorithms': 'fa-tree',
+            'mathematics': 'fa-square-root-alt',
+            'string-algorithms': 'fa-font',
+            'geometry': 'fa-shapes',
+            'advanced-techniques': 'fa-brain',
+            'sliding-window-problems': 'fa-window-maximize',
+            'interactive-problems': 'fa-gamepad',
+            'bitwise-operations': 'fa-microchip',
+            'construction-problems': 'fa-hammer',
+            'advanced-graph-problems': 'fa-network-wired',
+            'counting-problems': 'fa-calculator',
+            'additional-problems-i': 'fa-puzzle-piece',
+            'additional-problems-ii': 'fa-puzzle-piece'
+        };
+        return iconMap[topicId] || 'fa-code';
+    }
+
     generateHomePage() {
         const topicsWithStats = this.data.topics.map(topic => {
             const totalProblems = topic.problems.length;
             const solvedProblems = topic.problems.filter(p => p.solved).length;
             const progress = totalProblems > 0 ? (solvedProblems / totalProblems) * 100 : 0;
-            
+
             return {
                 ...topic,
                 totalProblems,
                 solvedProblems,
-                progress: Math.round(progress)
+                progress: Math.round(progress),
+                icon: this.getTopicIcon(topic.id)
             };
         });
 
@@ -173,9 +198,21 @@ class CSESStaticGenerator {
             fs.mkdirSync(topicDir, { recursive: true });
         }
 
+        const totalProblems = topic.problems.length;
+        const solvedProblems = topic.problems.filter(p => p.solved).length;
+        const progress = totalProblems > 0 ? (solvedProblems / totalProblems) * 100 : 0;
+
         const content = ejs.render(this.templates.topic, {
-            topic,
-            problems: topic.problems
+            topic: {
+                ...topic,
+                icon: this.getTopicIcon(topic.id)
+            },
+            problems: topic.problems,
+            stats: {
+                totalProblems,
+                solvedProblems,
+                progress: Math.round(progress)
+            }
         });
 
         const html = ejs.render(this.templates.base, {
