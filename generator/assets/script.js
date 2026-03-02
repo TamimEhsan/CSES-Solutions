@@ -179,7 +179,7 @@ function downloadCode(button) {
 function switchLanguage(langId, button) {
     // Hide all language content blocks
     document.querySelectorAll('.lang-content').forEach(content => {
-        content.style.display = 'none';
+        content.classList.add('d-none');
     });
 
     // Remove active class from all language buttons
@@ -190,7 +190,7 @@ function switchLanguage(langId, button) {
     // Show selected language content
     const targetContent = document.getElementById('lang-' + langId);
     if (targetContent) {
-        targetContent.style.display = 'block';
+        targetContent.classList.remove('d-none');
     }
 
     // Add active class to clicked button
@@ -198,3 +198,27 @@ function switchLanguage(langId, button) {
         button.classList.add('active');
     }
 }
+
+// Back to Top Button Functionality
+window.addEventListener('load', function() {
+    const backToTopButton = document.getElementById('backToTop');
+
+    if (backToTopButton) {
+        // Show/hide button based on scroll position
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Scroll to top when clicked
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+});

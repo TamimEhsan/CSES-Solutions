@@ -62,13 +62,7 @@
                             </div>
                             <div class="col-4">
                                 <div class="text-muted small mb-1">Progress</div>
-                                <% if (topic.progress === 100) { %>
-                                    <div class="fw-bold text-success">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
-                                <% } else { %>
-                                    <div class="fw-bold text-info"><%= topic.progress %>%</div>
-                                <% } %>
+                                <div class="fw-bold <%= topic.progress === 100 ? 'text-success' : topic.progress < 50 ? 'text-warning' : 'text-info' %>"><%= topic.progress %>%</div>
                             </div>
                         </div>
                     </a>
