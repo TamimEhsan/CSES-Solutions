@@ -21,6 +21,13 @@ body {
     padding: 1.5rem;
 }
 
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--cses-primary);
+    line-height: 1.2;
+}
+
 .compact-subtitle {
     font-size: 1.35rem;
     font-weight: 500;
@@ -85,6 +92,11 @@ body {
 }
 
 @media (max-width: 991px) {
+    .hero-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+
     .compact-subtitle {
         text-align: center;
         font-size: 1rem;
